@@ -1,0 +1,74 @@
+html, body { background: #fff; }
+
+#emotional { position: relative; }
+
+#emotional .jcarousel-container,
+#emotional .jcarousel-clip,
+#emotional .jcarousel-item,
+#emotional .jcarousel-list,
+#emotional .jcarousel-list video,
+#emotional .jcarousel-list object,
+#emotional .jcarousel-list embed {
+	float: left;
+	display: inline;
+	width: 980px;
+	height: 490px;
+	position: relative;
+	z-index: 0;
+}
+#emotional .jcarousel-list { position: absolute; }
+#emotional .jcarousel-clip { overflow: hidden; }
+
+#emotional .jcarousel-next,
+#emotional .jcarousel-prev {
+	background-image: url(../img/arrow_superbanner.gif);
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: 0;
+	width: 52px;
+	height: 51px;
+	cursor: pointer;
+	z-index: 100;
+	overflow: hidden;
+}
+#emotional .jcarousel-next { right: 0; background-position: bottom left; }
+#emotional .jcarousel-prev { left: 0; background-position: top left; }
+
+#emotional .videocont {
+	width: 980px;
+	height: 490px;
+	position: relative;
+	background: #000;
+	z-index: 900;
+}
+.jcarousel-list a { 
+  _background: url(../img/blank.gif);
+	*background: url(../img/blank.gif);
+  zoom: 1;
+  clear: both;
+}
+#emotional .videocont a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 980px;
+	height: 490px;
+	z-index: 900;
+}
+#emotional .jcarousel-list a {
+  background: url(../img/blank.gif);
+	display: block;
+	width: 980px;
+	height: 490px;
+	zoom: 1;
+}
+#emotional a span.loading {
+	background: url(../img/coll_loading.gif) no-repeat center center;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 980px;
+	height: 490px;
+	z-index: 1000;
+}

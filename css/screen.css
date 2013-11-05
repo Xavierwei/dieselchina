@@ -1,0 +1,79 @@
+body {
+    background: #000;
+}
+.cc {
+    clear: both;
+}
+
+#event {
+    background: #141314;
+    text-align: center;
+    padding: 30px 0;
+}
+#diesel-reboot {
+    width: 980px;
+    margin: 0 auto;
+    height: 600px;
+    margin-top: 35px;
+    font-style: normal;
+}
+#diesel-reboot .col-left {
+    width: 290px;
+    float: left;
+    text-align: right;
+    margin-bottom: 40px;
+}
+#diesel-reboot .col-right {
+    width: 670px;
+    float: right;
+    margin-bottom: 40px;
+}
+#diesel-reboot .text {
+    margin: 30px 0 0 0;
+}
+#diesel-reboot .video {
+    vertical-align: middle;
+}
+#diesel-reboot .link-tumblr {
+    display: block;
+    width: 288px;
+    height: 95px;
+    float: right;
+    background: url(../images/link-tumblr.png) left top no-repeat;
+}
+#diesel-reboot .link-tumblr:hover {
+    background-position: left bottom;
+}
+#diesel-reboot .line-square {
+    margin-top: 40px;
+    height: 29px;
+    background: url(../images/square.png) left top repeat-x;
+}
+#diesel-reboot .line-normal {
+    margin-top: 40px;
+    height: 29px;
+    background: #fff;
+}
+#diesel-reboot .meet-nicola-formichetti {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'GibsonRegular', Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin: 0;
+}
+
+#footer {
+    z-index: 9999;
+    position: relative;
+}
+#footer #footer_top a {
+    color: #868686 !important;
+}
+#footer #footer_top {
+    color: #868686 !important;
+    background: #1c1c1c;
+}

@@ -1,0 +1,202 @@
+#cnt {padding: 52px 0 0 0;}
+
+/* =Overwite Diesel main styles
+-----------------------------------------------------------------------------*/
+/* Force header content to sit on top */
+
+.login-buttons {
+	float: right;
+  margin: 18px 65px 0 0;
+	width: 100px;
+	text-align: right;
+	padding: 0;
+  background-color: #1c1c1c;
+}
+#login-buttons {
+  background-color: transparent;
+}
+
+#login-buttons .logout {
+    background: url("../img/button-logout.png") no-repeat top left;
+}
+#login-buttons .profile {
+    margin-top: 2px;
+    background: url("../img/button-profile.png") no-repeat top left;
+}
+#login-buttons a {
+  display: block;
+  height: 0;
+  overflow: hidden;
+  padding-top: 11px;
+  text-indent: 999em;
+  width: 43px;
+  line-height: 0;
+  float: left;
+}
+
+#menucultlogin {
+  height: 12px;
+  width: 100px; 
+  overflow: hidden;
+  background-color: transparent;
+}
+
+#menucultlogin ul{
+	background-color: transparent;
+}
+#menucultlogin li { padding: 0; }
+#menucultlogin a {
+	display: block;
+	height: 0;
+	padding-top: 11px;
+	text-indent: 999em;
+	overflow: hidden;
+	width: 43px;
+}
+#menucultlogin .sign-in {
+	background: url('../img/button-signin.png') no-repeat left center;
+ 	width: 34px;
+	margin-bottom: 2px;
+}
+#menucultlogin .register {
+	background: url('../img/button-register.png') no-repeat right center;
+	width: 43px;
+}
+#menucultlogin .logout {
+	background: url('../img/button-logout.png') no-repeat right center;
+/* 	width: 36px; */
+}
+
+/* search dropdown */
+.ac_results {
+	background: #9f9482 !important;
+	border: 1px solid #dcdace;
+	color: #e4e4e3;
+}
+.ac_input, .ac_loading {
+	background: #8c7b70 !important;
+}
+.ac_results li h5 {
+	color: #d8d8c2 !important;
+}
+
+.ac_results li div a, .ac_results li div a:visited, .ac_results li div a:active, .ac_results li div a:hover, .ac_results li div a span {
+	font-style: italic;
+	font-family: baskerville,"Palatino Italic","Palatino Linotype",serif;
+	text-transform: capitalize;
+	color: #e4e4e3;
+}
+.ac_results li div a span {
+	width: 90px;
+	font-size: 13px;
+}
+.seeallresults a {
+	font-size: 14px;
+}
+
+.hidden {
+	display: none;
+}
+
+#fbComments {
+	background: url('../img/bg-comments.png') no-repeat;
+	width: 933px;
+	height: 419px;
+	position: relative;
+	text-align: left;
+}
+#fbCommentsContent {
+	width: 933px;
+	height: 419px;
+}
+#fbCommentsContent.loading {
+	background: url('../img/loader.gif') no-repeat 207px center;
+}
+#fbComments .messages {
+	height: 207px;
+	width: 419px;
+	overflow: hidden;
+}
+#fbComments ul {
+	padding: 0;
+	margin: 0;
+}
+#fbComments ul li {
+	padding: 0;
+	margin: 0;
+}
+#fbComments ul li a {
+	display: block;
+}
+#fbComments ul li span {
+	display: block;
+	margin: 5px 0px;
+	font-family: Georgia;
+}
+#fbComments ul li span.name {
+	color: #9f9482;
+	font-size: 14px;
+}
+#fbComments ul li span.message {
+	color: #65655b;
+	font-size: 16px;
+}
+#fbComments .profilePic {
+	position: absolute;
+	top: 36px;
+	left: 59px;
+	
+}
+#fbComments textarea {
+	position: absolute;
+	top: 151px;
+	left: 529px;
+	width: 318px;
+	height: 133px;
+	background: #ffffff;
+	padding: 10px;
+	font-family: Georgia;
+	color: #b5b5b1;
+	font-size: 16px;
+	border: none;
+}
+#fbComments .close {
+	background: url('../img/button-fbcomments-close.png') no-repeat;
+	position: absolute;
+	top: 31px;
+	right: 50px;
+	width: 15px;
+	height: 14px;
+	text-indent: 999em;
+	overflow: hidden;
+}
+#fbComments .submit {
+	background: url('../img/button-fbcomments-submit.png') no-repeat;
+	position: absolute;
+	bottom: 55px;
+	right: 85px;
+	width: 77px;
+	height: 20px;
+}
+#fbComments .cancel {
+	background: url('../img/button-fbcomments-cancel.png') no-repeat;
+	position: absolute;
+	bottom: 55px;
+	right: 172px;
+	width: 57px;
+	height: 20px;
+}
+#fbComments p {
+	color: #9f9482;
+}
+#cboxContent, #cboxLoadedContent {
+	background-color: transparent;
+}
+
+#cboxLoadedContent {
+	background-image: none;
+}
+#cboxOverlay {
+	background-color: #332f27;
+	opacity: 0.45;
+}

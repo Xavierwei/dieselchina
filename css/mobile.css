@@ -1,0 +1,310 @@
+/* iPad (portrait and landscape)
+ @media only screen
+ and (min-device-width : 768px)
+ and (max-device-width : 1024px) {
+
+ }*/
+
+/* Smartphones (portrait and landscape)
+ @media only screen
+ and (min-device-width : 320px)
+ and (max-device-width : 480px) {
+
+ }*/
+
+#header {
+    height: 96px;
+}
+
+#header .logo {
+    height: 100%;
+    width: 17%;
+    background-size: cover;
+}
+
+#header #menu {
+    margin-top: 0;
+    font-size: 2.4em;
+    float: right;
+    width: 80%;
+}
+
+#header #menu > ul > li:first-child {
+    width: auto;
+    padding-top: 0.45em;
+}
+#header #menu > ul > li:nth-child(2) {
+    padding-top: 0.45em;
+}
+
+#header #menu > ul > li {
+    width: 16%;
+    text-align: center;
+    line-height: 1.2em;
+    padding: 0 0.8em 0 0.4em;
+}
+#header #menu > ul > li.header-menu-mobile {
+    display: none;
+}
+
+#header #menu li .sublevel {
+    top: 96px;
+}
+
+#header #menu li .sublevel ul {
+    font-size: 1.1em;
+    line-height: 0.85em;
+}
+
+#header #menu li:hover .sublevel#menu_collections,
+#header #menu li a:hover .sublevel#menu_collections {
+    height: 520px;
+}
+
+#header #menu li:hover .sublevel#menu_online_store,
+#header #menu li a:hover .sublevel#menu_online_store {
+    height: 816px;
+}
+
+#header #menu li .sublevel ul {
+    padding: 0;
+}
+
+#header #menu li .sublevel ul li {
+    padding: 0.77em;
+}
+
+#header #menu li .sublevel#menu_collections ul {
+    padding-left: 30px !important;
+}
+#header #menu li .sublevel#menu_online_store ul {
+    padding-right: 30px;!important;
+    padding-left: 0 !important;
+}
+
+#header #menu li .sublevel#menu_online_store ul li {
+    float: right;
+}
+
+#header .social_container {
+    display: none;
+}
+#header .login-buttons {
+    display: none;
+}
+
+#cnt {
+    padding-top: 96px;
+}
+
+#footer {
+    
+}
+
+#footer #footer_main {
+    overflow: hidden;
+}
+
+#footer #footer_nav_container {
+    margin: 22px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    float: none;
+}
+
+#footer_nav_container .nav_row {
+    margin: 0 0 22px 0;
+    overflow: hidden;
+    float: none;
+}
+
+#footer_nav_container .nav_row h2 {
+    padding: 13px 12px 0;
+    text-transform: uppercase;
+    color: #000;
+    padding-bottom: 7px;
+    font-style: normal;
+    font-size: 32px;
+    font-weight: normal;
+    font-family: 'Oswald', sans-serif;
+    background: #fff;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    cursor: pointer;
+}
+
+#footer_nav_container .nav_column {
+    width: 49.9%;
+    padding: 0;
+    display: none;
+}
+
+#footer_nav_container .nav_column ul {
+    margin: 13px 12px 0;
+    font-size: 1.65em;
+}
+
+
+#footer_nav_container .nav_column ul li, #footer_nav_container .nav_column ul li a {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    line-height: 1.2em;
+}
+#footer_nav_container .nav_column ul li.category,
+#footer_nav_container .nav_column ul li.category a {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.1em;
+}
+
+#three_col_container .three_col_box {
+    width: 50%;
+    margin: 6px 0 0 0 !important;
+}
+#three_col_container .three_col_box .hp_box_link .box_title {
+    width: 99% !important;
+    bottom: 2px;
+    font-size: 1.4em !important;
+    line-height: 1em;
+}
+
+#footer_main #right_links {
+    margin: 0;
+    text-align: left;
+    overflow: hidden;
+    clear: both;
+    display: block;
+    float: none;
+}
+
+#footer_main #right_links ul {
+    margin: 0 0 30px 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#footer_main #right_links ul li {
+    margin: 0 24px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#footer_main #right_links ul li a {
+    vertical-align: middle;
+    font-size: 30px;
+    display: inline-block;
+    float: none;
+}
+
+#footer_main #right_links ul li a.image_replacement {
+    margin: 2px 0 0 0;
+}
+
+#footer_main #right_links ul.cl {
+    text-align: center;
+    display: block;
+}
+
+#footer_main #right_links ul.cl li {
+    height: 47px;
+    line-height: 47px;
+    margin: 14px 28px;
+}
+
+#footer_main #right_links ul li a.youtube,
+#footer_main #right_links ul li a.facebook,
+#footer_main #right_links ul li a.twitter,
+#footer_main #right_links ul li a.flickr,
+#footer_main #right_links ul li a.instagram,
+#footer_main #right_links ul li a.gplus,
+#footer_main #right_links ul li a.pinterest {
+    background-image: url("../img/link_footer_social_big.gif");
+    display: inline-block;
+    vertical-align: bottom;
+    float: none;
+}
+
+#footer_main #right_links ul li a.youtube {
+    width: 125px;
+    height: 47px;
+    margin: 4px 0 0 0;
+}
+
+#footer_main #right_links ul li a.pinterest {
+    width: 165px;
+    height: 42px;
+}
+
+#footer_main #right_links ul li a.facebook {
+    width: 172px;
+    height: 36px;
+    background-position: 0 -109px;
+}
+
+#footer_main #right_links ul li a.twitter {
+    width: 164px;
+    height: 34px;
+    background-position: 0 -164px;
+}
+
+#footer_main #right_links ul li a.flickr {
+    width: 132px;
+    height: 38px;
+    background-position: 0 bottom;
+}
+
+#footer_main #right_links ul li a.instagram {
+    width: 172px;
+    height: 50px;
+    background-position: 0 -250px;
+}
+
+#footer_main #right_links ul li a.gplus {
+    width: 155px;
+    height: 50px;
+    background-position: 0 -300px;
+}
+
+@media screen and (orientation:landscape) {
+    #header {
+        height: 80px;
+    }
+    
+    #header .logo {
+        width: 14%;
+    }
+    
+    #header #menu {
+        font-size: 2.1em;
+        letter-spacing: -0.01em;
+        margin-top: 0.6em;
+        width: 83%;
+    }
+    
+    #header #menu > ul > li,
+    #header #menu > ul > li:first-child,
+    #header #menu > ul > li:nth-child(2) {
+        padding: 0 0.55em;
+        width: auto;
+    }
+    
+    #header #menu li .sublevel {
+        top: 79px;
+    }
+    
+    #header #menu li:hover .sublevel#menu_collections,
+    #header #menu li a:hover .sublevel#menu_collections,
+    #header #menu li:hover .sublevel#menu_online_store,
+    #header #menu li a:hover .sublevel#menu_online_store { height: 400px; }
+    
+    #header #menu li .sublevel ul li {
+        padding: 0.60em 0.77em;
+    }
+    
+    #header #menu li .sublevel#menu_online_store ul li { padding: 0.23em 0.77em; }
+    
+    #cnt {
+        padding-top: 80px;
+    } 
+}
