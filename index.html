@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="./css/colorbox.css" media="all" />
     <link rel="stylesheet" type="text/css" href="./css/mobile.css" media="only screen and (max-device-width: 480px)">
     <link rel="stylesheet" href="./css/font-gibson.css">
-    <link rel="stylesheet" href="./css/screen.css">
+    <link rel="stylesheet" href="./css/homepage/screen.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/pages.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="./css/hp.css" />
     <script type="text/javascript" src="./js/modernizr.js"></script>
@@ -914,75 +914,75 @@ Creation Date: 08/20/2012
 
 <script type="text/javascript" src="http://j.maxmind.com/app/country.js"></script>
 <script>
-    (function(d){
-        country = geoip_country_code();
-        host = window.location.host.split(".")[0];
-        pathname = window.location.pathname.substring(1);
-
-        if (pathname.lastIndexOf("/") == (pathname.length - 1)) {
-            pathname = pathname.substring(0, pathname.length -1 );
-        } //if
-
-        var mind =  {
-            "www": {
-                "all": {
-                    FR: 170186,
-                    DE: 170124,
-                    GR: 170031,
-                    IT: 170155,
-                    JP: 170217,
-                    NL: 170000,
-                    PT: 170062,
-                    RU: 170093,
-                    GB: 169874,
-                    US: 169969,
-                    GB: 169874
-                },
-                "home": {
-                    DE: 170114,
-                    FR: 170176,
-                    GR: 170021,
-                    IT: 170145,
-                    JP: 170207,
-                    NL: 169990,
-                    PT: 170052,
-                    RU: 170083,
-                    US: 169959,
-                    GB: 169884
-                }
-            }
-        };
-        //console.log (host + " > " + pathname);
-        var act = "";
-
-        if (host == 'www' && (!pathname || pathname == "")) {
-            pathname = 'home';
-        }//if
-        else if ( mind[host][pathname] == undefined) {
-            pathname = 'all';
-        }//else
-
-        act = mind[host][pathname][country];
-
-        // FR
-        var ebRand = Math.random()+'';
-        ebRand = ebRand * 1000000;
-        //<![CDATA[
-
-        if (act) {
-
-            var js, id = 'mindshare';
-            if (d.getElementById(id)) {
-                return;
-            }
-            js = d.createElement('script');
-            js.id = id;
-            js.async = true;
-            js.src = "HTTP://bs.serving-sys.com/BurstingPipe/ActivityServer.bs?cn=as&ActivityID="+act+"&rnd=" + ebRand ;
-
-            d.getElementsByTagName('head')[0].appendChild(js);
-        }//if
-    }(document));
+//    (function(d){
+//        country = geoip_country_code();
+//        host = window.location.host.split(".")[0];
+//        pathname = window.location.pathname.substring(1);
+//
+//        if (pathname.lastIndexOf("/") == (pathname.length - 1)) {
+//            pathname = pathname.substring(0, pathname.length -1 );
+//        } //if
+//
+//        var mind =  {
+//            "www": {
+//                "all": {
+//                    FR: 170186,
+//                    DE: 170124,
+//                    GR: 170031,
+//                    IT: 170155,
+//                    JP: 170217,
+//                    NL: 170000,
+//                    PT: 170062,
+//                    RU: 170093,
+//                    GB: 169874,
+//                    US: 169969,
+//                    GB: 169874
+//                },
+//                "home": {
+//                    DE: 170114,
+//                    FR: 170176,
+//                    GR: 170021,
+//                    IT: 170145,
+//                    JP: 170207,
+//                    NL: 169990,
+//                    PT: 170052,
+//                    RU: 170083,
+//                    US: 169959,
+//                    GB: 169884
+//                }
+//            }
+//        };
+//        //console.log (host + " > " + pathname);
+//        var act = "";
+//
+//        if (host == 'www' && (!pathname || pathname == "")) {
+//            pathname = 'home';
+//        }//if
+//        else if ( mind[host][pathname] == undefined) {
+//            pathname = 'all';
+//        }//else
+//
+//        act = mind[host][pathname][country];
+//
+//        // FR
+//        var ebRand = Math.random()+'';
+//        ebRand = ebRand * 1000000;
+//        //<![CDATA[
+//
+//        if (act) {
+//
+//            var js, id = 'mindshare';
+//            if (d.getElementById(id)) {
+//                return;
+//            }
+//            js = d.createElement('script');
+//            js.id = id;
+//            js.async = true;
+//            js.src = "HTTP://bs.serving-sys.com/BurstingPipe/ActivityServer.bs?cn=as&ActivityID="+act+"&rnd=" + ebRand ;
+//
+//            d.getElementsByTagName('head')[0].appendChild(js);
+//        }//if
+//    }(document));
 
     //document.write('<scr'+'ipt src="HTTP://bs.serving-sys.com/BurstingPipe/ActivityServer.bs?cn=as&amp;ActivityID='+act+'&amp;rnd=' + ebRand + '"></scr' + 'ipt>');
     //]]>
