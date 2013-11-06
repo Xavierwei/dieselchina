@@ -1,5 +1,5 @@
 body {
-    background: #000;
+    background: #131313;
 }
 .cc {
     clear: both;
@@ -13,9 +13,10 @@ body {
 #diesel-reboot {
     width: 980px;
     margin: 0 auto;
-    height: 600px;
+    height: auto;
     margin-top: 35px;
     font-style: normal;
+    background: url(../img/reboot_img.jpg) no-repeat top center;   padding:880px 0 0;
 }
 #diesel-reboot .col-left {
     width: 290px;
@@ -33,6 +34,7 @@ body {
 }
 #diesel-reboot .video {
     vertical-align: middle;
+    background:url(../img/reboot_li.png) repeat-x bottom left;padding-bottom: 68px;
 }
 #diesel-reboot .link-tumblr {
     display: block;
@@ -45,8 +47,8 @@ body {
     background-position: left bottom;
 }
 #diesel-reboot .line-square {
-    margin-top: 40px;
-    height: 29px;
+    /*margin-top: 40px;*/
+    height: 45px;
     background: url(../images/square.png) left top repeat-x;
 }
 #diesel-reboot .line-normal {
@@ -64,7 +66,12 @@ body {
     display: block;
     text-align: center;
     margin: 0;
+    height: 60px;;
 }
+
+.reboot_com{font-size: 20px;font-family: "Microsoft YaHei";color:#fff;line-height: 28px;}
+.reboot_com p{padding:10px 0}
+.reboot_com span{font-family: 'Oswald', sans-serif; padding:0 5px}
 
 #footer {
     z-index: 9999;

@@ -131,21 +131,16 @@
   clear: both;
   color: #868686;
 }
-#footer_main #right_links ul li a.youtube,
-#footer_main #right_links ul li a.facebook,
-#footer_main #right_links ul li a.twitter,
-#footer_main #right_links ul li a.flickr,
-#footer_main #right_links ul li a.instagram,
-#footer_main #right_links ul li a.gplus,
-#footer_main #right_links ul li a.pinterest { background-image: url("../img/link_footer_social.png"); margin-bottom: 9px; }
+.yahie{
+  font-family: "Microsoft YaHei";font-size: 14px;padding-botto:6px;
+}
+#footer_main #right_links ul li a.image_replacement { background-image: url("../img/icon.png"); margin-bottom: 9px; }
 
-#footer_main #right_links ul li a.youtube { background-position: 0px 0px; width: 42px; height: 19px; margin-bottom: 6px; }
-#footer_main #right_links ul li a.facebook { background-position: 0px -19px; width: 51px; height: 11px; }
-#footer_main #right_links ul li a.twitter { background-position: 0px -30px; width: 48px; height: 10px; }
-#footer_main #right_links ul li a.flickr { background-position: 0px -40px; width: 38px; height: 12px; }
-#footer_main #right_links ul li a.pinterest { background-position: 0px -52px; width: 51px; height: 13px;}
-#footer_main #right_links ul li a.instagram { background-position: 0px -65px; width: 47px; height: 13px;}
-#footer_main #right_links ul li a.gplus { background-position: 0px -78px; width: 45px; height: 13px; margin: 0 0 9px 0;}
+#footer_main #right_links ul li a.weibo { background-position: 0px 0px; width: 58px; height: 20px; margin-bottom: 6px; }
+#footer_main #right_links ul li a.qing { background-position: 0px -20px; width: 44px; height: 20px; }
+#footer_main #right_links ul li a.youku { background-position: 0px -40px; width: 62px; height: 20px; }
+#footer_main #right_links ul li a.weixin { background-position: 0px -60px; width: 50px; height: 20px; }
+#footer_main #right_links ul li a.instagram { background-position: 0px -80px; width: 50px; height: 20px;}
 
 #footer .image_replacement {
   display: block;
