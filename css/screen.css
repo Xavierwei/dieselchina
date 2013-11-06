@@ -34,22 +34,21 @@ body {
 }
 #diesel-reboot .video {
     vertical-align: middle;
-    background:url(../img/reboot_li.png) repeat-x bottom left;padding-bottom: 68px;
 }
-#diesel-reboot .link-tumblr {
-    display: block;
-    width: 288px;
-    height: 95px;
-    float: right;
-    background: url(../images/link-tumblr.png) left top no-repeat;
-}
-#diesel-reboot .link-tumblr:hover {
-    background-position: left bottom;
-}
+/*#diesel-reboot .link-tumblr {*/
+    /*display: block;*/
+    /*width: 288px;*/
+    /*height: 95px;*/
+    /*float: right;*/
+    /*background: url(../images/link-tumblr.png) left top no-repeat;*/
+/*}*/
+/*#diesel-reboot .link-tumblr:hover {*/
+    /*background-position: left bottom;*/
+/*}*/
 #diesel-reboot .line-square {
-    /*margin-top: 40px;*/
+    margin-top: 36px;
     height: 45px;
-    background: url(../images/square.png) left top repeat-x;
+    background: url(../img/square.png) left top repeat-x;
 }
 #diesel-reboot .line-normal {
     margin-top: 40px;
