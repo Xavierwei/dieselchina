@@ -4,12 +4,15 @@ body{background: #f4f4f4;font-style: normal;}
 .cs-clear:before,
 .cs-clear:after{clear:both;content:".";font-size:0;display:block;height:0;overflow:hidden;visibility:hidden;}
 
-.heritage{padding:28px 108px 60px;position: relative;}
+.heritage{padding:28px 108px 60px;position: relative;*overflow: hidden;}
 .heritagebg{position: absolute;top:0;left:0;right:0;z-index: -1;width:100%}
 .heritage_main{width: 82%; }
 .her_tit{background: #000;height:46px; padding:14px 0 0 20px;}
 .her_nav{background: #323232;height: 38px;border:#3c3c3c solid;border-width: 1px 0;}
-.her_nav a{color:#fff;font-family: "Microsoft YaHei";font-size: 18px;line-height: 28px;display: inline-block;margin:2px 20px}
+.her_nav a{color:#fff;font-family: "Microsoft YaHei";font-size: 18px;line-height: 28px;display: inline-block;margin:2px 20px;border-bottom: #323232 solid 1px}
+.her_nav a:link,
+.her_nav a:visited,
+.her_nav a:active{color:#fff;}
 .her_nav a.on,
 .her_nav a:hover{border-bottom:#fff solid 1px;}
 .her_com{padding:22px 24px 50px;background: url(../img/heritage/her_combg.png) repeat}
@@ -37,3 +40,5 @@ body{background: #f4f4f4;font-style: normal;}
 
 #footer #footer_top{background: #000;color:#888}
 #footer_top #diesel_otb{color:#888} 
+
+#cnt{padding:0;}

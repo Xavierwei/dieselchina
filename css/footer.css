@@ -121,8 +121,8 @@
   background-color: transparent;
 }
 #footer_main #right_links ul li {
-  padding: 0 0 5px 0;
-  height: 15px;
+  /*padding: 0 0 5px 0;*/
+  height: 20px;
   line-height: 15px;
 }
 #footer_main #right_links ul li a {

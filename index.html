@@ -639,5 +639,17 @@ Creation Date: 08/20/2012
     var pageTracker = _gat._createTracker("UA-2545529-1");
     pageTracker._initData();
     pageTracker._trackPageview();
-</script>  </body>
+</script>  
+
+<!--  -->
+<!--IE6透明判断-->
+<!--[if IE 6]>
+<script src="js/DD_belatedPNG.js"></script>
+<script>
+    DD_belatedPNG.fix('*');
+    document.execCommand("BackgroundImageCache", false, true);
+</script>
+<![endif]-->
+<!--  -->
+</body>
 </html>

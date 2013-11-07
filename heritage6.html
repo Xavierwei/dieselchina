@@ -254,5 +254,17 @@
     pageTracker._initData();
     pageTracker._trackPageview();
 </script> 
+
+
+<!--  -->
+<!--IE6透明判断-->
+<!--[if IE 6]>
+<script src="js/DD_belatedPNG.js"></script>
+<script>
+    DD_belatedPNG.fix('*');
+    document.execCommand("BackgroundImageCache", false, true);
+</script>
+<![endif]-->
+<!--  -->
 </body>
 </html>
