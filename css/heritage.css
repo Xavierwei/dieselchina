@@ -12,21 +12,28 @@ body{background: #f4f4f4;font-style: normal;}
 .her_nav a{color:#fff;font-family: "Microsoft YaHei";font-size: 18px;line-height: 28px;display: inline-block;margin:2px 20px}
 .her_nav a.on,
 .her_nav a:hover{border-bottom:#fff solid 1px;}
-.her_com{padding:22px 24px;background: url(../img/heritage/her_combg.png) repeat}
+.her_com{padding:22px 24px 50px;background: url(../img/heritage/her_combg.png) repeat}
 
 .her_pho1,.her_pho2{float:left;width: 76%;height: 300px;overflow: hidden;position: relative;}
 .her_pho2{width: 24%;}
-.her_pho1 img,.her_pho2 img{position: absolute;top: 50%;left:50%;margin: -460px 0 0 -600px}
-.her_pho2 img{margin: -600px 0 0 -450px}
+.her_pho1 img,.her_pho2 img{position: absolute;width: 100%;}
 
 .her_pho6,.her_pho7{float:left;width: 76%;height: 340px;overflow: hidden;position: relative;}
 .her_pho7{width: 24%;}
-.her_pho6 img,.her_pho7 img{position: absolute;top: 50%;left:50%;margin: -430px 0 0 -650px}
-.her_pho7 img{margin: -300px 0 0 -200px}
+.her_pho6 img,.her_pho7 img{position: absolute;width: 100%;}
+
+.her_pho3{height: 460px;overflow: hidden;position: relative;}
+.her_pho3 img{width: 100%;position: absolute;}
 
 .her_article{font-family: "Microsoft YaHei";color:#000;font-size: 14px;line-height: 25px;padding-top: 20px;font-weight: bold;}
 .her_article p{ padding:12px 0}
-.oswald{font-family: 'Oswald', sans-serif;padding:0 5px;}
+.oswald{font-family: 'Oswald', sans-serif;}
+
+.awards_item{position: relative;}
+.awards_item p{padding:4px 0;}
+.awards_time{float:left;text-align: left;width:110px; }
+.awards_month{position: absolute;width: 72px;text-align: right;}
+.awards_com{text-align: left;padding:0 50px 0 110px;}
 
 #footer #footer_top{background: #000;color:#888}
 #footer_top #diesel_otb{color:#888} 
