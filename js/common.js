@@ -149,6 +149,14 @@ jQuery(document).ready(function() {
 		  }); */
 	 /* }
   }*/
+
+
+  // show weixin qr code
+  $('.weixin_wrap').hover(function(){
+     $(this).find('.weixin_qr').fadeIn();
+  }, function() {
+      $(this).find('.weixin_qr').fadeOut();
+  });
   
   // footer mobile nav row
   (function(){

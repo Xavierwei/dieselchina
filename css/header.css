@@ -111,6 +111,7 @@ body{margin: 0;padding: 0}
   display: inline;
 }
 
+
 #header #menu {
   list-style: none;
   float: left;
@@ -265,3 +266,8 @@ body{margin: 0;padding: 0}
 
 
 #cnt{_padding:0;}
+
+
+.weixin_wrap {position: relative;}
+.weixin_wrap .weixin_qr {position: absolute;top:30px;right:-75px;display:none;}
+#footer .weixin_wrap .weixin_qr {top:15px;right:70px;}
