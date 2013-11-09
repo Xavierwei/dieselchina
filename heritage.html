@@ -12,10 +12,11 @@
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="./css/common.css" media="all" />
     <link rel="stylesheet" type="text/css" href="./css/skin.island.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="./css/colorbox.css" media="all" />
     <link rel="stylesheet" type="text/css" href="./css/mobile.css" media="only screen and (max-device-width: 480px)">
     <link rel="stylesheet" href="./css/font-gibson.css">
-    <!-- <link rel="stylesheet" href="./css/screen.css"> -->
+    <!--[if IE 6]>
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/ie6.css" />
+    <![endif]-->
     <link rel="stylesheet" href="./css/heritage.css">
     <script type="text/javascript" src="./js/modernizr.js"></script>
     <script type="text/javascript" src="./js/jquery-1.7.2.min.js"></script>
@@ -28,6 +29,7 @@
     <script type="text/javascript" src="./js/jquery.superbanner.js"></script>
     <script type="text/javascript" src="./js/jquery.touchwipe.js"></script>
     <script type="text/javascript" src="./js/jquery.preload-min.js"></script>
+    <script type="text/javascript" src="./js/jquery.backstretch.min.js"></script>
     <script type="text/javascript" src="./js/country.js"></script>
     <script type="text/javascript" src="./js/jquery.cookie.js"></script>
 </head>
@@ -67,13 +69,13 @@
                 </div>
             </li>
             <li>
-                <a href="heritage.html"  class="nav3" title="关于DIESEL" ></a>
+                <a href="heritage.html"  class="nav3 on" title="关于DIESEL" ></a>
             </li>
             <li>
                 <a href="locator.html"  class="nav4" title="店铺位置" ></a>
             </li>
             <li>
-                <a href="#"  class="nav5" title="DIESEL.COM" ></a>
+                <a target="_blank" href="http://www.diesel.com"  class="nav5" title="DIESEL.COM" ></a>
             </li>
 
         </ul>
@@ -87,18 +89,18 @@
         <div class="heritage_main">
             <div class="her_tit"> <img src="img/heritage/her_tit.png" /> </div>
             <div class="her_nav">
-                <a class="on" href="#her_com1">公司简介</a>
-                <a href="#her_com2">产品系列</a>
-                <a href="#her_com3" >集团概念</a>
-                <a href="#her_com4" >受众沟通</a>
-                <a href="#her_com5" >荣誉</a>
-                <a href="#her_com6" >历史</a>
+                <a class="on" href="#her_com1"><img src="img/heritage/nav1.gif" alt="公司简介" /></a>
+                <a href="#her_com2"><img src="img/heritage/nav2.gif" alt="产品系列" /></a>
+                <a href="#her_com3" ><img src="img/heritage/nav3.gif" alt="集团概念" /></a>
+                <a href="#her_com4" ><img src="img/heritage/nav4.gif" alt="受众沟通" /></a>
+                <a href="#her_com5" ><img src="img/heritage/nav5.gif" alt="荣誉" /></a>
+                <a href="#her_com6" ><img src="img/heritage/nav6.gif" alt="历史" /></a>
             </div>
             <!--  -->
             <div class="her_com" id="her_com1">
                 <div class="cs-clear">
-                    <div class="her_pho1"><img src="img/heritage/pho1.jpg" /></div>
-                    <div class="her_pho2"><img src="img/heritage/pho2.jpg" /></div>
+                    <div class="her_pho1 her_pho" data-src="img/heritage/pho1.jpg"></div>
+                    <div class="her_pho2 her_pho" data-src="img/heritage/pho2.jpg"></div>
                 </div>
                 <div class="her_article">
                     <p><span class="oswald">DIESEL</span>长久以来一直是时尚休闲牛仔的领导先锋，以别具一格的设计和对时尚潮流的引领著称于世。在延续传统，彰显原有基因的同时，近年来<span class="oswald">DIESEL</span>涉入高端休闲服饰，并逐渐成为奢侈品市场中备受青睐的品牌。</p>
@@ -108,18 +110,18 @@
 
             <div class="her_com" id="her_com2">
                 <div class="cs-clear">
-                    <div class="her_pho3"><img src="img/heritage/pho3.jpg" /></div>
+                    <div class="her_pho3 her_pho" data-src="img/heritage/pho3.jpg"></div>
                 </div>
                 <div class="her_article">
-                    <p><span class="oswald">DIESEL</span> 产品包括<span class="oswald">DIESEL,Diesel Black Gold </span>( <span class="oswald">Andreas Melbostad</span>设计的潮流服饰),<span class="oswald">55DSL</span> (<span class="oswald">Andrea Rosso</span>领导设计的街头潮流服饰),以及<span class="oswald">Diesel Kid</span>。</p>
-                    <p><span class="oswald">DIESEL</span> 不仅仅关乎服装和牛仔裤，它更代表着一种生活方式。我们同其他行业的领导品牌合作开发了手表和珠宝（与<span class="oswald">Fossil</span>合作）、眼镜（与<span class="oswald">Marcolin</span>合作）、香水（与欧莱雅合作）、头盔（和<span class="oswald">AGV</span>合作）、耳机（与魔声耳机合作）、自行车（与<span class="oswald">Pinarello</span>合作），并且研发了一整套的家居系列（与<span class="oswald">Foscarini,Moroso,Zucchi and Scavolini</span>共同合作）。</p>
+                    <p><span class="oswald">DIESEL</span> 产品包括<span class="oswald">DIESEL, Diesel Black Gold </span>( <span class="oswald">Andreas Melbostad</span>设计的潮流服饰), <span class="oswald">55DSL</span> (<span class="oswald">Andrea Rosso</span>领导设计的街头潮流服饰),以及<span class="oswald">Diesel Kid</span>。</p>
+                    <p><span class="oswald">DIESEL</span> 不仅仅关乎服装和牛仔裤，它更代表着一种生活方式。我们同其他行业的领导品牌合作开发了手表和珠宝（与<span class="oswald">Fossil</span>合作）、眼镜（与<span class="oswald">Marcolin</span>合作）、香水（与欧莱雅合作）、头盔（和<span class="oswald">AGV</span>合作）、耳机（与魔声耳机合作）、自行车（与<span class="oswald">Pinarello</span>合作），并且研发了一整套的家居系列（与<span class="oswald">Foscarini, Moroso, Zucchi and Scavolini</span>共同合作）。</p>
                 </div>
             </div>
 
             <div class="her_com" id="her_com3">
                 <div class="her_article">
                     <p><span class="oswald">DIESEL</span> 跨国集团，目前在<span class="oswald">80</span>多个国家和地区拥有超过<span class="oswald">5000</span>个售卖点，包括<span class="oswald">400</span>家旗下商店。位于意大利<span class="oswald">Breganze </span>的总公司，直接管理欧洲、亚洲和美洲的<span class="oswald">19</span>家子公司。</p>
-                    <p><span class="oswald">DIESEL</span> 隶属于<span class="oswald">OTB</span> 集团，<span class="oswald">OTB</span>OTB 还控股<span class="oswald">Maison Martin Margiela，Marni，Viktor&Rolf</span> 以及 <span class="oswald">Staff International</span> 等公司。<span class="oswald">Staff International</span> 是意大利著名成衣公司，拥有<span class="oswald">DSquared，Just Cavalli，Vivienne Westwood Red Label and Man</span>, 以及<span class="oswald">Marc Jacobs Men </span>这一系列品牌。   </p>
+                    <p><span class="oswald">DIESEL</span> 隶属于<span class="oswald">OTB</span> 集团，<span class="oswald">OTB</span>还控股<span class="oswald">Maison Martin Margiela，Marni，Viktor&Rolf</span> 以及 <span class="oswald">Staff International</span> 等公司。<span class="oswald">Staff International</span> 是意大利著名成衣公司，拥有<span class="oswald">DSquared，Just Cavalli，Vivienne Westwood Red Label and Man</span>, 以及<span class="oswald">Marc Jacobs Men </span>这一系列品牌。   </p>
                 </div>
             </div>
 
@@ -141,13 +143,13 @@
                     </div>
 
                     <div class="awards_item cs-cledar">
-                        <p class="awards_time"><span class="oswald">1997</span>年       </p>
+                        <p class="awards_time"><span class="oswald">1997</span>年</p>
                         <p class="awards_com">由于公司在美国的快速发展，<span class="oswald">Renzo Rosso</span> 被北美 <span class="oswald">Ernst & Young </span>提名为“年度杰出企业家”</p>
                     </div>
 
                     <div class="awards_item cs-cledar">
-                        <p class="awards_time"><span class="oswald">2000</span>年 </p>
                         <p class="awards_month"><span class="oswald">7</span>月</p>
+                        <p class="awards_time"><span class="oswald">2000</span>年 </p>
                         <p class="awards_com"><span class="oswald">CUOA Foundation</span>（意大利的首个且最著名的<span class="oswald">MBA</span>课程）授予<span class="oswald">Renzo Rosso </span>荣誉工商管理硕士，把 <span class="oswald">DIESEL</span> 称作“<span class="oswald">90</span>年代最具创新型企业”之一。</p>
                     </div>
 
@@ -218,8 +220,8 @@
 
             <div class="her_com" id="her_com6">
                 <div class="cs-clear">
-                    <div class="her_pho6"><img src="img/heritage/pho6.jpg" /></div>
-                    <div class="her_pho7"><img src="img/heritage/pho7.jpg" /></div>
+                    <div class="her_pho6 her_pho" data-src="img/heritage/pho6.jpg"></div>
+                    <div class="her_pho7 her_pho" data-src="img/heritage/pho7.jpg"></div>
                 </div>
                 <div class="her_article">
                     <p><span class="oswald">Renzo Rosso</span> 于<span class="oswald">1978</span> 创立了<span class="oswald">DIESEL</span> 品牌，取名<span class="oswald">DIESEL</span> 是因其通俗易懂，世界各地发音皆相似，且寓意着坚韧的形象；<span class="oswald">Diesel</span>(柴油)在当时被当做是一种新能源，所以<span class="oswald">DIESEL</span> 也在一定意义上代表着新的休闲服饰。在<span class="oswald">1985</span> 年，<span class="oswald">Renzo Rosso</span> 完全控股<span class="oswald">DIESEL</span> 之后，聘请国际上极具才华的设计师团队，着手包装设计<span class="oswald">DIESEL</span>，并且在<span class="oswald">1991</span> 年首次开启以<span class="oswald">“For Successful Living”</span>为主题的广告活动，迅速在市场中树立了创新品牌的形象。<span class="oswald">1996</span> 年，<span class="oswald">DIESEL</span> 品牌旗舰店最先在纽约、罗马、伦敦三地登陆。</p>
@@ -324,12 +326,11 @@
 
         <div id="right_links">
             <ul class="cl">
-                <li><a target="_blank"  href="#" title="新浪微博" class="image_replacement weibo" target="_blank">新浪微博</a></li>
-                <li><a target="_blank"  href="#" title="Qing" class="image_replacement qing" target="_blank">Qing</a></li>
-                <li><a target="_blank"  href="#" title="youku优酷" class="image_replacement youku" target="_blank">youku优酷</a></li>
-                <li><a target="_blank"  href="#" title="微信" class="image_replacement weixin" target="_blank">微信</a></li>
-                <li><a target="_blank"  href="http://instagram.com/dieselpics" title="instagram" class="image_replacement instagram" target="_blank">instagram</a></li>
-                <!--<li><a  href="https://plus.google.com/+Diesel/posts" title="gplus" class="image_replacement gplus" target="_blank">gplus</a></li>-->
+                <li><a target="_blank" href="http://weibo.com/dieselplanet" title="新浪微博" class="image_replacement weibo">新浪微博</a></li>
+                <li><a target="_blank" href="#" title="Qing" class="image_replacement qing">Qing</a></li>
+                <li><a target="_blank" href="http://i.youku.com/u/UNTM5NDM1OTIw" title="youku优酷" class="image_replacement youku">youku优酷</a></li>
+                <li class="weixin_wrap"><a href="###" title="微信" class="image_replacement weixin">微信</a><img class="weixin_qr" src="img/qr.gif" /></li>
+                <li><a target="_blank" href="http://instagram.com/dieselpics" title="instagram" class="image_replacement instagram">instagram</a></li>
             </ul>
             <ul>
                 <!--<li><a onclick="trackWoodland('footer__to_faq');"  class="legal-notice" href="http://www.facebook.com/Diesel/app_538509729507290" title="FAQ" target="_blank">FAQ</a></li>-->

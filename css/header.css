@@ -258,11 +258,11 @@ body{margin: 0;padding: 0}
 .nav3{background: url('../img/nav3.png') no-repeat; width: 74px;height: 22px;}
 .nav4{background: url('../img/nav4.png') no-repeat; width: 52px;height: 22px;}
 .nav5{background: url('../img/nav5.png') no-repeat; width: 84px;height: 22px;}
-.nav1:hover{background: url('../img/nav1_hover.png') no-repeat}
-.nav2:hover{background: url('../img/nav2_hover.png') no-repeat}
-.nav3:hover{background: url('../img/nav3_hover.png') no-repeat}
-.nav4:hover{background: url('../img/nav4_hover.png') no-repeat}
-.nav5:hover{background: url('../img/nav5_hover.png') no-repeat}
+.nav1:hover,#menu .on.nav1{background: url('../img/nav1_hover.png') no-repeat}
+.nav2:hover,#menu .on.nav2{background: url('../img/nav2_hover.png') no-repeat}
+.nav3:hover,#menu .on.nav3{background: url('../img/nav3_hover.png') no-repeat}
+.nav4:hover,#menu .on.nav4{background: url('../img/nav4_hover.png') no-repeat}
+.nav5:hover,#menu .on.nav5{background: url('../img/nav5_hover.png') no-repeat}
 
 
 #cnt{_padding:0;}

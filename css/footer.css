@@ -132,7 +132,7 @@
   color: #868686;
 }
 .yahie{
-  font-family: "Microsoft YaHei";font-size: 14px;padding-botto:6px;
+    font-family: Arial,"Microsoft YaHei",STHeiti;font-size: 14px;padding-botto:6px;
 }
 #footer_main #right_links ul li a.image_replacement { background-image: url("../img/icon.png"); margin-bottom: 9px; }
 

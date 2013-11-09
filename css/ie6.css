@@ -8,3 +8,25 @@
 #homepage .c3_4 {width:39%;}
 #homepage .c1_2_3 {width:78%;}
 #homepage .home_com2 a {color:#fff;}
+
+.home_arrow,
+#homepage .col .links li a{background: url('../img/home_arrow.gif') no-repeat right 2px;padding:0 20px 2px 0;}
+#homepage .col .col-body {font-size:16px;}
+
+#header #menu .nav1{background: url('../img/nav1.png') no-repeat;}
+#header #menu .nav2{background: url('../img/nav2.png') no-repeat;}
+#header #menu .nav3{background: url('../img/nav3.png') no-repeat;}
+#header #menu .nav4{background: url('../img/nav4.png') no-repeat;}
+#header #menu .nav5{background: url('../img/nav5.png') no-repeat;}
+#header #menu .nav1:hover{background: url('../img/nav1_hover.png') no-repeat;}
+#header #menu .nav2:hover{background: url('../img/nav2_hover.png') no-repeat;}
+#header #menu .nav3:hover{background: url('../img/nav3_hover.png') no-repeat;}
+#header #menu .nav4:hover{background: url('../img/nav4_hover.png') no-repeat;}
+#header #menu .nav5:hover{background: url('../img/nav5_hover.png') no-repeat;}
+#header #menu li .sublevel {width:100%;background:#222;z-index:9999;width:600px;}
+#header #menu li #menu_collections.sublevel ul {width:600px;}
+#header {z-index:9999;}
+
+.her_com {background:#fff!important;}
+
+.awards_month{left:-100px!important;}
