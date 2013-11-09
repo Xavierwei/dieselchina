@@ -157,6 +157,15 @@ jQuery(document).ready(function() {
   }, function() {
       $(this).find('.weixin_qr').fadeOut();
   });
+
+  // heritage navigation
+  $('.her_nav a').click(function() {
+      var target = $(this).attr('href');
+      $('.her_com').fadeOut(400);
+      $(target).delay(400).fadeIn();
+      $('.her_nav a').removeClass('on');
+      $(this).addClass('on');
+  });
   
   // footer mobile nav row
   (function(){

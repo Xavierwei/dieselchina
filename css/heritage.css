@@ -15,7 +15,8 @@ body{background: #f4f4f4;font-style: normal;}
 .her_nav a:active{color:#fff;}
 .her_nav a.on,
 .her_nav a:hover{border-bottom:#fff solid 1px;}
-.her_com{padding:22px 24px 50px;background: url(../img/heritage/her_combg.png) repeat}
+.her_com{padding:22px 24px 50px;background: url(../img/heritage/her_combg.png) repeat;display:none;}
+#her_com1 {display: block;}
 
 .her_pho1,.her_pho2{float:left;width: 76%;height: 300px;overflow: hidden;position: relative;}
 .her_pho2{width: 24%;}

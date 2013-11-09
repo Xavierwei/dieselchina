@@ -68,7 +68,7 @@ body {
     height: 60px;;
 }
 
-.reboot_com{font-size: 20px;font-family: "Microsoft YaHei";color:#fff;line-height: 28px;}
+.reboot_com{font-size: 20px;font-family: Arial,"Microsoft YaHei",STHeiti;color:#fff;line-height: 28px;}
 .reboot_com p{padding:10px 0}
 .reboot_com span{font-family: 'Oswald', sans-serif; padding:0 5px}
 
