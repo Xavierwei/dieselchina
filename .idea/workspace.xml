@@ -4,7 +4,7 @@
     <list default="true" id="d7727426-d39e-486e-ac81-adb881c8b841" name="Default" comment="" />
     <ignored path="Diesel.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1383991374535" ignored="false" />
+    <file path="/index.html" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1383997032793" ignored="false" />
     <file path="/screen.css" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1383987927610" ignored="false" />
     <file path="/reboot.html" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1383987859772" ignored="false" />
     <file path="/index2.html" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1383709664934" ignored="false" />
@@ -82,21 +82,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ie6.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ie6.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/ie6.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="35" selection-start="1415" selection-end="1415" vertical-scroll-proportion="0.74556965">
+            <state line="31" column="35" selection-start="1415" selection-end="1415" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reboot.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="reboot.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reboot.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="86" selection-start="1107" selection-end="1107" vertical-scroll-proportion="-4.0925927">
+            <state line="301" column="0" selection-start="19549" selection-end="19549" vertical-scroll-proportion="0.4252669">
               <folding>
-                <marker date="1383995042000" expanded="true" signature="21245:21346" placeholder="..." />
+                <marker date="1383997065000" expanded="true" signature="20139:20240" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -105,9 +105,9 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="86" selection-start="1107" selection-end="1107" vertical-scroll-proportion="-8.821428">
+            <state line="377" column="82" selection-start="20148" selection-end="20148" vertical-scroll-proportion="-26.821428">
               <folding>
-                <marker date="1383995055000" expanded="true" signature="23159:23260" placeholder="..." />
+                <marker date="1383997039000" expanded="true" signature="20710:20811" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -151,13 +151,13 @@
         <option value="$PROJECT_DIR$/js/ie6.js" />
         <option value="$PROJECT_DIR$/css/homepage/screen.css" />
         <option value="$PROJECT_DIR$/js/jquery.backstretch.min.js" />
-        <option value="$PROJECT_DIR$/reboot.html" />
         <option value="$PROJECT_DIR$/locator.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/common.js" />
         <option value="$PROJECT_DIR$/heritage.html" />
         <option value="$PROJECT_DIR$/css/heritage.css" />
         <option value="$PROJECT_DIR$/css/ie6.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/reboot.html" />
       </list>
     </option>
   </component>
@@ -297,7 +297,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32895815" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32895815" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17368421" sideWeight="0.67104185" order="0" side_tool="false" content_ui="combo" />
@@ -442,28 +442,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="86" selection-start="1107" selection-end="1107" vertical-scroll-proportion="-8.821428">
-          <folding>
-            <marker date="1383995055000" expanded="true" signature="23159:23260" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="152" column="32" selection-start="5108" selection-end="5108" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reboot.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="86" selection-start="1107" selection-end="1107" vertical-scroll-proportion="-4.0925927">
-          <folding>
-            <marker date="1383995042000" expanded="true" signature="21245:21346" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -492,8 +474,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/ie6.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="35" selection-start="1415" selection-end="1415" vertical-scroll-proportion="0.74556965">
+        <state line="31" column="35" selection-start="1415" selection-end="1415" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="377" column="82" selection-start="20148" selection-end="20148" vertical-scroll-proportion="-26.821428">
+          <folding>
+            <marker date="1383997039000" expanded="true" signature="20710:20811" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reboot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="301" column="0" selection-start="19549" selection-end="19549" vertical-scroll-proportion="0.4252669">
+          <folding>
+            <marker date="1383997065000" expanded="true" signature="20139:20240" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
