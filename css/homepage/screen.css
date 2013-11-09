@@ -10,3 +10,6 @@
 .home_com1 p{padding:20px 0 0}
 .home_com2{padding:50px 0 0;text-align: center;}
 .home_com2 p{padding:20px 0 20px}
+
+.home_arrow,
+#homepage .col .links li a{background: url('../../img/home_arrow.png') no-repeat center right;padding:0 20px 2px 0;}
