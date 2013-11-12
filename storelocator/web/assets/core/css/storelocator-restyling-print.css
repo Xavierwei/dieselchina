@@ -1,0 +1,7 @@
+.stores, .info, #footer {
+  display:none;
+}
+#map {
+  width: 2000px;
+}
+

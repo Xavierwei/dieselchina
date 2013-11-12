@@ -4,7 +4,7 @@
     <list default="true" id="d7727426-d39e-486e-ac81-adb881c8b841" name="Default" comment="" />
     <ignored path="Diesel.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1383997032793" ignored="false" />
+    <file path="/index.html" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384102062020" ignored="false" />
     <file path="/screen.css" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1383987927610" ignored="false" />
     <file path="/reboot.html" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1383987859772" ignored="false" />
     <file path="/index2.html" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1383709664934" ignored="false" />
@@ -16,6 +16,44 @@
     <file path="/a.dummy" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1383995085236" ignored="false" />
     <file path="/ie6.js" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1383991657767" ignored="false" />
     <file path="/locator.html" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1383995048150" ignored="false" />
+    <file path="/Dummy.txt" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384017612945" ignored="false" />
+    <file path="$PROJECT_DIR$/../gar_nier/garnier-master/web/protected/config/main.php" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384008111440" ignored="false" />
+    <file path="$PROJECT_DIR$/../gar_nier/psshangfengmian/m/01.html" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384017613782" ignored="false" />
+    <file path="$PROJECT_DIR$/../gar_nier/psshangfengmian/m/css/style.css" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384102464617" ignored="false" />
+    <file path="$PROJECT_DIR$/../testing/index.html" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384013904706" ignored="false" />
+    <file path="$PROJECT_DIR$/../testing/js/template.html" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384013945749" ignored="false" />
+    <file path="$PROJECT_DIR$/../testing/template.html" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384017575687" ignored="false" />
+    <file path="/template.html" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384017275383" ignored="false" />
+    <file path="$PROJECT_DIR$/../testing/js/main.js" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384017565573" ignored="false" />
+    <file path="/main.js" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384102315721" ignored="false" />
+    <file path="$PROJECT_DIR$/../gar_nier/psshangfengmian/m/js/main.js" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384102317361" ignored="false" />
+    <file path="$PROJECT_DIR$/../gar_nier/psshangfengmian/m/photowall.html" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384101593240" ignored="false" />
+    <file path="$PROJECT_DIR$/../gar_nier/psshangfengmian/m/js/photowall.js" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384099959606" ignored="false" />
+    <file path="$PROJECT_DIR$/../gar_nier/psshangfengmian/m/dummy_data/photos.json" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384052383152" ignored="false" />
+    <file path="/photowall.html" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384099971410" ignored="false" />
+    <file path="/photos.json" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384052342320" ignored="false" />
+    <file path="/photowall.js" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384095488539" ignored="false" />
+    <file path="/style.css" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384102463858" ignored="false" />
+    <file path="$PROJECT_DIR$/../gar_nier/psshangfengmian/m/js/jquery.infinitescroll.min.js" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384053904525" ignored="false" />
+    <file path="$PROJECT_DIR$/../gar_nier/psshangfengmian/m/dummy_data/photos_1.json" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384066630678" ignored="false" />
+    <file path="/photos_1.json" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384056111194" ignored="false" />
+    <file path="$PROJECT_DIR$/../gar_nier/psshangfengmian/m/dummy_data/photos_2.json" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384066630678" ignored="false" />
+    <file path="$PROJECT_DIR$/../gar_nier/psshangfengmian/m/dummy_data/photos_3.json" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384066630678" ignored="false" />
+    <file path="$PROJECT_DIR$/../gar_nier/psshangfengmian/m/dummy_data/vote.json" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384066630678" ignored="false" />
+    <file path="$PROJECT_DIR$/../gar_nier/psshangfengmian/m/dummy_data/vote_fail.json" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384058166047" ignored="false" />
+    <file path="$PROJECT_DIR$/../gar_nier/psshangfengmian/m/dummy_data/vote_fail1.json" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384066630678" ignored="false" />
+    <file path="$PROJECT_DIR$/../gar_nier/psshangfengmian/m/dummy_data/vote_fail2.json" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384066630678" ignored="false" />
+    <file path="$PROJECT_DIR$/../gar_nier/psshangfengmian/m/js/waypoint.js" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384066630678" ignored="false" />
+    <file path="$PROJECT_DIR$/../gar_nier/psshangfengmian/m/js/handlebars-v1.1.2.js" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384066630678" ignored="false" />
+    <file path="$PROJECT_DIR$/../gar_nier/psshangfengmian/m/js/jquery.easing.1.3.js" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384066630678" ignored="false" />
+    <file path="$PROJECT_DIR$/../gar_nier/psshangfengmian/m/js/jquery.hammer.js" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384101593240" ignored="false" />
+    <file path="$PROJECT_DIR$/../gar_nier/psshangfengmian/m/js/global.js" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384101593240" ignored="false" />
+    <file path="/global.js" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384088498264" ignored="false" />
+    <file path="$PROJECT_DIR$/../gar_nier/ps-dream/index.html" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384094011302" ignored="false" />
+    <file path="$PROJECT_DIR$/../gar_nier/ps-dream/step3.html" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384094011302" ignored="false" />
+    <file path="$PROJECT_DIR$/../gar_nier/ps-dream/step5.html" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384094011302" ignored="false" />
+    <file path="$PROJECT_DIR$/../gar_nier/ps-dream/step4.html" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384094011302" ignored="false" />
+    <file path="$PROJECT_DIR$/../gar_nier/psshangfengmian/m/index.html" changelist="d7727426-d39e-486e-ac81-adb881c8b841" time="1384102214873" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +95,9 @@
         <entry file="file://$PROJECT_DIR$/css/heritage.css">
           <provider selected="true" editor-type-id="text-editor">
             <state line="41" column="52" selection-start="1958" selection-end="1958" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <marker date="1383996416000" expanded="true" signature="2124:2137" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,6 +201,7 @@
       </list>
     </option>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="214" />
     <option name="y" value="22" />
@@ -264,6 +305,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
@@ -428,7 +470,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="4095" selection-start="4235" selection-end="4235" vertical-scroll-proportion="0.048387095">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -468,7 +510,9 @@
     <entry file="file://$PROJECT_DIR$/css/heritage.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="52" selection-start="1958" selection-end="1958" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1383996416000" expanded="true" signature="2124:2137" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

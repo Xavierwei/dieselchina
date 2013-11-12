@@ -1,0 +1,13 @@
+Questo plugin permette di integrare le API GeoIP di MaxMind:
+
+http://geolite.maxmind.com/download/geoip/api/php/
+
+
+Va creata la directory data/geoip dove inserire il file GeoLiteCity.dat.
+Può essere inoltre creato un file .sh o .bat per automatizzare scaricamento e scompattamento del file
+all'interno della directory data/geoip.
+
+update.sh:
+
+wget http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz
+gunzip GeoLiteCity.dat.gz

@@ -1,0 +1,83 @@
+<refentry id="{@id}">
+  <refnamediv>
+    <refname>
+      Core Client. Tutorial di base
+    </refname>
+    <refpurpose>
+      Tutorial di base
+    </refpurpose>
+  </refnamediv>
+  {@toc}
+  <refsect1 id="{@id Introduzione}">
+    <title>
+      Introduzione
+    </title>
+    <para>
+      La libreria mette a disposizione una serie di classi che facilitano l'accesso alle API del WS core e 
+      il parsing dei risultati delle chiamate.
+    </para>
+    <para>
+      Il package è composta da 3 componenti principali:
+      <varlistentry>
+        <listitem>
+          Una classe {@link Core_Client} che agisce da wrapper per i metodi del WS
+        </listitem>
+        <listitem>
+          La classe {@link Core_Result_Element} che permette di accedere facilmente ai dati della response del WS
+        </listitem>
+        <listitem>
+          La classe {@link User_Data_Store_Interface} che mette a disposizione un'interfaccia comune per l'accesso ai dati utente 
+          dell'applicazione che usa il client.
+        </listitem>
+      </varlistentry>
+    </para>
+  </refsect1>
+  <refsect1 id="{@id costruttore}">
+    <title>
+      Costruttore
+    </title>
+    <para>
+      Il costruttore della classe {@link Core_Client} accetta i seguenti parametri di configurazione:
+      <varlistentry>
+        <listitem>
+          $endpoint: indica la URI del servizio core
+        </listitem>
+        <listitem>
+          $userDataStore: implementazione dell'interfaccia {@link User_Data_Store_Interface}. E' l'oggetto che permette al client di accedere ai dati relativi all'utente di sessione
+        </listitem>
+        <listitem>
+          $consumerKey: la consumer key dell'applicazione
+        </listitem>
+        <listitem>
+          $consumerSecret: la consumer secrete key dell'applicazione
+        </listitem>
+      </varlistentry>
+    </para>
+  </refsect1>
+  <refsect1 id="{@id personalizzazione}">
+    <title>
+      Personalizzazione
+    </title>
+  </refsect1>
+  <refsect1 id="{@id esempi}">
+    <title>
+      Esempi di utilizzo
+    </title>
+  </refsect1>
+  <refsect1 id="{@id librerie esterne}">
+    <title>
+      Librerie di terze parti incluse
+    </title>
+    <para>
+      Il pacchetto utilizza alcune librerie del PEAR (distribuite con il pacchetto stesso):
+      <varlistentry>
+        <listitem>
+          HTTP_Request2 per la gestione delle richieste HTTP
+        </listitem>
+        <listitem>
+          Net_URL2 per la gestione delle URL (la libreria HTTP_Request2  dipende da Net_Url2
+        </listitem>
+      </varlistentry>
+    </para>
+  </refsect1>
+</refentry>

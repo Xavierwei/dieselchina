@@ -1,0 +1,8 @@
+Questo plugin permette di generare la itemsmap.xml per il motore di ricerca.
+
+Per l'installazione di questo plugin, è necessario editare il file routing.yml ed aggiungere:
+
+itemsmap:
+  url:   /itemsmap.xml
+  param: { module: itemsMap, action: itemsMapXml }
+

@@ -1,0 +1,19 @@
+# Project files
+/cache/*
+/log/*
+/web/*_dev.php
+/web/uploads/*
+/web/assets/store-locator/*
+/config/databases.yml
+/plesk.stat/*
+/data/geoip/*
+
+# SCM files
+.arch-params
+.bzr
+_darcs
+.git
+.hg
+.monotone
+.svn
+CVS

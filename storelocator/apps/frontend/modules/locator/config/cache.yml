@@ -1,0 +1,19 @@
+storeDetail:
+  enabled:     true
+  with_layout: true
+  lifetime:    86400
+  
+getCountries:
+  enabled:     true
+  with_layout: true
+  lifetime:    86400
+  
+getCities:
+  enabled:     true
+  with_layout: true
+  lifetime:    86400
+  
+getStores:
+  enabled:     true
+  with_layout: true
+  lifetime:    86400

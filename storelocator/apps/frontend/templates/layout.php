@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+  	<meta name="viewport" content="width=1060" />
+  	
+  	<?php if (has_slot('discovery_metas')):?>
+  	  <?php include_slot('discovery_metas')?>
+  	<?php endif;?>
+  	
+    <?php include_http_metas() ?>
+    <?php include_metas() ?>
+    <link rel="image_src" href="<?php echo asset_absolute_path('/assets/core/img/logo.gif');?>" />
+    <?php include_title() ?>
+    <link rel="shortcut icon" href="/assets/core/img/favicon.ico" />
+    <link rel="shortcut icon" href="/assets/core/img/favicon.gif" />
+    <?php include_cdn_stylesheets() ?>
+    <?php $appContext = proxy_get_appcontext();?>
+    <?php if( $appContext != '' ):?><link rel="stylesheet" type="text/css" media="screen" href="<?php echo asset_absolute_path("/assets/core/css/".$appContext.".css");?>" /><?php endif;?>
+    <?php if (has_slot("head_stylesheets")): ?>
+      <?php include_slot("head_stylesheets");?>
+    <?php endif; ?>
+    <?php include_cdn_javascripts() ?>
+    <link rel="stylesheet" type="text/css" media="print" href="<?php echo asset_absolute_path("/assets/core/css/storelocator-restyling-print.css");?>">
+  </head>
+  <body>
+    <?php include('include/header.php');?>
+    <div id="cnt">
+    <?php echo $sf_content ?>
+    </div>
+    <?php include('include/footer.php');?>
+  </body>
+</html>

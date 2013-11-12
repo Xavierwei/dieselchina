@@ -162,7 +162,7 @@
 						
 			initMap: 		function() {
 				
-								var url_get_nearest_stores = "/store-locator/get-around-me",
+								var url_get_nearest_stores = "storelocator/web/store-locator/get-around-me",
 									$storeLocatorName = $('.store-locator-store'),
 									$storeLocatorAdress = $('.store-locator-address'),
 									$storeLocatorMap = $('.store-locator-map'),
@@ -179,10 +179,10 @@
 										var cStore = data[0],
 											centerlat = cStore.latitude - 0.0013000,
 											$map = $('<img />').addClass('bg').attr('src',  "http://maps.google.com/maps/api/staticmap?center="+centerlat+","+cStore.longitude+"&markers=icon:http://storage.diesel.com/assets/store-locator/marker.gif|"+cStore.latitude+","+cStore.longitude+"&zoom=17&size=540x540&sensor=false" );
-										
+
 										$storeLocatorName.html(cStore.name+'<br/>');
 										$storeLocatorAdress.html(cStore.type + ' - ' + cStore.city + '<br/>' + cStore.address + ' ' + cStore.zip + '<br/>' + 'phone:' +cStore.telf);
-										$storeLocatorMap.find('.col-body').append($map);
+										$storeLocatorMap.find('.col-body').html($map);
 										$loader.remove();
 										
 										this.initImgBg($map, $storeLocatorMap);

@@ -1,0 +1,298 @@
+## Definizione modello dati
+
+#####################################
+# Model Stores
+#
+Stores:
+  columns:
+    id:                  {type: integer(11), primary: true, notnull: true, autoincrement: true }
+    brand:               {type: string(20), default: '' }
+    type:                {type: string(20), default: '' }
+    model:               {type: string(3), default: '' }
+    status:              {type: string(20), default: '' }
+    area:                {type: string(50), default: '' }
+    country:             {type: string(50), default: '' }
+    city:                {type: string(50), default: '' }
+    name:                {type: string(255) }
+    address:             {type: string(255) }
+    zip:                 {type: string(20) }
+    telf:                {type: string(20) }
+    last_update:         {type: string(30) }
+    product_line:        {type: string(30) }
+    latitude:      {type: string(10), default: '0' }
+    longitude:     {type: string(10), default: '0' }
+    order:          integer
+    user_id:         {type: integer(11) }
+  indexes:
+    brand_idx:
+      fields: [brand]
+    type_idx:
+      fields: [type]
+    model_idx:
+      fields: [model]
+    status_idx:
+      fields: [status]
+    area_idx:
+      fields: [area]
+    country_idx:
+      fields: [country]
+    city_idx:
+      fields: [city]
+    name_idx:
+      fields: [name]
+  options:
+    type: INNODB
+
+StoreExtraData:
+  columns:
+    store_id: integer(11)
+    info:     string(2000)
+    additional_address:             {type: string(255) }
+    twotimeaday:   boolean
+    opening_times: object
+    times_notes:  string(2000)
+    
+  relations:
+    Store:
+      class: Stores
+      local: store_id
+      foreign: id
+      foreignType: one
+      foreignAlias: StoreExtraData
+      onDelete: CASCADE
+      
+StoreStoreType:
+  options:
+    collate: utf8_unicode_ci
+    charset: utf8
+  columns:
+    stores_id:  {type: integer(19), notnull: false, primary: true }
+    store_type_id:  {type: integer(20), notnull: false, primary: true }
+
+StoreType:
+  columns:
+    type:    {type: string(1000) , notnull: true }
+  actAs: 
+    Timestampable: ~
+  relations:
+    Store:
+      class: Stores
+      refClass: StoreStoreType
+      foreignAlias: StoreTypes
+      
+StoreNews:
+  columns:
+    store_id:  {type: integer(19) }
+    title:    {type: string(1000) , notnull: true }
+    paragraph:    {type: string(4000), notnull: false  }
+  actAs: 
+    Timestampable: ~
+  relations:
+    Store:
+      class: Stores
+      local: store_id
+      foreign: id
+      foreignAlias: StoreNews
+      onDelete: CASCADE
+      
+      
+      
+####### NEW DB ####
+
+SlStore:
+  actAs:
+    Timestampable: ~
+    Sluggable:
+      unique: true
+      name: slug
+      fields: [name]
+  columns:
+    name:            {type: string(255) }
+    address:         {type: string(255) }
+    zip:             {type: string(20) }
+    telf:            {type: string(20) }
+    email:            {type: string(255) }
+    latitude:        {type: string(10), default: '0' }
+    longitude:       {type: string(10), default: '0' }
+    position:           {type: integer }
+    world_area_id:   {type: integer }
+    country_id:      {type: integer }
+    city_id:         {type: integer }
+    store_type_id:   {type: integer }
+    store_status_id: {type: integer }
+    product_line_id: {type: integer }
+    online:          {type: boolean, default: 1 }
+  relations:
+    SlWorldArea:
+      class: SlWorldArea
+      local: world_area_id
+    SlCountry:
+      class: SlCountry
+      local: country_id
+    SlCity:
+      class: SlCity
+      local: city_id
+    SlStoreType:
+      class: SlStoreType
+      local: store_type_id
+    SlStoreStatus:
+      class: SlStoreStatus
+      local: store_status_id
+  indexes:
+    name_idx:
+      fields: [name]
+    city_idx:
+      fields: [city_id]
+    country_idx:
+      fields: [country_id]
+    store_type_idx:
+      fields: [store_type_id]
+    store_status_idx:
+      fields: [store_status_id]
+
+
+SlExtraData:
+  columns:
+    datakey: {type: string(255), notnull: true }
+    value: {type: string(4000) }
+    store_id: {type: integer(11) }
+    
+  relations:
+    SlStore:
+      class: SlStore
+      local: store_id
+  
+SlCity:
+  columns:
+    name:
+      type: string(255)
+      notnull: true 
+      unique: true
+    country_id: 
+      type: integer
+  relations:
+    SlCountry:
+      class: SlCountry
+      local: country_id
+
+SlProductLine:
+  columns:
+    name: 
+      type: string(255)
+      notnull: true
+    ord:  
+      type: integer
+      notnull: false
+    visible:  
+      type: boolean
+      default: true
+  relations:
+    SlStore:
+      class: SlStore
+      refClass: SlStoreProductLine
+      foreignAlias: SlProductLines
+      onDelete: CASCADE
+
+
+SlStoreStatus:
+  columns:
+    name:
+      type: string(255)
+      notnull: true
+
+
+SlStoreProductLine:
+  options:
+    collate: utf8_unicode_ci
+    charset: utf8
+  columns:
+    sl_store_id:
+      type: integer(19)
+      notnull: false
+      primary: true 
+    sl_product_line_id:  
+      type: integer(20)
+      notnull: false
+      primary: true
+
+
+
+SlStoreStoreType:
+  options:
+    collate: utf8_unicode_ci
+    charset: utf8
+  columns:
+    sl_store_id:
+      type: integer(19)
+      notnull: false
+      primary: true 
+    sl_store_type_id:  
+      type: integer(20)
+      notnull: false
+      primary: true 
+
+SlStoreType:
+  columns:
+    name:
+      type: string(255)
+      notnull: true 
+    ord: 
+      type: integer
+      notnull: false
+  relations:
+    SlStore:
+      class: SlStore
+      refClass: SlStoreStoreType
+      foreignAlias: SlStoreTypes
+      onDelete: CASCADE
+
+SlWorldArea:
+  columns:
+    name:
+      type: string(255)
+      notnull: true 
+      unique: true
+    
+SlStoreNews:
+  actAs: 
+    Timestampable: ~
+    Sluggable:
+      unique: true
+      name: slug
+      fields: [title]
+  columns:
+    store_id:
+      type: integer
+    title:
+      type: string(1000)
+      notnull: true
+    paragraph:
+      type: string(4000)
+      notnull: false
+  relations:
+    SlStore:
+      class: SlStore
+      local: store_id
+      onDelete: CASCADE
+
+SlCountry:
+  columns:
+    name:
+      type: string(255)
+      notnull: true
+      unique: true
+    iso:
+      type: string(255)
+      notnull: false
+    world_area_id:
+      type: integer
+    user_id:
+      type: integer
+  relations:
+    SlWorldArea:
+      class: SlWorldArea
+      local: world_area_id
+    sfGuardUser:
+      class: sfGuardUser
+      local: user_id
+      foreignAlias: Countries

@@ -1,0 +1,106 @@
+sl_product_line:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                SlProductLine
+    module:               sl_product_line
+    prefix_path:          /sl_product_line
+    column:               id
+    with_wildcard_routes: true
+
+sl_world_area:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                SlWorldArea
+    module:               sl_world_area
+    prefix_path:          /sl_world_area
+    column:               id
+    with_wildcard_routes: true
+
+sl_extra_data:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                SlExtraData
+    module:               sl_extra_data
+    prefix_path:          /sl_extra_data
+    column:               id
+    with_wildcard_routes: true
+
+sl_store_news:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                SlStoreNews
+    module:               sl_store_news
+    prefix_path:          /sl_store_news
+    column:               id
+    with_wildcard_routes: true
+
+sl_store_status:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                SlStoreStatus
+    module:               sl_store_status
+    prefix_path:          /sl_store_status
+    column:               id
+    with_wildcard_routes: true
+
+sl_store_type:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                SlStoreType
+    module:               sl_store_type
+    prefix_path:          /sl_store_type
+    column:               id
+    with_wildcard_routes: true
+
+sl_city:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                SlCity
+    module:               sl_city
+    prefix_path:          /sl_city
+    column:               id
+    with_wildcard_routes: true
+
+sl_country:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                SlCountry
+    module:               sl_country
+    prefix_path:          /sl_country
+    column:               id
+    with_wildcard_routes: true
+
+sl_store:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                SlStore
+    module:               sl_store
+    prefix_path:          /sl_store
+    column:               id
+    with_wildcard_routes: true
+
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /
+  param: { module: sfAdminDash, action: dashboard }
+
+sf_guard_signin:
+  url:   /login
+  param: { module: sfGuardAuth, action: signin }
+
+sf_guard_signout:
+  url:   /logout
+  param: { module: sfGuardAuth, action: signout }
+
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

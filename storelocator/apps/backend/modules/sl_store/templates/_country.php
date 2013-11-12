@@ -1,0 +1,1 @@
+<?php echo $sl_store->getSlCountry()->getName(); ?>

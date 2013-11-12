@@ -1,0 +1,40 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+  http_metas:
+    content-type: text/html; charset=utf-8
+
+  metas:
+    title:        "Diesel - jeans, clothing, shoes, watches, apparel, underwear and sunglasses"
+    description:  "Diesel's Fall Winter 2013 Main Collection and the Fall Winter Preview Collection."
+    #keywords:     symfony, project
+    language:     en_EN
+    robots:       NOODP
+    msnbot:       NOODP
+    googlebot:    NOODP
+    author:       "H-art: http://www.h-art.it/"
+    msvalidate.01:  82A9598193937FC116E896B8B7179581
+
+  stylesheets: [ /assets/core/css/storelocator.css, /assets/core/css/storelocator-new.css,  /assets/core/css/storelocator-restyling.css ]
+
+  javascripts:    [http://maps.google.com/maps/api/js?sensor=true]
+
+  has_layout:     true
+  layout:         layout
+
+facebookSplashSuccess:
+  stylesheets:    [/assets/core/css/store-locator-facebook.css]
+  layout:         layoutFacebook
+
+facebookStoreSuccess:
+  stylesheets:    [/assets/core/css/store-locator-facebook.css]
+  layout:         layoutFacebook
+
+facebookFinderSuccess:
+  stylesheets:    [/assets/core/css/store-locator-facebook.css]
+  layout:         layoutFacebook
+  
+printSuccess:
+  stylesheets:    [/assets/core/css/print.css]
+  layout:         layoutPrint

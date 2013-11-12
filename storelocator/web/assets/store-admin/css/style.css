@@ -1,0 +1,926 @@
+/* structure */
+html, body {
+    background: transparent url(/assets/store-admin/img/bg-main-moon.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header {
+    background: #dcdace;
+    overflow: hidden;
+}
+
+header nav {
+    height: 40px;
+    margin: 0 40px 0 0;
+    overflow: hidden;
+    display: inline;
+    float: right;
+}
+
+header nav .user {
+    padding: 8px 0;
+    color: #75746c;
+    display: inline;
+    float: left;
+}
+
+#main {
+    width: 980px;
+    margin: 50px auto;
+}
+
+#main article,
+#main .block {
+    padding: 40px;
+    background: #fff;
+    overflow: hidden;
+}
+
+#main article summary {
+    margin: 0 5px 0 0;
+    display: inline;
+    float: left;
+}
+
+#main #name-address form {
+    width: 645px;
+    display: inline;
+    float: left;
+}
+
+#main #name-address .group {
+    width: 260px;
+    margin: 0 60px 20px 0;
+    display: inline;
+    float: left;
+}
+
+#main h3,
+#main #name-address form label {
+    padding: 0 0 4px 0;
+    display: inline;
+    float: left;
+}
+
+#main #name-address form input, #main #support form input {
+    width: 240px;
+    height: 31px;
+    border: 5px solid #75746c;
+    display: block;
+    clear: both;
+}
+
+#main #name-address ul#jqmultiselect{
+  width: 250px;
+  height: 203px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  list-style: none;
+  padding: 0;
+  border: 5px solid #75746C;
+}
+
+#main #name-address #jqmultiselect li label{
+  display: block;
+  padding: 4px 4px 4px 26px;
+  color: #000;
+  outline: none;
+  position: relative;
+  float : none;
+}
+
+#main #name-address #jqmultiselect li label:hover{
+  color: #000;
+  background-color: #EEE;
+  cursor:default;
+}
+
+#main #name-address #jqmultiselect li label.selected{
+  color: #FFF;
+  background-color: #CCC;
+}
+
+#main #name-address #jqmultiselect li label .checkbox{
+  border: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width : 20px;
+  height : 20px;
+}
+
+#main #opening-times form .weekdays {
+    /*margin: 0 100px;*/
+}
+
+#main #opening-times form .group {
+    margin : 20px 0;
+}
+
+#main #opening-times form .group span.afternoon {
+	margin: 0 0 0 40px;
+	display : none;
+}
+
+#main #opening-times form .weekdays .group {
+    height: 41px;
+    width : 880px;
+}
+
+#main #opening-times form label,
+#main #opening-times form input,
+#main #opening-times form a,
+#main #opening-times form span,
+#main #opening-times form strong {
+    vertical-align: middle;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+
+#main #opening-times form .weekdays label {
+    min-width: 40px;
+    width: auto !important;
+    width: 40px;
+}
+
+#main #opening-times form input {
+    /*margin: 0 5px 0 0;*/
+}
+
+#main #opening-times form .selectBox-dropdown {
+    width: 115px;
+    /*margin: 0 10px;*/
+}
+
+#main #opening-times form .selectBox-dropdown .selectBox-label {
+    width: 94px;
+}
+
+#main #opening-times form label.textArea {
+    
+   float: left;
+
+}
+
+
+#main #opening-times form textarea.note, #main #support form textarea.infoSupport{
+    
+    border: 5px solid #75746C;
+    clear: both;
+    height: 180px;
+    width: 312px;
+    margin-left : 4px;
+
+}
+
+#main #support form textarea.infoSupport{
+	
+	width : 550px;
+	height : 200px;
+	
+}
+
+#main form .error,
+#main form .error .selectBox-label {
+    background: #ffb2b2;
+}
+
+#main form .error,
+#main .fail {
+    color: #b00101;
+}
+
+#main .fail {
+    width: 100%;
+    display: inline;
+}
+
+form button {
+    width: 170px;
+    height: 51px;
+    margin: 40px 0 0 0;
+    text-indent: -9999px;
+    background: #ab9383 url(/assets/store-admin/img/btn-save.gif) no-repeat center;
+    border: none;
+    overflow: hidden;
+}
+
+#support button#sendSupport {
+    width: 170px;
+    height: 51px;
+    margin: 40px 0 0 0;
+    text-indent: -9999px;
+    background: #ab9383 url(/assets/store-admin/img/btn-save.gif) no-repeat center;
+    border: none;
+    overflow: hidden;
+}
+
+html.js body div div.nicEdit-pane form input[type=submit]{
+	
+	width: 100px;
+	border: 1px solid #fff;;
+    height: 30px;
+    margin: 0 0 0 0;
+    text-indent: -9999px;
+    background: url(/assets/store-admin/img/btn-save.gif) no-repeat center;
+    background-color: #ab9383;
+    border: none;
+    overflow: hidden;
+	
+}
+
+button.localizza {
+    width: 170px;
+    height: 51px;
+    margin: 60px 0 0 0;
+    text-indent: -9999px;
+    background: #ab9383 url(/assets/store-admin/img/btn-save.gif) no-repeat center;
+    border: none;
+    overflow: hidden;
+}
+
+#main .question-mark {
+    display: inline;
+    float: right;
+}
+
+#main #google-map {
+    width: 255px;
+    display: inline;
+    float: right;
+}
+
+#main #google-map #map {
+    width: 245px;
+    height: 289px;
+    border: 5px solid #75746c;
+    position: relative;
+    margin-top: 25px;
+}
+
+#main #store-news form {
+    overflow: hidden;
+}
+
+#main #store-news .group {
+    height: 30px;
+    margin: 10px 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #d5d5d3;
+    overflow: hidden;
+}
+
+#main #store-news .caption {
+    height: 41px;
+    border-bottom: 1px solid #919188;
+}
+
+#main #store-news form input {
+    margin: 8px 10px 0 0;
+}
+
+#main #store-news form label {
+    margin: 6px 10px 0 0;
+}
+
+#main #store-news form input,
+#main #store-news form label {
+    display: inline;
+    float: left;
+}
+
+#main #store-news form a,
+#main #store-news form select {
+    display: inline;
+    float: right;
+}
+
+#main #store-news form .caption img {
+    margin: 15px 0 0 0;
+}
+
+#main #store-news form .caption .selectBox-dropdown {
+    width: 170px;
+    margin: 0;
+}
+
+#main #store-news form .caption .selectBox-dropdown .selectBox-label {
+    width: 149px;
+}
+
+
+/* typo */
+h1, h2, p {
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+h2 {
+    padding: 20px 0;
+    font-size: 28px;
+}
+
+p, strong, details {
+    padding: 0 0 20px 0;
+    color: #000;
+}
+
+input {
+    padding: 0 0 0 10px;
+}
+
+h3, h4, p, strong, a, details, label, input, .selectBox-dropdown .selectBox-label {
+    font-size: 18px;
+}
+
+h2, h3, h4, p, strong, a, details, label, input, .selectBox-dropdown .selectBox-label {
+    font-weight: normal;
+    /*font-style: italic;*/
+    font-family: Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+#welcome h3, #welcome h4, #welcome p, #welcome details, #welcome a {
+	font-family:Arial;
+	font-style:normal;
+}
+
+h1, h2, summary, a, em {
+    color: #a89385;
+}
+
+
+/* component */
+.logo {
+    width: 72px;
+    height: 40px;
+    margin: 0 0 0 40px;
+    text-indent: -9999px;
+    background: transparent url(/assets/store-admin/img/logo-small.gif) no-repeat center;
+    overflow: hidden;
+    display: inline;
+    float: left;
+}
+
+.sprite-menu,
+.sprite-menu li {
+    display: inline;
+    float: left;
+}
+
+.sprite-menu {
+    overflow: hidden;
+}
+
+.sprite-menu li {
+    margin: 0 -5px 0 10px;
+}
+
+.sprite-menu li a,
+.sprite-menu li a span {
+    overflow: hidden;
+    display: block;
+}
+
+.sprite-menu li a {
+    height: 40px;
+    text-decoration: none;
+}
+
+.sprite-menu li a span {
+    height: 19px;
+    margin: 11px 0 10px 0;
+    padding: 0 5px 0 0;
+    text-indent: -9999px;
+    background: transparent;
+    background-image: url(/assets/store-admin/img/sprite-menu.png);
+    background-repeat: no-repeat;
+    border-right: 2px solid #ab9789;
+    overflow: hidden;
+}
+
+.sprite-menu li a.how-it-works span {
+    width: 107px;
+    background-position: -95px 2px;
+}
+.sprite-menu li a.how-it-works.current span,
+.sprite-menu li a.how-it-works:hover span {
+    background-position: -95px -19px;
+}
+
+.sprite-menu li a.help-faq span {
+    width: 77px;
+    background-position: -211px 2px;
+}
+.sprite-menu li a.help-faq.current span,
+.sprite-menu li a.help-faq:hover span {
+    background-position: -211px -19px;
+}
+
+.sprite-menu li a.help span {
+    width: 34px;
+    background-position: -211px 2px;
+}
+.sprite-menu li a.help.current span,
+.sprite-menu li a.help:hover span {
+    background-position: -211px -19px;
+}
+
+.sprite-menu li a.faq span {
+    width: 27px;
+    background-position: -261px 2px;
+}
+.sprite-menu li a.faq.current span,
+.sprite-menu li a.faq:hover span {
+    background-position: -261px -19px;
+}
+
+.sprite-menu li a.support span {
+    width: 66px;
+    background-position: -297px 2px;
+}
+.sprite-menu li a.support.current span,
+.sprite-menu li a.support:hover span {
+    background-position: -297px -19px;
+}
+
+.sprite-menu li a.edit-store span {
+    width: 86px;
+    background-position: left 2px;
+}
+.sprite-menu li a.edit-store.current span,
+.sprite-menu li a.edit-store:hover span {
+    background-position: left -19px;
+}
+
+.is-stupid {
+    width: 32px;
+    height: 26px;
+    margin: 6px 10px;
+    text-indent: -9999px;
+    background: transparent url(/assets/store-admin/img/btn-is-stupid.gif) no-repeat center;
+    overflow: hidden;
+    display: inline;
+    float: left;
+}
+
+.sprite-logout-profile {
+    margin: 8px 0 0 10px;
+    display: inline;
+    float: left;
+}
+
+.sprite-logout-profile a span {
+    width: 36px;
+    height: 12px;
+    text-indent: -9999px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    display: block;
+}
+
+.sprite-logout-profile a span {
+    background-image: url(/assets/store-admin/img/sprite-logout-profile.gif);
+}
+
+.sprite-logout-profile a.logout span {
+    background-position: center top;
+}
+
+.sprite-logout-profile a.profile span {
+    background-position: center bottom;
+}
+
+.sprite-tabs {
+    background:  transparent url(/assets/store-admin/img/bg-tabs.png) no-repeat left top;
+    overflow: hidden;
+}
+
+.sprite-tabs li {
+    display: inline;
+    float: left;
+}
+
+.sprite-tabs li a,
+.sprite-tabs li a span {
+    overflow: hidden;
+    display: block;
+}
+
+.sprite-tabs li a {
+    width: 195px;
+    color: #a89385;
+    text-decoration: none;
+}
+
+.sprite-tabs li.ui-state-active a {
+    background: #fff;
+}
+
+.sprite-tabs li a span {
+    height: 19px;
+    margin: 28px auto 28px auto;
+    text-indent: -9999px;
+    background: transparent;
+    background-image: url(/assets/store-admin/img/sprite-tabs.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.sprite-tabs li a.welcome span {
+    width: 81px;
+    background-position: left 0;
+}
+.sprite-tabs li a.welcome.current span,
+.edit .sprite-tabs li a.welcome:hover span {
+    background-position: left bottom;
+}
+
+.sprite-tabs li a.name-address span {
+    width: 148px;
+    background-position: -91px 0;
+}
+.sprite-tabs li a.name-address.current span,
+.edit .sprite-tabs li a.name-address:hover span {
+    background-position: -91px bottom;
+}
+
+.sprite-tabs li a.opening-times span {
+    width: 129px;
+    background-position: -249px 0;
+}
+.sprite-tabs li a.opening-times.current span,
+.edit .sprite-tabs li a.opening-times:hover span {
+    background-position: -249px bottom;
+}
+
+.sprite-tabs li a.store-news span {
+    width: 106px;
+    background-position: -388px 0;
+}
+.sprite-tabs li a.store-news.current span,
+.edit .sprite-tabs li a.store-news:hover span {
+    background-position: -388px bottom;
+}
+
+.ui-tabs-hide {
+    display: none;
+}
+
+.register {
+    width: 472px;
+    margin: 170px auto 0 auto;
+    overflow: hidden;
+}
+
+.register dt,
+.register dd a span {
+    text-indent: -9999px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+}
+
+.register dt {
+    width: 471px;
+    height: 45px;
+    background-image: url(/assets/store-admin/img/txt-store-locator-admin.gif);
+    background-position: center;
+}
+
+.register dd {
+    margin: 2px 1px 0 0;
+    background: #fff;
+    display: inline;
+    float: left;
+}
+
+.register dd a span {
+    width: 235px;
+    height: 41px;
+    margin: 21px 0;
+}
+
+.register dd  a.register span {
+    width: 172px;
+    margin: 21px 31px;
+    background-image: url(/assets/store-admin/img/sprite-access.gif);
+    background-position: left top;
+}
+.register dd  a.register:hover span {
+    background-position: left -41px;
+}
+
+.register dd a.sign-in span {
+    width: 136px;
+    margin: 21px 50px;
+    background-image: url(/assets/store-admin/img/sprite-access.gif);
+    background-position: right top;
+}
+.register dd a.sign-in:hover span {
+    background-position: right -41px;
+}
+
+
+.question-mark {
+    width: 18px;
+    height: 18px;
+    text-indent: -9999px;
+    background: transparent url(/assets/store-admin/img/ico-question-mark.gif) no-repeat center;
+    overflow: hidden;
+    display: block;
+    cursor: pointer;
+}
+
+.add-new {
+    width: 200px;
+    height: 50px;
+    text-indent: -9999px;
+    background: #ab9383 url(/assets/store-admin/img/btn-add-new.gif) no-repeat center;
+    overflow: hidden;
+    display: block;
+}
+
+.sprite-edit-delete {
+    width: 100px;
+    height: 30px;
+    margin: 0 0 0 10px;
+    background: #75756b;
+    overflow: hidden;
+    display: inline;
+    float: right;
+}
+
+.sprite-edit-delete span {
+    text-indent: -9999px;
+    background-color: #ab9383;
+    background-position: no-repeat;
+    background-image: url(/assets/store-admin/img/sprite-edit-delete.gif);
+    background-position: left top;
+    overflow: hidden;
+    display: block;
+}
+
+.sprite-edit-delete.edit span {
+    width: 29px;
+    height: 14px;
+    margin: 8px 35px;
+    background-position: left top;
+}
+
+.sprite-edit-delete.delete span {
+    width: 45px;
+    height: 14px;
+    margin: 8px 27px;
+    background-position: right top;
+}
+
+.text-editor {
+    display: none;
+}
+
+.text-editor,
+.editor-modal {
+    width: 700px;
+    height: 460px;
+}
+
+.editor-modal h3,
+.editor-modal h4 {
+    width: 100%;
+    clear: both;
+}
+
+.editor-modal h3 {
+    color: #a89385;
+    font-size: 28px;
+    border-bottom: 1px solid #d5d5d3;
+}
+
+.editor-modal h4 {
+    margin: 20px 0 10px 0;
+}
+
+.editor-modal textarea {
+    width: 695px;
+}
+
+.editor-modal .editor-title textarea {
+    height: 20px;
+}
+
+.editor-modal .editor-para textarea {
+    height: 170px;
+}
+
+.editor-modal button {
+    width: 80px;
+    height: 41px;
+    margin: 20px 4px 0 0;
+    text-indent: -9999px;
+    background: #ab9383 url(/assets/store-admin/img/btn-save.gif) no-repeat center;
+    border: none;
+    overflow: hidden;
+    display: inline;
+    float: right;
+}
+
+form .hint,
+#google-map .hint {
+    display: none;
+}
+
+.hint details {
+    width: 250px;
+}
+
+.hint summary {
+    font-size: 28px;
+    font-weight: normal;
+    /*font-style: italic;*/
+    font-family: Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+.send {
+	background: #ab9383 url(/assets/store-admin/img/btn-send.gif) no-repeat center !important;
+}
+
+#main #store-news form label {
+  cursor: default;
+}
+
+
+#tabs li.disabled a {
+  opacity:0.4;
+  filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+#tabs li.disabled a:hover {
+  opacity:0.4;
+  filter:alpha(opacity=40); /* For IE8 and earlier */
+  cursor: default;
+}
+
+#storelist {
+  margin-left: 30px; 
+  margin-bottom: 50px;
+}
+
+#storelist strong {
+  padding: 0 !important;
+  font-weight: bold;
+}
+
+#storelist li {
+  background-color: #EAEDE7; 
+  padding: 5px;
+  margin-bottom: 2px;
+}
+
+#storelist li:hover {
+  background-color: #C1C1C1;
+  cursor: pointer;
+}
+
+#sl_login {
+    margin-top: 8px;
+}
+
+.admin_form input[type="text"],
+.admin_form input[type="password"],
+.admin_form input[type="submit"],
+.admin_form label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.admin_form label {
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.admin_form label[for="signin__csrf_token"] {
+    display: none;
+}
+
+.admin_form input[type="text"],
+.admin_form input[type="password"] {
+    color: #555555;
+    border-radius: 4px 4px 4px 4px;
+    display: inline-block;
+    height: 20px;
+    width: 206px;
+    margin-bottom: 8px;
+    padding: 4px 6px;
+    vertical-align: middle;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+
+.admin_form input[type="text"]:focus,
+.admin_form input[type="password"]:focus {
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: 01px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+    outline: 0 none;
+}
+
+.admin_form input[type="checkbox"] {
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+    margin-left: 5px;
+}
+
+.admin_form input[type="submit"] {
+    background-color: #F5F5F5;
+    background-image: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+    background-repeat: repeat-x;
+    border-radius: 4px 4px 4px 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    margin: 2px 0 0 0;
+    padding: 4px 12px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+}
+
+.admin_form input[type="submit"]:hover {
+    background-color: #E6E6E6;
+    background-position: 0 -15px;
+}
+
+.admin_form .error_list {
+    list-style: disc;
+    color: #DA2A28;
+    margin: 0 0 5px 15px;
+}
+
+.admin_form .error_list li {
+    
+}
+
+
+
+
+.closed {
+  background-color: #F4B0B0 !important;
+}
+
+
+
+
+.sprite-menu li a.home span {
+    width: 50px;
+    background-position: -429px 2px;
+}
+.sprite-menu li a.home.current span,
+.sprite-menu li a.home:hover span {
+    background-position: -429px -19px;
+}
+
+
+.sprite-menu li a.logout span {
+    width: 60px;
+    background-position: -371px 2px;
+}
+.sprite-menu li a.logout.current span,
+.sprite-menu li a.logout:hover span {
+    background-position: -371px -19px;
+}
+
+
+
+.sprite-tabs li a.addstore span {
+    width: 148px;
+    background-position: -495px 0;
+}
+.sprite-tabs li a.addstore.current span,
+.edit .sprite-tabs li a.addstore:hover span {
+    background-position: -495px bottom;
+}
+
+
+.gmnoprint a {
+  display: none;
+}

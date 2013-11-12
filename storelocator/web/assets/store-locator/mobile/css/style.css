@@ -1,0 +1,512 @@
+/* animation */
+.slider .slide.in {
+    -webkit-animation: slideinfromright 0.5s ease-in-out 0s alternate forwards;
+}
+
+.slider .slide.out {
+    -webkit-animation: slideouttoleft 0.5s ease-in-out 0s alternate forwards;
+}
+
+@-webkit-keyframes slideinfromright {
+    from { -webkit-transform: translateX(0%); }
+    to { -webkit-transform: translateX(-100%); }
+}
+@-webkit-keyframes slideouttoleft {
+    from { -webkit-transform: translateX(-100%); }
+    to { -webkit-transform: translateX(0%); }
+}
+
+html {
+    -webkit-text-size-adjust: none;
+}
+
+#store-locator-mobile h2,
+#store-locator-mobile h3,
+#store-locator-mobile h4,
+#store-locator-mobile p {
+    font-style: italic;
+    font-weight: normal;
+}
+
+#store-locator-mobile h3,
+#store-locator-mobile h4 {
+    display: inline;
+}
+
+#store-locator-mobile h3 {
+    color: #de0029;
+}
+
+#store-locator-mobile h4 {
+    margin: 0 0 0 15px;
+}
+
+#store-locator-mobile {
+    color: #fff;
+    font-family: "Anton", Helvetica, Arial, Sans-serif;
+    background: #7d7d7d;
+}
+
+#store-locator-mobile #google-map {
+    position: relative;
+}
+
+#store-locator-mobile #google-map #map {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#store-locator-mobile #bubble {
+    width: 95%;
+    height: 85%;
+    margin: 2.5%;
+    padding: 95px 0 0 0;
+    color: #1c1c1c;
+    font-family: 'Baskerville Italic', 'Palatino Italic', 'Times new roman', "Palatino", serif;
+    background: #fff url('../img/marker.png') no-repeat 30px 25px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#store-locator-mobile #bubble .btn-close-bubble {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+}
+
+#store-locator-mobile #bubble .block {
+    padding: 30px 30px;
+    border-top: none;
+    border-bottom: 1px solid #bababa;
+    overflow: hidden;
+}
+
+#store-locator-mobile #bubble .address {
+    height: 428px;
+    padding: 85px 30px 25px;
+}
+
+#store-locator-mobile #bubble h3,
+#store-locator-mobile #bubble h4 {
+    font-size: 60px;
+}
+
+#store-locator-mobile #bubble h2 {
+    font-size: 70px;
+}
+
+#store-locator-mobile #bubble p {
+    font-size: 50px;
+}
+
+#store-locator-mobile .section-header {
+    height: 100px;
+    padding: 20px 15px;
+    background: #de0029;
+    overflow: hidden;
+}
+
+#store-locator-mobile .info {
+    width: 230px;
+    float: right;
+}
+
+#store-locator-mobile .info h3 {
+    margin: 23px 0 0 0;
+    color: #fff;
+    font-size: 32px;
+    font-style: normal;
+    float: left;
+}
+
+#store-locator-mobile .info .km {
+    margin: -3px 0 -10px 0;
+    padding: 0 0 15px;
+    color: #000;
+    text-align: center;
+    font-family: 'Baskerville Italic', 'Palatino Italic', 'Times new roman', "Palatino", serif;
+    background: transparent url('../img/arrow-down.gif') no-repeat center bottom;
+    float: right;
+}
+
+#store-locator-mobile .info .km strong,
+#store-locator-mobile .info .km span {
+    width: 74px;
+    font-weight: normal;
+    background: #fff;
+    display: block;
+    position: relative;
+}
+
+#store-locator-mobile .info .km strong {
+    height: 38px;
+    margin: 0 0 -2px 0;
+    padding: 8px 0 0 0;
+    line-height: 38px;
+    font-size: 45px;
+    float: left;
+}
+
+#store-locator-mobile .info .km span {
+    margin: 0 0 -1px 0;
+    padding: 0 0 4px 0;
+    color: #a1a1a1;
+    font-size: 38px;
+    clear: both;
+}
+
+#store-locator-mobile .btn-store-finder {
+    margin: 15px 0 0 0;
+    float: left;
+}
+
+#store-locator-mobile .btn-close-store-finder {
+    margin: 18px 0 0 0;
+    float: right;
+    display: none;
+}
+
+#store-locator-mobile form {
+    text-align: center;
+    overflow: hidden;
+}
+
+#store-locator-mobile form fieldset {
+    margin: 0 0 50px 0;
+    text-align: left;
+}
+
+#store-locator-mobile form label {
+    padding: 15px 25px;
+    font-size: 40px;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #5a5a5a;
+}
+
+#store-locator-mobile form label:first-child {
+    border-top: none;
+}
+
+#store-locator-mobile form input {
+    margin: 50px 0;
+}
+
+#store-locator-mobile form label span,
+#store-locator-mobile form label select {
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    display: block;
+}
+
+#store-locator-mobile form label select {
+    height: 44px;
+    font-size: 30px;
+    border: 2px solid #7d7d7d;
+    position: relative; /* fix webkit */
+}
+
+#store-locator-mobile form label select.error {
+    border: 2px solid #de0029;
+}
+
+#store-locator-mobile #store-list .list {
+    font-family: 'Baskerville Italic', 'Palatino Italic', 'Times new roman', "Palatino", serif;
+    overflow: hidden;
+}
+
+#store-locator-mobile #store-list .list li {
+    margin: 20px;
+    padding: 15px;
+    color: #1c1c1c;
+    background: #fff;
+}
+
+#store-locator-mobile #store-list .list li h3,
+#store-locator-mobile #store-list .list li h4 {
+    font-size: 44px;
+}
+
+#store-locator-mobile #store-list .list li h2 {
+    font-size: 55px;
+}
+
+#store-locator-mobile #store-list .list li p {
+    font-size: 40px;
+    display: block;
+}
+
+/* shared */
+#store-locator-mobile .btn-route,
+#store-locator-mobile .btn-call {
+    width: 100%;
+    line-height: 116px;
+    color: #fff;
+    text-align: center;
+    display: block;
+}
+
+#store-locator-mobile .btn-route {
+    margin: 20px 0 0 0;
+    font-size: 53px;
+    font-style: normal;
+    font-family: "Anton", Helvetica, Arial, Sans-serif;
+    background: #de0029;
+}
+
+#store-locator-mobile .btn-call {
+    font-size: 55px;
+    font-style: italic;
+    background: #868686;
+}
+
+#store-locator-mobile .btn-find-store {
+    width: 94%;
+    line-height: 116px;
+    margin: 0 auto;
+    color: #000;
+    text-align: center;
+    font-size: 53px;
+    font-style: normal;
+    font-family: "Anton", Helvetica, Arial, Sans-serif;
+    background: #fff;
+    border: 1px solid #c9c9c9;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    -webkit-appearance: none;
+    display: block;
+}
+
+#store-locator-mobile .btn-store-finder {
+    padding: 5px 17px 5px 60px;
+    color: #fff;
+    font-size: 42px;
+    font-style: normal;
+    background: #000 url(../img/btn-magnifier.gif) no-repeat 17px center;
+}
+
+#store-locator-mobile .btn-slide-back {
+    margin: 15px 20px 0 0;
+    padding: 0 0 0 20px;
+    color: #fff;
+    font-size: 42px;
+    font-style: normal;
+    background: transparent url(../img/btn-back.gif) no-repeat left center;
+    display: inline-block;
+}
+
+#store-locator-mobile .btn-slide-back span {
+    padding: 5px 15px;
+    background: #000;
+    display: block;
+}
+
+#store-locator-mobile .breadcrumb {
+    font-size: 42px;
+    font-style: normal;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+#store-locator-mobile .breadcrumb strong {
+    font-weight: normal;
+}
+
+#store-locator-mobile .slider {
+    height: 140px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#store-locator-mobile .slider .slide {
+    width: 100%;
+    margin: 0 0 0 -4px;
+    vertical-align: top;
+    white-space: normal;
+    display: inline-block;
+}
+
+#store-locator-mobile .slider .slide:first-child {
+    margin: 0;
+}
+
+#footer #footer_top {
+    background: #de0029;
+    border-top: 1px solid #fff;
+}
+
+
+@media only screen and (orientation:portrait) {
+    #store-locator-mobile #google-map {
+        height: 1000px;
+    }
+    
+    #store-locator-mobile .slider.close {
+        height: 140px !important;
+    }
+    
+    #store-locator-mobile .slider .slide .content {
+        min-height: 660px;
+    }
+}
+
+@media only screen and (orientation:landscape) {
+    #store-locator-mobile .slider .slide .content {
+        min-height: 660px;
+    }
+    
+    #store-locator-mobile #google-map {
+        height: 325px;
+    }
+    
+    #store-locator-mobile #bubble {
+        height: 65%;
+    }
+    
+    #store-locator-mobile #bubble .block {
+        padding: 0 30px;
+        border: none;
+    }
+    
+    #store-locator-mobile #bubble .address {
+        height: 190px;
+        margin: -80px 0 0 0;
+        padding: 0 80px 0 160px;
+    }
+    
+    #store-locator-mobile #bubble h3,
+    #store-locator-mobile #bubble h4 {
+        font-size: 40px;
+    }
+    
+    #store-locator-mobile #bubble h2 {
+        font-size: 50px;
+    }
+    
+    #store-locator-mobile #bubble p {
+        font-size: 30px;
+    }
+    
+    #store-locator-mobile #bubble .btn-call,
+    #store-locator-mobile #bubble .btn-route {
+        width: 49%;
+        line-height: 70px;
+        margin: 0;
+        font-size: 30px;
+    }
+    
+    #store-locator-mobile #bubble .btn-call {
+        float: left;
+    }
+    
+    #store-locator-mobile #bubble .btn-route {
+        float: right;
+    }
+    
+    #store-locator-mobile .section-header {
+        height: 70px;
+        padding: 15px;
+    }
+    
+    #store-locator-mobile .slider.close {
+        height: 100px !important;
+    }
+    
+    #store-locator-mobile .btn-store-finder {
+        margin: 5px 0 0 0;
+        padding: 5px 17px 5px 60px;
+        color: #fff;
+        font-size: 32px;
+        font-style: normal;
+        background: #000 url(../img/btn-magnifier.gif) no-repeat 17px center;
+    }
+    
+    #store-locator-mobile .info h3 {
+        margin: 13px 0 0 0;
+        font-size: 27px;
+    }
+    
+    #store-locator-mobile .info {
+        width: 190px;
+    }
+    
+    #store-locator-mobile .info .km strong,
+    #store-locator-mobile .info .km span {
+        width: 54px;
+        position: relative;
+    }
+    
+    #store-locator-mobile .info .km strong {
+        height: 23px;
+        font-size: 30px;
+        line-height: 23px;
+        z-index: 10;
+    }
+    
+    #store-locator-mobile .info .km span {
+        font-size: 23px;
+    }
+    
+    #store-locator-mobile form fieldset {
+        margin: 0 0 30px 0;
+    }
+    
+    #store-locator-mobile form label {
+        font-size: 30px;
+    }
+    
+    #store-locator-mobile form label select {
+        font-size: 25px;
+        height: 34px;
+    }
+    
+    #store-locator-mobile .btn-route,
+    #store-locator-mobile .btn-call {
+        line-height: 108px;
+    }
+    
+    #store-locator-mobile .btn-route {
+        font-size: 43px;
+    }
+    
+    #store-locator-mobile .btn-call {
+        font-size: 45px;
+    }
+    
+    #store-locator-mobile .btn-find-store {
+        font-size: 43px;
+        line-height: 108px;
+    }
+    
+    #store-locator-mobile .btn-slide-back {
+        margin: 0 20px 0 0;
+        font-size: 32px;
+    }
+    
+    #store-locator-mobile .btn-slide-back span {
+        line-height: 60px;
+    }
+    
+    #store-locator-mobile .breadcrumb {
+        font-size: 32px;
+    }
+    
+    #store-locator-mobile #store-list .list li h3,
+    #store-locator-mobile #store-list .list li h4 {
+        font-size: 36px;
+    }
+    
+    #store-locator-mobile #store-list .list li h2 {
+        font-size: 48px;
+    }
+    
+    #store-locator-mobile #store-list .list li p {
+        font-size: 32px;
+        display: block;
+    }
+}

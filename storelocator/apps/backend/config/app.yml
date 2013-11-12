@@ -1,0 +1,47 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# default values
+all:
+  sf_admin_dash:
+    web_dir:                      /sfAdminDashPlugin
+    image_dir:                    /sfAdminDashPlugin/images/icons/
+    default_image:                config.png
+    resize_mode:                  thumbnail
+    site:                         Diesel Store Locator Admin
+    include_path:                 true
+    include_jquery_no_conflict:   false
+    logout:                       true
+    login_route:                  '@sf_guard_signin'
+    logout_route:                 '@sf_guard_signout'
+    categories:
+      Users:
+        items: 
+          Users:
+            url: sf_guard_user
+          Groups:
+            url: sf_guard_group
+          Permissions:
+            url: sf_guard_permission
+      Stores:
+        items: 
+          Stores:
+            url: sl_store
+          News:
+            url: sl_store_news
+      Localization:
+        items: 
+          World Areas:
+            url: sl_world_area
+          Countries:
+            url: sl_country
+          Cities: 
+            url: sl_city
+      Store Datas: 
+        items:
+          Store Types:
+            url: sl_store_type
+          Store Statuses:
+            url: sl_store_status
+          Product Line:
+            url: sl_product_line

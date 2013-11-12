@@ -1,0 +1,78 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /
+  param: { module: storeadmin, action: index }
+
+homepage_newstore:
+  url:   /store-added
+  param: { module: storeadmin, action: index, storeadded: true }
+
+help:
+  url: /help
+  param: { module: storeadmin, action: prehelpfaq }
+  
+faq:
+  url: /faq
+  param: { module: storeadmin, action: faq }
+support:
+  url: /support
+  param: { module: storeadmin, action: support }
+
+refreshNews: 
+  url: /refreshNews/:slug
+  param: { module: storeadmin, action: refreshNews}
+
+
+sf_guard_signin:
+  url:   /login
+  param: { module: sfGuardAuth, action: signin }
+
+sf_guard_signout:
+  url:   /logout
+  param: { module: sfGuardAuth, action: signout }
+
+newstore:
+  url: /add-store
+  param: {module: storeadmin, action: newStore }
+
+getcities: 
+  url: /getcities/:country_id
+  param: {module: storeadmin, action: getCities }
+
+getcities_nopar: 
+  url: /getcities
+  param: {module: storeadmin, action: getCities }
+  
+  
+editstorenopar: 
+  url: /edit-store
+  param: {module: storeadmin, action: editStore }
+
+editstore: 
+  url: /edit-store/:slug
+  param: {module: storeadmin, action: editStore }
+
+
+sf_guard_forgot_password_change:
+  url:   /forgot_password/:unique_key
+  class: sfDoctrineRoute
+  options: { model: sfGuardForgotPassword, type: object }
+  param: { module: sfGuardForgotPassword, action: change }
+  requirements:
+    sf_method: [get, post]
+
+sf_guard_forgot_password:
+  url:   /forgot_password
+  param: { module: sfGuardForgotPassword, action: index }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

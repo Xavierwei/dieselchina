@@ -1,0 +1,116 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+itemsmap:
+  url:   /store-locator/itemsmap.xml
+  param: { module: itemsMap, action: itemsMapXml }
+
+homepage:
+  url:   /store-locator/
+  param: { module: locator, action: index }
+
+homepage_home:
+  url:   /store-locator/home
+  param: { module: locator, action: index }
+  
+homepage_mobile:
+  url:   /store-locator/mobile
+  param: { module: locator, action: indexMobile }
+  
+get_around_me:
+  url:   /store-locator/get-around-me/:lat/:lng
+  param: { module: locator, action: getAroundMeStores }
+  
+get_around_me_no_param:
+  url:   /store-locator/get-around-me
+  param: { module: locator, action: getAroundMeStores }
+  
+print:
+  url: /store-locator/print
+  param: { module: locator, action: print }
+
+ajax_edit_store_link:
+  url:   /store-locator/ajax/can-edit/store/:id/:slug
+  param: { module: locator, action: getEditLink }
+
+store_edit_data:
+  url:   /store-locator/store/:id/:slug/edit-data
+  param: { module: locator, action: editStoreInfo }
+  
+store_edit_data_confirm:
+  url:   /store-locator/store/:id/:slug/edit-data/confirm
+  param: { module: locator, action: editStoreInfoConfirm }
+  
+store_detail:
+  url:   /store-locator/store/:id/:slug
+  param: { module: locator, action: storeDetail }
+  
+store_detail_id:
+  url:   /store-locator/store/:id
+  param: { module: locator, action: storeDetail }
+
+store_finder:
+  url:   /store-locator/finder
+  param: { module: locator, action: storeFinder }
+
+stores_country:
+  url:   /store-locator/stores/:country
+  param: { module: locator, action: storeFinder }
+  
+stores_country_city:
+  url:   /store-locator/stores/:country/:city
+  param: { module: locator, action: stores }
+  
+store_list:
+  url:   /store-locator/list
+  param: { module: locator, action: storeList }
+
+facebook_home:
+  url:   /store-locator/facebook/splash
+  param: { module: locator, action: facebookSplash }
+
+
+facebook_home_kid:
+  url:   /store-locator/facebook/splash/kid
+  param: { module: locator, action: facebookSplash, kid: true }
+
+facebook_store:
+  url:   /store-locator/facebook/store
+  param: { module: locator, action: facebookStore }
+
+facebook_detail:
+  url:   /store-locator/facebook/store/:id/:slug
+  param: { module: locator, action: facebookStore }
+
+facebook_finder:
+  url:   /store-locator/facebook/finder
+  param: { module: locator, action: facebookFinder }
+
+get-countries:
+  url:   /store-locator/get-countries
+  param: { module: locator, action: getCountries }
+
+get-cities:
+  url:   /store-locator/get-cities
+  param: { module: locator, action: getCities }
+
+get-stores:
+  url:   /store-locator/get-stores
+  param: { module: locator, action: getStores }
+
+get-markers:
+  url:   /store-locator/get-markers
+  param: { module: locator, action: getStores }
+  
+get-closest:
+  url:   /store-locator/get-closests-city-stores/:lat/:lng
+  param: { module: locator, action: getClosestsCityStores }
+  options:
+    segment_separators: ['/']
+
+      
+get-closest-type:
+  url:   /store-locator/get-closests-city-stores/:lat/:lng/:type
+  param: { module: locator, action: getClosestsCityStores }
+  options:
+    segment_separators: ['/']

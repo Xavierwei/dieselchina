@@ -1,0 +1,54 @@
+SlProductLine:
+  Diesel:
+    name: Diesel
+    ord: 10
+  DBG:
+    name: Diesel Black Gold
+    ord: 20
+  Kid:
+    name: Diesel Kid
+    ord: 30
+  Accessories:
+    name: Accessories
+    ord: 40
+  Home:
+    name: Diesel Home
+    ord: 50
+
+SlStoreStatus:
+  Open: 
+    name: Open
+  Closed:
+    name: Closed
+  Pending:
+    name: Pending Open
+
+SlStoreType:
+  Flagship:
+    name: Flagship
+    ord: 10
+  Diesel:
+    name: Diesel
+    ord: 20
+  Corner:
+    name: Corner
+    ord: 30
+  Outlet:
+    name: Outlet
+    ord: 40
+
+SlWorldArea:
+  Asia:
+    name: Asia
+  ME:
+    name: Middle East
+  WE: 
+    name: West Europe
+  EE:
+    name: East Europe
+  NA: 
+      name: North America
+  SA: 
+    name: South America
+  Oceania: 
+    name: Oceania

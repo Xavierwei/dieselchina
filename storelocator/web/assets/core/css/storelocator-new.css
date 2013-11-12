@@ -1,0 +1,206 @@
+div.store-new {
+    color: #D1A458;
+    overflow: hidden;
+}
+
+div.store-new .store-detail {
+    width: 320px;
+    display: inline;
+    float: left;
+}
+
+div.store-new .store-title,
+div.store-new .store-address,
+div.store-new .store-hour,
+div.store-new .store-finder {
+    padding: 20px;
+    background: #000;
+    clear: both;
+    _zoom: 1;
+}
+
+div.store-new .store-title {
+    margin: 0 0 10px 0;
+}
+
+div.store-new .store-address {
+    overflow: hidden;
+    padding-bottom: 60px;
+    background: #000 url(../img/hdot_brown_bg_black.gif) repeat-x bottom left;
+    position: relative;
+}
+
+div.store-new .store-address a,
+div.store-new .store-address a:active,
+div.store-new .store-address a:visited {
+    color: #D1A458;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: normal;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+div.store-new a.arrow-pink-bg-black {
+	background: url(../img/arrow_brown_bg_black.gif) no-repeat 100% 0.45em;
+}
+
+div.store-new .store-hour {
+    overflow: hidden;
+}
+
+div.store-new .store-finder {
+    margin: 5px 0 0 0;
+    height: 30px;
+    padding: 10px 20px 0 20px;
+}
+
+div.store-new .icon-location {
+    padding: 0 0 0 40px;
+    background-image:  url(../img/icon-location.gif);
+    background-repeat: no-repeat;
+    background-position: left 8px;
+}
+
+div.store-new .icon-open-time {
+    padding: 0 0 0 40px;
+    background-image:  url(../img/icon-clock.gif);
+    background-repeat: no-repeat;
+    background-position: left 6px;
+}
+
+div.store-new .store-detail h1,
+div.store-new .store-detail h2,
+.store-filter h2 {
+    font-family: "Placard Bold Condensed";  
+    text-transform: uppercase;
+}
+div.store-new .store-detail h1 { line-height: 46px; font-size: 54px; letter-spacing: -2px; overflow: hidden; }
+div.store-new .store-detail h2 { font-size: 40px; letter-spacing: -1px; overflow: hidden; }
+
+div.store-new address { 
+    font-size: 18px;
+    width: 100%;
+    width: 195px;
+    padding-right: 25px;
+    float:left;
+    display: inline;
+}
+
+div.store-new address span {
+    color: #fff;
+    display: block;
+    overflow: hidden;
+}
+
+div.store-new #map_canvas {
+    width: 640px;
+    height: 580px;
+    display: inline;
+    float: right;
+}
+
+div.store-new #cs {
+    width: 980px;
+    margin: 10px 0 0 0;
+    padding: 0;
+    clear: both;
+}
+
+div.store-new #ls,
+div.store-new #ls .store-finder {
+    width: 320px;
+    height: auto;
+}
+
+div.store-new #ls .store-finder .content {
+    min-height: 489px;
+    height: auto !important;
+    height: 489px;
+    padding: 20px;
+    background: #fff;
+}
+
+div.store-new #ls .store-finder {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background: #fff;
+}
+
+div.store-new #cs .content {
+    width: 940px;
+    color: #000;
+}
+
+div.store-new #cs .content .news-preview {
+    width: 940px;
+    padding: 25px 0;
+    overflow: hidden;
+    clear: both;
+}
+
+div.store-new #cs .content a {
+    margin: 20px 10px 0 0;
+    display: inline;
+    float: left;
+}
+
+div.store-new #cs .content .news-preview span {
+    display: block;
+}
+
+div.store-new #cs .content .news-preview a,
+div.store-new #cs .content .news-preview a:hover {
+    width: auto;
+    background: none;
+    display: inline;
+    float: right;
+}
+
+div.store-new #storeResults {
+    background: none;
+}
+
+div.store-new .store-filter {
+    margin: 0 0 20px 0;
+    overflow: hidden;
+}
+
+div.store-new .store-filter .radio-group {
+    width: 295px;
+    display: inline;
+    float: left;
+}
+
+div.store-new .store-filter .radio-group label {
+    width: 80px;
+    margin: 0 15px 5px 2px;
+    *margin: 0 8px 5px 2px;
+}
+div.store-new .store-filter .radio-group label.factory-outlet {
+	width: 130px;
+}
+
+div.store-new .store-filter label {
+    width: 60px;
+    display: inline;
+    float: left;
+}
+
+div.store-new #store-search select {
+    display: block;
+}
+
+div.store-new #storeResults .result {
+    overflow: hidden;
+}
+
+div.store-new #storeResults .result .btn,
+div.store-new #storeResults .result .btn:hover {
+    width: 130px;
+    height: 34px;
+    background: url(../img/btn-more-details-black.gif) no-repeat top left !important;
+    display: block;
+    clear: both;
+}

@@ -54,6 +54,7 @@
   font-size: 0;
 }
 #footer_main #footer_nav_container {
+  background: #fff;
   float: left;
   clear: both;
   display: inline;

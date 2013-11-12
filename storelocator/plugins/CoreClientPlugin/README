@@ -1,0 +1,19 @@
+Questo plugin permette di integrare il CoreClient in Symfony fornendo le interfacce necessarie.
+
+Pre-Requisiti:
+- Installare il CoreClient in /plugins/CoreClientPlugin/lib/vendor (usare svn:externals CoreClient http://subversion.h-art.it/diesel_webplatform/labs/CoreClient/trunk)
+
+Installazione:
+- Attivare il plugin in config/ProjectConfiguration.class.php:
+
+class ProjectConfiguration extends sfProjectConfiguration
+{
+  public function setup()
+  {
+    $this->enablePlugins(array(
+      'sfDoctrinePlugin', 
+      'CoreClientPlugin',
+      '...'
+    ));
+  }
+}

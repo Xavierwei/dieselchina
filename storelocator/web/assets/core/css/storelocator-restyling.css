@@ -1,0 +1,258 @@
+body,html {
+  background: #fff;
+}
+.layoutStoreLocator {
+  position: relative;
+  overflow:hidden;
+}
+.layoutStoreLocator .loader {
+  width: 30px;
+  height: 30px;
+  background: #DCDACE url(../img/loading.gif) no-repeat center center;
+  border-radius: 20px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-left: -15px;
+  margin-top: -200px;
+  line-height: 130px;
+  text-align:center;
+}
+
+.layoutStoreLocator .map {
+  width: 100%;
+  height: 453px; /* js */
+}
+.layoutStoreLocator .stores {
+  background: #f4f4f4;
+  height: 150px;
+  position:relative;
+}
+
+/* text overlay */
+.layoutStoreLocator .stores .textOverlay {
+  position:absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  background: #f4f4f4;
+  z-index:999;
+  text-align: center;
+  line-height: 110px;
+  font-weight: bold;
+}
+
+/* carousel */
+.layoutStoreLocator .stores .scrollable {
+  position: absolute;
+  left:65px;
+  right: 65px;
+  overflow:hidden;
+  height:100%;
+}
+.layoutStoreLocator .stores .items {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:5;
+  width:20000em;
+}
+.layoutStoreLocator .stores .items > div {
+  float:left;
+  width: 200px;
+}
+.layoutStoreLocator .stores .items > div a {
+  display:block;
+  width:180px;
+  padding-left: 10px;
+  padding-top: 18px;
+  height: 127px;
+  overflow:hidden;
+  font-size:13px;
+  line-height:17px\9;
+}
+.layoutStoreLocator .stores .items > div a:hover {
+  background: #e5e5e5;
+}
+.layoutStoreLocator .stores .items > div a strong {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  display:block;
+}
+.layoutStoreLocator .stores > a,
+.layoutStoreLocator .stores > span {
+  position:absolute;
+  top:0;
+  width: 65px;
+  height:100%;
+  background: url('../img/stores_arrows.gif') 0 0 no-repeat;
+}
+
+  .layoutStoreLocator .stores > a.prev {
+    left:0;
+    background-position: left 20px;
+  }
+  .layoutStoreLocator .stores > a.disabled {
+    left:0;
+    background-position: 0 -90px;
+  }
+  .layoutStoreLocator .stores > a.next {
+    right:0;
+    background-position: right 20px;
+  }
+  .layoutStoreLocator .stores > a.next.disabled {
+    display:none;
+  }
+  .layoutStoreLocator .stores > span.disable {
+    right:0;
+    background-position: right -90px;
+    z-index:100;
+    cursor: pointer;
+  }
+
+/* bottom block */
+.layoutStoreLocator .info {
+  padding: 10px 20px 0;
+  overflow:hidden;
+  background: #f4382f;
+}
+#footer #footer_top {
+  background: #f4382f;
+}
+
+.closestStore,
+.storeFinder {
+  float:left;
+  margin-right: 5px;
+}
+.storeFinder {
+  width:800px;
+}
+
+.layoutStoreLocator .info h2 {
+  font-family: "Anton",Helvetica,Arial,Sans-serif;
+  font-weight:normal;
+  font-size: 18px;
+  color:#fff;
+}
+.layoutStoreLocator .info h3 {
+  font: italic 1em baskerville,"Palatino Italic","Palatino Linotype", "Palatino", serif;
+  font-weight: bold;
+  
+  margin-bottom: 5px;
+}
+.layoutStoreLocator .info > div > div {
+  background: #f4f4f4;
+  margin-top:15px;
+  padding:25px 50px 10px 10px;
+  position:relative;
+  min-height:120px;
+  min-width: 260px;
+  font-size: 13px;
+}
+.layoutStoreLocator .closestStore > div {
+  padding-right: 50px;
+  cursor: pointer;
+}
+.layoutStoreLocator span.arrow {
+  border-color: transparent transparent #F4F4F4;
+  border-style: solid;
+  border-width: 0 8px 8px;
+  height: 0;
+  left: 15px;
+  position: absolute;
+  top: -7px;
+  width: 0;
+}
+.layoutStoreLocator .info form {
+  margin: 0;
+}
+.layoutStoreLocator .info .radio-group {
+  margin-bottom:20px;
+}
+.layoutStoreLocator .info .radio-group label{
+  margin-right: 20px;
+  margin-top: 3px;  
+}
+.layoutStoreLocator select {
+  display:block;
+  margin-top:10px;
+  width: 200px;
+}
+
+#footer_top #diesel_piva,
+#footer #footer_top a {
+  color: #fff;
+}
+
+
+/* MAP */
+
+.diesel_info_window { background: #ffffff }
+
+.dieseltext {
+  color: #000;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 4px 45px 4px 15px;
+  font-weight: bold;
+}
+
+.infoBubble_wr {
+  margin: -5px 0 0 0;
+}
+
+.infoBubble_wr div + img + div {
+  overflow: visible !important;
+  height: auto !important;
+}
+
+.diesel_info_window .content {
+  margin: 0 20px 20px;
+}
+
+.diesel_info_window .content a.print {
+  display: inline-block;
+  padding: 5px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+}
+
+.diesel_info_window .content a.print {
+  *display: inline;
+}
+
+.bubble {
+  padding:20px;
+}
+.bubble strong {
+  text-transform: uppercase;
+}
+.bubble address {
+  margin: 15px 0 20px;
+}
+.bubble .print {
+  background: #000;
+  color: #fff;
+  font-family: "Anton",Helvetica,Arial,Sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+  margin-top:5px;
+  padding: 5px 10px;
+}
+      
+#footer_top #diesel_otb {
+  background: url("../img/link_otb_white.png") no-repeat scroll right 2px transparent;  
+}
+      
+
+
+.additional  {
+  display: none;
+}
+
+.bubble .additional {
+  display: block !important;
+}
