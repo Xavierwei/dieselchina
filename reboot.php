@@ -70,7 +70,6 @@
 
         <div class="block  cs-clear">
             <div class="col-left">
-                <!--<a class="left-content link-tumblr" href="http://dieselreboot.tumblr.com"  target="_blank"></a>-->
             </div>
             <div class="col-right">
                 <iframe class="video" width="670" height="377" src="http://player.youku.com/embed/XMzAxNzc2Mzc2" frameborder="0" allowfullscreen></iframe>
