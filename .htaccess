@@ -1,0 +1,12 @@
+RewriteEngine On
+
+
+
+
+RewriteCond %{HTTP_HOST} !^$
+RewriteRule store-locator/ /storelocator/web/index.php [QSA,L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule (.*) $1.php [L]

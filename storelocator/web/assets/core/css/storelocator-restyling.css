@@ -21,7 +21,8 @@ body,html {
 
 .layoutStoreLocator .map {
   width: 100%;
-  height: 453px; /* js */
+  height: 550px; /* js */
+  margin-top:60px;
 }
 .layoutStoreLocator .stores {
   background: #f4f4f4;
