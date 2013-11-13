@@ -12,9 +12,10 @@
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="./css/common.css" media="all" />
     <link rel="stylesheet" type="text/css" href="./css/skin.island.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="./css/mobile.css" media="only screen and (max-device-width: 480px)">
+    <!-- <link rel="stylesheet" type="text/css" href="./css/mobile.css" media="only screen and (max-device-width: 480px)"> -->
     <link rel="stylesheet" href="./css/font-gibson.css">
     <link rel="stylesheet" href="./css/heritage.css">
+    <link rel="stylesheet" type="text/css" href="./css/mobile640.css" media="screen and (max-width: 640px)">
     <script type="text/javascript" src="./js/modernizr.js"></script>
     <script type="text/javascript" src="./js/jquery-1.7.2.min.js"></script>
     <script type="text/javascript" src="./js/jquery.easing.1.3.js"></script>
@@ -46,12 +47,12 @@
         <div class="heritage_main">
             <div class="her_tit"> <img src="img/heritage/her_tit.png" /> </div>
             <div class="her_nav">
-                <a class="on" href="#her_com1"><img src="img/heritage/nav1.gif" alt="公司简介" /></a>
-                <a href="#her_com2"><img src="img/heritage/nav2.gif" alt="产品系列" /></a>
-                <a href="#her_com3" ><img src="img/heritage/nav3.gif" alt="集团概念" /></a>
-                <a href="#her_com4" ><img src="img/heritage/nav4.gif" alt="受众沟通" /></a>
-                <a href="#her_com5" ><img src="img/heritage/nav5.gif" alt="荣誉" /></a>
-                <a href="#her_com6" ><img src="img/heritage/nav6.gif" alt="历史" /></a>
+                <a class="on" href="#her_com1"><img src="img/heritage/nav1.gif" alt="公司简介" /><span>公司简介</span></a>
+                <a href="#her_com2"><img src="img/heritage/nav2.gif" alt="产品系列" /><span>产品系列</span></a>
+                <a href="#her_com3" ><img src="img/heritage/nav3.gif" alt="集团概念" /><span>集团概念</span></a>
+                <a href="#her_com4" ><img src="img/heritage/nav4.gif" alt="受众沟通" /><span>受众沟通</span></a>
+                <a href="#her_com5" ><img src="img/heritage/nav5.gif" alt="荣誉" /><span>荣誉</span></a>
+                <a href="#her_com6" ><img src="img/heritage/nav6.gif" alt="历史" /><span>历史</span></a>
             </div>
             <div class="her_com" id="her_com1">
                 <div class="cs-clear">

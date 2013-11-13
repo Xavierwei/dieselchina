@@ -12,9 +12,10 @@
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="./css/common.css" media="all" />
     <link rel="stylesheet" type="text/css" href="./css/skin.island.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="./css/mobile.css" media="only screen and (max-device-width: 480px)">
+    <!-- <link rel="stylesheet" type="text/css" href="./css/mobile.css" media="only screen and (max-device-width: 480px)"> -->
     <link rel="stylesheet" href="./css/font-gibson.css">
     <link rel="stylesheet" href="./css/screen.css">
+    <link rel="stylesheet" type="text/css" href="./css/mobile640.css" media="screen and (max-width: 640px)">
     <script type="text/javascript" src="./js/modernizr.js"></script>
     <script type="text/javascript" src="./js/jquery-1.7.2.min.js"></script>
     <script type="text/javascript" src="./js/jquery.easing.1.3.js"></script>

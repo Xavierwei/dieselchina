@@ -156,26 +156,43 @@ jQuery(document).ready(function() {
       $(this).find('.weixin_qr').fadeOut();
   });
 
+  //mobile640
+  if( $(window).width() <= 640 ){
+    var srcurl;
+    for( var i = 0 ; i < $('.her_pho').length ; i++  ){
+      srcurl = $('.her_pho').eq(i).attr('data-src')
+      $('.her_pho').eq(i).html('<img src="'+ srcurl +'" />')
+    }
+  }
+
   // heritage navigation
   $('.her_nav a').click(function(e) {
-      e.preventDefault();
-      $('.heritage_main').height($('.heritage_main').height());
-      var target = $(this).attr('href');
-      $('.her_com').fadeOut(400);
-      $('.her_pho').css({opacity:0});
-      $(target).delay(400).fadeIn(function(){
-          var boxHeight = $(target).height() + $('.her_tit').height() + $('.her_nav').height() + 72;
-          $('.heritage_main').animate({height:boxHeight},300);
-          $(target).find('.her_pho').animate({opacity:1});
-          $(target).find('.her_pho').each(function() {
-              if(!$(this).find('.backstretch').length) {
-                  var img = $(this).data('src');
-                  $(this).backstretch(img);
-              }
-          });
-      });
+      
+      //mobile640
+      if( $(window).width() <= 640 ){
+        
+      }else{
+        e.preventDefault();
+        $('.heritage_main').height($('.heritage_main').height());
+        var target = $(this).attr('href');
+        $('.her_com').fadeOut(400);
+        $('.her_pho').css({opacity:0});
+        $(target).delay(400).fadeIn(function(){
+            var boxHeight = $(target).height() + $('.her_tit').height() + $('.her_nav').height() + 72;
+            $('.heritage_main').animate({height:boxHeight},300);
+            $(target).find('.her_pho').animate({opacity:1});
+            $(target).find('.her_pho').each(function() {
+                if(!$(this).find('.backstretch').length) {
+                    var img = $(this).data('src');
+                    $(this).backstretch(img);
+                }
+            });
+        });  
+      }
+
       $('.her_nav a').removeClass('on');
       $(this).addClass('on');
+      
   });
 
   $('#her_com1').find('.her_pho').each(function() {

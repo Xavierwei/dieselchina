@@ -10,6 +10,7 @@ body{background: #f4f4f4;font-style: normal;}
 .her_tit{background: #000;height:46px; padding:14px 0 0 20px;}
 .her_nav{background: #323232;height: 38px;border:#3c3c3c solid;border-width: 1px 0;}
 .her_nav a{color:#fff;font-family: Arial,"Microsoft YaHei",STHeiti;font-size: 18px;line-height: 28px;display: inline-block;margin:4px 20px;border-bottom: #323232 solid 1px}
+.her_nav a span{display: none;}
 .her_nav a img {display: block;margin:5px 0;}
 .her_nav a:link,
 .her_nav a:visited,
