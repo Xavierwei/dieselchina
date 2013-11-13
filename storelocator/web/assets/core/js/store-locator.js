@@ -86,6 +86,19 @@ $(document).ready(function(){
     }, function() {
         $(this).find('.weixin_qr').fadeOut();
     });
+
+    $('#header #menu').click(function(){
+        if( $(window).width() <= 640 ){
+            if($('#header #menu').css('overflow') != 'visible')
+            {
+                $('#header #menu').css('overflow','visible');
+            }
+            else
+            {
+                $('#header #menu').css('overflow','hidden');
+            }
+        }
+    });
 	
 });
 	

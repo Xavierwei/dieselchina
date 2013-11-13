@@ -54,7 +54,7 @@ class SlStoreBusiness {
       ->fetchArray();
 
     $res = array();
-    $res[] = 'All Cities';
+    $res[] = '所有城市';
     foreach ($cities as $city) {
       $res[$city["id"]] = ucwords(strtolower($city["name"]));
     }//foreach

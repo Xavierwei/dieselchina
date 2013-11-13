@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-    <meta name="viewport" content="width=1060, user-scalable=no" />
+    <meta name="viewport" content="width=640, user-scalable=no" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="title" content="Diesel - jeans, clothing, shoes, watches, apparel, underwear and sunglasses" />
     <meta name="description" content="Diesel&#039;s Fall Winter 2013 Main Collection and the Fall Winter Preview Collection." />
@@ -47,7 +47,7 @@
         <div class="block cs-clear">
             <div class="col-left"></div>
             <div class="col-right">
-                <img  src="img/diesel-reboot-logo-CN.gif" />
+                <img class="title" src="img/diesel-reboot-logo-CN.gif" />
                 <div class="reboot_com">
                     <p>欢迎来到 <span>DIESEL</span> 全新活动:#满血复活#正式开启!</p>
                     <p>#满血复活#是 Nicola Formichetti 担任  <span>DIESEL</span> 全球艺术总监以来,发起的首项活动。</p>
@@ -72,7 +72,7 @@
         <div class="block  cs-clear">
             <div class="col-left">
             </div>
-            <div class="col-right">
+            <div class="col-right video_wrap">
                 <iframe class="video" width="640" height="360" src="video.php?id=1" frameborder="0" allowfullscreen></iframe>
                 <div class="line-square"></div>
             </div>
@@ -82,7 +82,7 @@
             <div class="col-left">
                 <img class="left-content" src="img/action1.png" />
             </div>
-            <div class="col-right">
+            <div class="col-right video_wrap">
                 <iframe class="video" width="640" height="360" src="video.php?id=2" frameborder="0" allowfullscreen></iframe>
                 <div class="line-square"></div>
             </div>
@@ -92,7 +92,7 @@
             <div class="col-left">
                 <img class="left-content" src="img/action3.png" />
             </div>
-            <div class="col-right">
+            <div class="col-right video_wrap">
                 <iframe class="video" width="640" height="360" src="video.php?id=3" frameborder="0" allowfullscreen></iframe>
                 <div class="line-square"></div>
             </div>
@@ -102,7 +102,7 @@
             <div class="col-left">
                 <img class="left-content" src="img/action4.png" />
             </div>
-            <div class="col-right">
+            <div class="col-right video_wrap">
                 <iframe class="video" width="640" height="360" src="video.php?id=4" frameborder="0" allowfullscreen></iframe>
                 <div class="line-square"></div>
             </div>

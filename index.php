@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-    <meta name="viewport" content="width=1060, user-scalable=no" />
+    <meta name="viewport" content="width=640, user-scalable=no" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="title" content="Diesel - jeans, clothing, shoes, watches, apparel, underwear and sunglasses" />
     <meta name="description" content="Diesel&#039;s Fall Winter 2013 Main Collection and the Fall Winter Preview Collection." />
@@ -47,10 +47,10 @@
 <div id="cnt">
     <div id="homepage">
         <!-- ROW -->
-        <div class="row">
+        <div class="row m_full_row">
             <!-- COL -->
             <div class="col c1 c2 c1_2" data-master="2">
-                <img class="bg" src="img/home/dieseltribute.gif" />
+                <img class="bg" src="img/home/Dome_reveal.jpg" />
             </div>
             <!-- COL -->
             <div class="col c3 c4 c3_4 home_com1" data-color="#00131f">
@@ -65,7 +65,7 @@
         </div>
 
         <!-- ROW -->
-        <div class="row">
+        <div class="row m_full_row">
             <!-- COL -->
             <div class="col c1 c2 c1_2" data-master="2">
                 <img class="bg" src="img/home/about.jpg" />

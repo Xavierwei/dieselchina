@@ -18,10 +18,10 @@ class locatorActions extends sfActions
    */
   public function executeIndex(sfWebRequest $request)
   {
-    $browser = strpos($_SERVER['HTTP_USER_AGENT'], "iPhone");
-    if ($browser !== FALSE)  {
-      $this->redirect('@homepage_mobile'); 
-    }//if
+//    $browser = strpos($_SERVER['HTTP_USER_AGENT'], "iPhone");
+//    if ($browser !== FALSE)  {
+//      $this->redirect('@homepage_mobile');
+//    }//if
   
     $this->jsstorelocated = false;
     $this->getStore($request);

@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
-  	<meta name="viewport" content="width=1060" />
+      <meta name="viewport" content="width=640, user-scalable=no" />
   	
   	<?php if (has_slot('discovery_metas')):?>
   	  <?php include_slot('discovery_metas')?>
@@ -21,6 +21,7 @@
       <?php include_slot("head_stylesheets");?>
     <?php endif; ?>
     <?php include_cdn_javascripts() ?>
+      <link rel="stylesheet" type="text/css" href="/css/mobile640.css" media="screen and (max-width: 640px)">
       <!--[if IE 6]>
       <link rel="stylesheet" type="text/css" media="screen" href="/css/ie6.css" />
       <script type="text/javascript" src="/js/ie6.js"></script>

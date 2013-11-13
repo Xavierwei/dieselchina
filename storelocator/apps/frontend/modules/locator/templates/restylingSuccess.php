@@ -25,7 +25,7 @@
 
 
 <div class="layoutStoreLocator">
-  <div class="map" id="map">Mappa</div>
+  <div class="map" id="map"></div>
     
   <div class="stores">
     <a class="prev disabled" href="#"></a>
@@ -103,7 +103,7 @@
               });
             }
           <?php end_javascript_tag();?>
-          <?php echo $storesFinderForm['city']->render();?>
+          <?php echo $storesFinderForm['city']->render();?> <a class="other_country" href="http://www.diesel.com/store-locator" target="_blank">查找其他国家</a>
         </form>
         <span class="arrow"></span>
       </div>

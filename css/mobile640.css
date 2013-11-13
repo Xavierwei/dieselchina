@@ -9,21 +9,23 @@
 #header #menu ul li{display: block;float: none;background: #1c1c1c;padding:0;width: 360px;text-align: center;padding: 20px 0}
     .nav1{width:128px;}
     .nav2{width:100px;}
-    .nav3{width:148px;}
+    .nav3{width:155px;}
     .nav4{width:104px;}
-    .nav5{width:168px;}
+    .nav5{width:183px;}
     /**/
     .nav1{background: url('../img/mobile/nav1.png') no-repeat;}
     .nav2{background: url('../img/mobile/nav2.png') no-repeat;}
     .nav3{background: url('../img/mobile/nav3.png') no-repeat;}
     .nav4{background: url('../img/mobile/nav4.png') no-repeat;}
     .nav5{background: url('../img/mobile/nav5.png') no-repeat;}
-    .nav1:hover{background: url('../img/mobile/nav1_on.png') no-repeat;}
-    .nav2:hover{background: url('../img/mobile/nav2_on.png') no-repeat;}
-    .nav3:hover{background: url('../img/mobile/nav3_on.png') no-repeat;}
-    .nav4:hover{background: url('../img/mobile/nav4_on.png') no-repeat;}
-    .nav5:hover{background: url('../img/mobile/nav5_on.png') no-repeat;}
-#header #menu ul li a{height: 44px;padding:0 0;background-position: center;margin:0 auto;
+    .nav_f{background: url('../img/mobile/nav_f.png') no-repeat;width:69px;height:27px;}
+    .nav_m{background: url('../img/mobile/nav_m.png') no-repeat;width:69px;height:27px;}
+    .nav1:hover{background: url('../img/mobile/nav1.png') no-repeat;}
+    .nav2:hover{background: url('../img/mobile/nav2.png') no-repeat;}
+    .nav3:hover{background: url('../img/mobile/nav3.png') no-repeat;}
+    .nav4:hover{background: url('../img/mobile/nav4.png') no-repeat;}
+    .nav5:hover{background: url('../img/mobile/nav5.png') no-repeat;}
+#header #menu ul li a{height: 44px;padding:0 0;background-position: 0 0;margin:0 auto;
     /*background-size:cover;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;-ms-background-size:cover;*/}
     #header #menu li .sublevel{position: static;height:70px;padding-top:20px;width: 360px}
     #header #menu li .sublevel ul{opacity: 1}
@@ -41,6 +43,7 @@
 #right_links{position: absolute; top:30px;margin: 0;left:30px; }
 #right_links ul{display: none}
 #right_links ul.cl{display:block;}
+#footer_main #right_links {margin:25px 25px 0 70px;}
 #footer_main #right_links ul li{float:left;margin-right: 20px;}
 #footer_main #right_links ul li a.image_replacement{background: url('../img/mobile/footer_icon.png') no-repeat;height: 37px;}
 #footer_main #right_links ul li a.weibo{width:106px; }
@@ -49,7 +52,7 @@
 #footer_main #right_links ul li a.weixin{background-position: -360px 0;width: 84px;}
 #footer_main #right_links ul li a.instagram{background-position: -464px 0;width: 80px;}
 
-#footer_main #footer_nav_container{margin: 140px 0 0;height: 545px;overflow: hidden}
+#footer_main #footer_nav_container{margin: 140px 0 0;}
 #footer_nav_container .nav_column{width: 260px;}
 #footer_nav_container .nav_column ul li{font-size: 22px;line-height: 30px;}
 #footer_nav_container .nav_column ul li.category{font-size: 25px;}
@@ -58,9 +61,11 @@
 /* home cnt
 ========================================================================*/
 #cnt{min-width: 100%;overflow: hidden;padding: 108px 0 0}
-.grids.c1.c2, #homepage .c1.c2.col{width: 100%}
-.grids.c3.c4, #homepage .c3.c4.col{width: 100%}
-#homepage .row, #homepage .row .col{min-height: auto}
+.grids.c1.c2, #homepage .c1.c2.col{width: 100%;}
+.grids.c3.c4, #homepage .c3.c4.col{width: 100%;min-height:190px;}
+#homepage .m_full_row {height: auto!important;}
+#homepage .m_full_row .c1_2 {min-height:190px;}
+.home_arrow, #homepage .col .links li a {display: none;}
 .grids.c1, #homepage .c1.col{width: 52%}
 .grids.c2, #homepage .c2.col{width: 48%}
 .grids.c3, #homepage .c3.col{width: 52%}
@@ -74,13 +79,14 @@
 /* reboot
 ========================================================================*/
 #diesel-reboot{background: url('../img/mobile/reboot_img.jpg') no-repeat top center;padding:445px 0 0;width: 100%;}
+#diesel-reboot .video_wrap {height: 360px;overflow: hidden;}
 #diesel-reboot .col-right,
 #diesel-reboot .col-left{float:none;width: 100%}
 #diesel-reboot .col-left{text-align: center}
 #diesel-reboot .col-left img{padding:50px 0;
     transform: scale(1.5);-webkit-transform: scale(1.5);-moz-transform: scale(1.5);-ms-transform: scale(1.5);-o-transform: scale(1.5);}
 .reboot_com p{padding:10px 50px;}
-.col-right img{margin:0 0 20px 50px;}
+#diesel-reboot .col-right img.title {margin:0 auto 20px auto;display: block;}
 #diesel-reboot .meet-nicola-formichetti{padding:40px 0;}
 #diesel-reboot .meet-nicola-formichetti img{margin: 0;
     transform: scale(2);-webkit-transform: scale(2);-moz-transform: scale(2);-ms-transform: scale(2);-o-transform: scale(2);}
@@ -92,16 +98,16 @@
 .heritagebg{display: none}
 .heritage{padding: 0}
 .heritage_main{width: 100%}
-.her_tit{text-align: center;padding:20px 0 10px;}
+.her_tit{text-align: center;padding:40px 0 30px;}
 .her_tit img{
     transform: scale(1.3);-webkit-transform: scale(1.3);-moz-transform: scale(1.3);-ms-transform: scale(1.3);-o-transform: scale(1.3);}
-.her_nav a{width:200px;height:40px;margin:0;text-align: center;padding:12px 0 0;border: 0;opacity: 0.5}
+.her_nav a{width:200px;height:40px;margin:0;text-align: center;padding:22px 0 18px 0;border: 0;opacity: 0.5}
 
-.her_nav a span{display: block;font-size: 22px}
+.her_nav a span{display: block;font-size: 30px}
 .her_nav a img{display:none;}
 
 .her_nav a.on, .her_nav a:hover{border:none;opacity:1;}
-.her_nav{height: auto}
+.her_nav{height: auto;padding: 0;background:#323232 url(../img/mobile/sep.gif) no-repeat center;}
 .her_com{padding:0;display: block;border-bottom:#000 solid 15px;}
 .her_article{padding:30px 60px;font-size: 16px;color:#333;font-weight: normal;}
 .awards_month{width: 82px}
@@ -117,3 +123,13 @@
 #her_com6 .her_article:before{content:"历史";font-size: 42px;line-height: 60px}
 
 .her_pho6 img, .her_pho7 img{height: 100%;width: auto}
+
+.layoutStoreLocator .stores {height: 232px;}
+.layoutStoreLocator .stores .items > div {width:260px;}
+.layoutStoreLocator .stores .items > div a {font-size:23px;height:192px;width:250px;}
+
+.closestStore, .storeFinder {float: none;margin:0 0 30px 0;width:100%!important;}
+.layoutStoreLocator .info > div > div {font-size:23px;padding-left:30px;min-height: 200px;}
+.layoutStoreLocator select {font-size: 23px;}
+.layoutStoreLocator .stores > a, .layoutStoreLocator .stores > span {height: 100px;margin-top:50px;}
+.layoutStoreLocator .map {margin:0;}

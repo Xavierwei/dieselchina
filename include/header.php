@@ -18,8 +18,8 @@
                 <a href="#"  class="nav2" title="品牌系列"></a>
                 <div class="sublevel" id="menu_collections">
                     <ul>
-                        <li><a  target="_blank" href="http://www.diesel.com/female">Women's Collection</a></li>
-                        <li><a  target="_blank" href="http://www.diesel.com/male">Men's Collection</a></li>
+                        <li><a class="nav_f" target="_blank" href="http://www.diesel.com/female">Women's Collection</a></li>
+                        <li><a class="nav_m" target="_blank" href="http://www.diesel.com/male">Men's Collection</a></li>
                     </ul>
                 </div>
             </li>
