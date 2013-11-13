@@ -72,7 +72,7 @@
             <div class="col-left">
             </div>
             <div class="col-right">
-                <iframe class="video" width="670" height="377" src="http://player.youku.com/embed/XMzAxNzc2Mzc2" frameborder="0" allowfullscreen></iframe>
+                <iframe class="video" width="640" height="360" src="video.php?id=1" frameborder="0" allowfullscreen></iframe>
                 <div class="line-square"></div>
             </div>
         </div>
@@ -82,7 +82,7 @@
                 <img class="left-content" src="img/action1.png" />
             </div>
             <div class="col-right">
-                <iframe class="video" width="670" height="377" src="http://player.youku.com/embed/XMzQzNTE2NTg4" frameborder="0" allowfullscreen></iframe>
+                <iframe class="video" width="640" height="360" src="video.php?id=2" frameborder="0" allowfullscreen></iframe>
                 <div class="line-square"></div>
             </div>
         </div>
@@ -92,7 +92,7 @@
                 <img class="left-content" src="img/action3.png" />
             </div>
             <div class="col-right">
-                <iframe class="video" width="670" height="377" src="http://player.youku.com/embed/XMzQzNTE2NTg4" frameborder="0" allowfullscreen></iframe>
+                <iframe class="video" width="640" height="360" src="video.php?id=3" frameborder="0" allowfullscreen></iframe>
                 <div class="line-square"></div>
             </div>
         </div>
@@ -102,7 +102,7 @@
                 <img class="left-content" src="img/action4.png" />
             </div>
             <div class="col-right">
-                <iframe class="video" width="670" height="377" src="http://player.youku.com/embed/XMzQzNTE2NTg4" frameborder="0" allowfullscreen></iframe>
+                <iframe class="video" width="640" height="360" src="video.php?id=4" frameborder="0" allowfullscreen></iframe>
                 <div class="line-square"></div>
             </div>
         </div>

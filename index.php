@@ -83,34 +83,35 @@
         <!-- ROW -->
         <div class="row">
             <!-- COL -->
-            <div class="col c1 col-right" data-color="#151730">
-                <h2><img src="img/home/male_tit.gif" /></h2>
-                <p><span class="oswald">2013</span> 秋冬新款</p>
-                <div class="links">
-                    <ul>
-                        <li><a  class="main" href="http://www.diesel.com/male">探索更多</a></li>
-                    </ul>
-                </div>
-            </div>
+            <div class="col c1 col-right" data-color="#7596b1">
 
-            <!-- COL -->
-            <div class="col c2" data-master="1">
-                <img class="bg" src="img/home/male.jpg" />
-            </div>
-
-            <!-- COL -->
-            <div class="col c3" data-color="#062635">
                 <h2><img src="img/home/female_tit.gif" /></h2>
-                <p><span class="oswald">2013</span> 秋冬新款</p>
+                <p><span class="oswald">2014</span> 春夏新品预览</p>
                 <div class="links">
                     <ul>
                         <li><a  class="main" href="http://www.diesel.com/female">探索更多</a></li>
                     </ul>
                 </div>
             </div>
+
+            <!-- COL -->
+            <div class="col c2" data-master="1">
+                <img class="bg" src="img/home/female.jpg" />
+            </div>
+
+            <!-- COL -->
+            <div class="col c3" data-color="#9194b4">
+                <h2><img src="img/home/male_tit.gif" /></h2>
+                <p><span class="oswald">2014</span> 春夏新品预览</p>
+                <div class="links">
+                    <ul>
+                        <li><a  class="main" href="http://www.diesel.com/male">探索更多</a></li>
+                    </ul>
+                </div>
+            </div>
             <!-- COL -->
             <div class="col c4" data-master="3">
-                <img class="bg" src="img/home/female.jpg" />
+                <img class="bg" src="img/home/male.jpg" />
             </div>
         </div>
 
@@ -134,34 +135,34 @@
         <div class="row">
 
             <!-- COL -->
-            <div class="col c1" data-color="#2e1018">
-                <h2><img src="img/home/denimmale_tit.gif" /></h2>
-                <p><span class="oswald">2013</span> 秋冬新款牛仔</p>
-                <div class="links">
-                    <ul>
-                        <li><a  class="main" href="http://www.diesel.com/denim-male">探索更多</a></li>
-                    </ul>
-                </div>
-            </div>
-            <!-- COL -->
-            <div class="col c2" data-master="3">
-                <img class="bg" src="img/home/denim-male.jpg" />
-            </div>
-
-            <!-- COL -->
-            <div class="col c3 col-right" data-color="#084d5c">
+            <div class="col c1" data-color="#4a4064">
                 <h2><img src="img/home/denimfemale_tit.gif" /></h2>
-                <p><span class="oswald">2013</span> 秋冬新款牛仔</p>
+                <p><span class="oswald">2014</span> 春夏单宁新品预览</p>
                 <div class="links">
                     <ul>
                         <li><a class="main"  href="http://www.diesel.com/denim-female">探索更多</a></li>
                     </ul>
                 </div>
             </div>
+            <!-- COL -->
+            <div class="col c2" data-master="3">
+                <img class="bg" src="img/home/denim-female.jpg" />
+            </div>
+
+            <!-- COL -->
+            <div class="col c3 col-right" data-color="#5a6b95">
+                <h2><img src="img/home/denimmale_tit.gif" /></h2>
+                <p><span class="oswald">2014</span> 春夏单宁新品预览</p>
+                <div class="links">
+                    <ul>
+                        <li><a  class="main" href="http://www.diesel.com/denim-male">探索更多</a></li>
+                    </ul>
+                </div>
+            </div>
 
             <!-- COL -->
             <div class="col c4" data-master="1">
-                <img class="bg" src="img/home/denim-female.jpg" />
+                <img class="bg" src="img/home/denim-male.jpg" />
             </div>
         </div>
 

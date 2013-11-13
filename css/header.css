@@ -194,7 +194,7 @@ body{margin: 0;padding: 0}
 
 #header #menu li:hover .sublevel#menu_collections,
 #header #menu li a:hover .sublevel#menu_collections {
-  height: 148px;
+  height: 80px;
 }
 
 #header #menu li:hover .sublevel#menu_online_store,
