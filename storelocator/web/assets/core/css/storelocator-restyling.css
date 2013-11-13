@@ -182,6 +182,8 @@ body,html {
   width: 200px;
 }
 
+.layoutStoreLocator select#country {display:none;}
+
 #footer_top #diesel_piva,
 #footer #footer_top a {
   color: #fff;
