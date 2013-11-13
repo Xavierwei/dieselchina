@@ -54,7 +54,12 @@
 								// campaign
 								this.keepCenterCampaign();
 								$(window).on('resize', $.proxy(this.keepCenterCampaign, this));
-					
+
+								if( $(window).width() <= 640 ){
+         							this.resizeMobile();
+     							}
+				
+
 							},
 
 
@@ -85,9 +90,9 @@
 									}
 									heightBig = Math.ceil((width * factor.b) / 100),
 									heightSmall = Math.ceil((width * factor.s) / 100);
-								
-								this.$elmBig.height(heightBig);
-								this.$elmSmall.height(heightSmall);
+
+								this.$elmBig.height(heightBig );
+								this.$elmSmall.height(heightSmall );
 								
 								if (this.isSmartphone) {
 									this.$rows.height(heightBig * 2);
@@ -109,6 +114,21 @@
 								}, this));
 				
 							},
+
+	        /**
+	         * mobile640  Size
+	         * @param {string}
+	         * @example
+	         **/
+         	resizeMobile: 	function(){
+         						
+         						for( var i=0 ; i < $('.row').length - 1 ; i++){
+         							if(i!=3){
+         								$('.row').eq(i).height( $('.row').eq(i).children('.col').height() * 2 );	
+         							}         							
+         						}
+         						
+     						},
 		
 			waitImage:		function(src, callback) {
 			

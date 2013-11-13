@@ -396,10 +396,14 @@ function headerInit() {
   var currentLink = null;
   jQuery('#menu > ul > li').each(function(){
     var header_sub_margin = jQuery(this).offset().left;
-    if (header_sub_margin != 0) {
-      header_sub_margin += 'px';
-      jQuery(this).find('.sublevel ul').css('padding-left', header_sub_margin);
+    //mobile640
+    if(!$('.sublevel').height() > 0){      
+      if (header_sub_margin != 0) {
+        header_sub_margin += 'px';
+        jQuery(this).find('.sublevel ul').css('padding-left', header_sub_margin);
+      }    
     }
+
     //rimozione del link principale dell'onlinestore in caso di mobile device
     // if(D_IS_MOBILE()){
     //   currentLink = $(this).children('a');

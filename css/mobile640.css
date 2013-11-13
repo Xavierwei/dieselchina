@@ -1,0 +1,59 @@
+/* header
+========================================================================*/
+#header{height: 108px;width: 100%;min-width: 100%}
+#header .social_container{display: none;}
+#header .logo{width: 203px;height: 108px;background: url('../img/mobile/logo.png') no-repeat;}
+#header .logo a{width: 203px;height: 108px;}
+#header #menu{float:right;position: relative;padding: 108px 0 0;margin:0;background: url('../img/mobile/menuicon.png') no-repeat 230px 12px;height: 0;overflow: hidden}
+#header #menu:hover{height: 618px}
+#header #menu ul li{display: block;float: none;background: #1c1c1c;padding:0;width: 360px;text-align: center;padding: 20px 0}
+    .nav1{width:128px;}
+    .nav2{width:100px;}
+    .nav3{width:148px;}
+    .nav4{width:104px;}
+    .nav5{width:168px;}
+#header #menu ul li a{height: 44px;padding:0 0;background-position: center;margin:0 auto;
+    background-size:cover;-webkit-background-size:cover;}
+    #header #menu li .sublevel{position: static;height:70px;padding-top:20px;width: 360px}
+    #header #menu li .sublevel ul{opacity: 1}
+    #header #menu li .sublevel#menu_collections ul{padding:0;text-align: center}
+
+#header #menu li:hover .sublevel#menu_collections,
+#header #menu li a:hover .sublevel#menu_collections {
+  height: 70px;padding:20px 0 0;
+}
+
+/* footer
+========================================================================*/
+#footer{width: 100%;min-width: 100%;}
+#footer_main{position: relative;}
+#right_links{position: absolute; top:30px;margin: 0;left:30px; }
+#right_links ul{display: none}
+#right_links ul.cl{display:block;}
+#footer_main #right_links ul li{float:left;margin-right: 20px;}
+#footer_main #right_links ul li a.image_replacement{background: url('../img/mobile/footer_icon.png') no-repeat;height: 37px;}
+#footer_main #right_links ul li a.weibo{width:106px; }
+#footer_main #right_links ul li a.qing{background-position: -126px 0;width: 80px;}
+#footer_main #right_links ul li a.youku{background-position: -226px 0;width: 114px;}
+#footer_main #right_links ul li a.weixin{background-position: -360px 0;width: 84px;}
+#footer_main #right_links ul li a.instagram{background-position: -464px 0;width: 80px;}
+
+#footer_main #footer_nav_container{margin: 140px 0 0;height: 545px;overflow: hidden}
+#footer_nav_container .nav_column{width: 260px;}
+#footer_nav_container .nav_column ul li{font-size: 22px;line-height: 30px;}
+#footer_nav_container .nav_column ul li.category{font-size: 25px;}
+
+
+/* cnt
+========================================================================*/
+#cnt{min-width: 100%;overflow: hidden;padding: 108px 0 0}
+.grids.c1.c2, #homepage .c1.c2.col{width: 100%}
+.grids.c3.c4, #homepage .c3.c4.col{width: 100%}
+#homepage .row, #homepage .row .col{min-height: auto}
+.grids.c1, #homepage .c1.col{width: 52%}
+.grids.c2, #homepage .c2.col{width: 48%}
+.grids.c3, #homepage .c3.col{width: 52%}
+.grids.c2, #homepage .c4.col{width: 48%}
+.grids.c1.c2.c3, #homepage .c1.c2.c3.col.store-locator-map{width: 52%;}
+
+.weixin_wrap{display: none}
