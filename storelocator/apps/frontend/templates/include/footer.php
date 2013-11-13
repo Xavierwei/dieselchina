@@ -62,12 +62,12 @@
 
                     </ul>
                     <ul>
-                        <li class="category"><a   target="_blank"  href="http://www.diesel.com/diesel-kid" title="Diesel Kid">Diesel Kid</a></li>
+                        <li class="category"><a target="_blank"  href="http://www.diesel.com/diesel-kid" title="Diesel Kid">Diesel Kid</a></li>
                         <li><a target="_blank" href="http://www.diesel.com/diesel-kid/collection" title="Collection">Collection</a></li>
                         <li><a target="_blank" href="http://www.diesel.com/diesel-kid/adv" title="Collection">FW13 Campaign</a></li>
                     </ul>
                     <ul>
-                        <li class="category"><a  href="http://www.55dsl.com/" target="_blank" title="55DSL">55DSL</a></li>
+                        <li class="category"><a href="http://www.55dsl.com/" target="_blank" title="55DSL">55DSL</a></li>
                         <li><a   href="http://www.55dsl.com/collection?utm_source=Diesel&utm_medium=website&utm_campaign=Diesel_website" title="Collection" target="_blank">Collection</a></li>
                         <li><a  href="http://store.diesel.com/55dsl/" title="Shop" target="_blank">Shop</a></li>
                     </ul>
@@ -93,7 +93,7 @@
                 <li><a target="_blank" href="http://weibo.com/dieselplanet" title="新浪微博" class="image_replacement weibo">新浪微博</a></li>
                 <li><a target="_blank" href="#" title="Qing" class="image_replacement qing">Qing</a></li>
                 <li><a target="_blank" href="http://i.youku.com/u/UNTM5NDM1OTIw" title="youku优酷" class="image_replacement youku">youku优酷</a></li>
-                <li class="weixin_wrap"><a href="###" title="微信" class="image_replacement weixin">微信</a><img class="weixin_qr" src="img/qr.gif" /></li>
+                <li class="weixin_wrap"><a href="###" title="微信" class="image_replacement weixin">微信</a><img class="weixin_qr" src="/img/qr.gif" /></li>
                 <li><a target="_blank" href="http://instagram.com/dieselpics" title="instagram" class="image_replacement instagram">instagram</a></li>
             </ul>
             <ul>

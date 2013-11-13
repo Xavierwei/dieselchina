@@ -13,6 +13,7 @@
     <?php include_title() ?>
     <link rel="shortcut icon" href="/assets/core/img/favicon.ico" />
     <link rel="shortcut icon" href="/assets/core/img/favicon.gif" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/common.css">
     <?php include_cdn_stylesheets() ?>
     <?php $appContext = proxy_get_appcontext();?>
     <?php if( $appContext != '' ):?><link rel="stylesheet" type="text/css" media="screen" href="<?php echo asset_absolute_path("/assets/core/css/".$appContext.".css");?>" /><?php endif;?>
@@ -20,7 +21,14 @@
       <?php include_slot("head_stylesheets");?>
     <?php endif; ?>
     <?php include_cdn_javascripts() ?>
-    <link rel="stylesheet" type="text/css" media="print" href="<?php echo asset_absolute_path("/assets/core/css/storelocator-restyling-print.css");?>">
+      <!--[if IE 6]>
+      <link rel="stylesheet" type="text/css" media="screen" href="/css/ie6.css" />
+      <script type="text/javascript" src="/js/ie6.js"></script>
+      <script src="/js/DD_belatedPNG.js"></script>
+      <script>
+          DD_belatedPNG.fix('*');
+      </script>
+      <![endif]-->
   </head>
   <body>
     <?php include('include/header.php');?>

@@ -8,7 +8,7 @@
 /**/
 .home_com1{padding:60px 0 0;text-align: center;}
 .home_com1 p{padding:20px 0 0}
-.home_com2{padding:50px 0 0;text-align: center;}
+ #homepage .home_com2.col .col-body {padding-top:50px;text-align: center;}
 .home_com2 p{padding:20px 0 20px}
 #homepage .col h2 {margin:0;}
 #homepage .col .col-body {font-size:1.2em;}

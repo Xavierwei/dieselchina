@@ -54,6 +54,11 @@
             <div class="col c3 c4 c3_4 home_com1" data-color="#00131f">
                 <img  src="img/diesel-reboot-logo-CN.gif" />
                 <p>欢迎来到<span class="oswald">DIESEL</span>全新活动：#满血复活#正式开启！</p>
+                <div class="links">
+                    <ul>
+                        <li><a href="reboot" class="main"></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
 
@@ -67,7 +72,11 @@
             <div class="col c3 c4 c3_4 home_com2" data-color="#2f363e">
                 <img  src="img/home/about_tit.gif" />
                 <p>自<span class="oswald">1978</span>年创立以来，<span  class="oswald">Diesel</span>一直引领时尚休闲牛仔领域和奢侈品市场，并开创了“高端休闲服饰”全新市场类别。</p>
-                <a href="heritage" class="home_arrow">了解更多</a>
+                <div class="links">
+                    <ul>
+                        <li><a href="heritage" class="main">了解更多</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
 
@@ -115,7 +124,7 @@
                 <h2><img src="img/home/locator_tit.gif" /></h2>
                 <div class="links">
                     <ul>
-                        <li><a  class="main" href="locator.html">搜索店铺</a></li>
+                        <li><a  class="main" href="store-locator">搜索店铺</a></li>
                     </ul>
                 </div>
             </div>
@@ -145,7 +154,7 @@
                 <p><span class="oswald">2013</span> 秋冬新款牛仔</p>
                 <div class="links">
                     <ul>
-                        <li><a  href="http://www.diesel.com/denim-female">探索更多</a></li>
+                        <li><a class="main"  href="http://www.diesel.com/denim-female">探索更多</a></li>
                     </ul>
                 </div>
             </div>
