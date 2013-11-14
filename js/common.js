@@ -206,13 +206,13 @@ jQuery(document).ready(function() {
 
     $('#header #menu').click(function(){
         if( $(window).width() <= 640 ){
-            if($('#header #menu').css('overflow') != 'visible')
+            if($('#header #menu').height() < 400)
             {
-                $('#header #menu').css('overflow','visible');
+                $('#header #menu').height(618);
             }
             else
             {
-                $('#header #menu').css('overflow','hidden');
+                $('#header #menu').height(0);
             }
         }
     });

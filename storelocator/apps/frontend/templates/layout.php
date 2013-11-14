@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
-      <meta name="viewport" content="width=640, user-scalable=no" />
+      <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=1.0" />
   	
   	<?php if (has_slot('discovery_metas')):?>
   	  <?php include_slot('discovery_metas')?>

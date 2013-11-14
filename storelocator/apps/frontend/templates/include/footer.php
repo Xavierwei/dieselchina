@@ -96,7 +96,7 @@
                 <li class="weixin_wrap"><a href="###" title="微信" class="image_replacement weixin">微信</a><img class="weixin_qr" src="/img/qr.gif" /></li>
                 <li><a target="_blank" href="http://instagram.com/dieselpics" title="instagram" class="image_replacement instagram">instagram</a></li>
             </ul>
-            <ul>
+            <ul class="cr">
                 <!--<li><a onclick="trackWoodland('footer__to_faq');"  class="legal-notice" href="http://www.facebook.com/Diesel/app_538509729507290" title="FAQ" target="_blank">FAQ</a></li>-->
                 <li><a target="_blank"  class="yahie" href="http://www.diesel.com/legal-terms" title="法律声明">法律声明</a></li>
                 <li><a target="_blank" class="yahie"  href="http://www.diesel.com/jobs" title="加入我们">加入我们</a></li>

@@ -41,18 +41,19 @@
 #footer{width: 100%;min-width: 100%;}
 #footer_main{position: relative;}
 #right_links{position: absolute; top:30px;margin: 0;left:30px; }
-#right_links ul{display: none}
+#footer_main #right_links ul.cr {margin:30px 0 0 20px;font-size:20px;}
+#footer_main #right_links ul.cr .yahie {font-size:20px;}
 #right_links ul.cl{display:block;}
-#footer_main #right_links {margin:25px 25px 0 70px;}
+#footer_main #right_links {margin:25px 25px 0 70px;transform: scale(1.3);-webkit-transform: scale(1.3);-moz-transform: scale(1.3);-ms-transform: scale(1.3);-o-transform: scale(1.3);}
 #footer_main #right_links ul li{float:left;margin-right: 20px;}
 #footer_main #right_links ul li a.image_replacement{background: url('../img/mobile/footer_icon.png') no-repeat;height: 37px;}
 #footer_main #right_links ul li a.weibo{width:106px; }
-#footer_main #right_links ul li a.qing{background-position: -126px 0;width: 80px;}
+#footer_main #right_links ul li a.qing{background:url(../img/mobile/icon_qing.gif) no-repeat;background-size:100% 100%;width: 70px;height: 32px;margin-top:3px;}
 #footer_main #right_links ul li a.youku{background-position: -226px 0;width: 114px;}
 #footer_main #right_links ul li a.weixin{background-position: -360px 0;width: 84px;}
-#footer_main #right_links ul li a.instagram{background-position: -464px 0;width: 80px;}
+#footer_main #right_links ul li a.instagram{background:url(../img/mobile/icon_instagram.gif) no-repeat;background-size:100% 100%;width: 90px;height:34px;margin-top:5px;}
 
-#footer_main #footer_nav_container{margin: 140px 0 0;}
+#footer_main #footer_nav_container{margin: 200px 0 0;}
 #footer_nav_container .nav_column{width: 260px;}
 #footer_nav_container .nav_column ul li{font-size: 22px;line-height: 30px;}
 #footer_nav_container .nav_column ul li.category{font-size: 25px;}
@@ -64,7 +65,7 @@
 .grids.c1.c2, #homepage .c1.c2.col{width: 100%;}
 .grids.c3.c4, #homepage .c3.c4.col{width: 100%;min-height:190px;}
 #homepage .m_full_row {height: auto!important;}
-#homepage .m_full_row .c1_2 {min-height:190px;}
+#homepage .m_full_row .c1_2 {min-height:350px;}
 .home_arrow, #homepage .col .links li a {display: none;}
 .grids.c1, #homepage .c1.col{width: 52%}
 .grids.c2, #homepage .c2.col{width: 48%}
@@ -87,9 +88,8 @@
     transform: scale(1.5);-webkit-transform: scale(1.5);-moz-transform: scale(1.5);-ms-transform: scale(1.5);-o-transform: scale(1.5);}
 .reboot_com p{padding:10px 50px;}
 #diesel-reboot .col-right img.title {margin:0 auto 20px auto;display: block;}
-#diesel-reboot .meet-nicola-formichetti{padding:40px 0;}
-#diesel-reboot .meet-nicola-formichetti img{margin: 0;
-    transform: scale(2);-webkit-transform: scale(2);-moz-transform: scale(2);-ms-transform: scale(2);-o-transform: scale(2);}
+#diesel-reboot .meet-nicola-formichetti{padding:40px 0;background:url(../img/mobile/reboot_07.png) no-repeat;width:517px;height:104px;margin:0 auto;}
+#diesel-reboot .meet-nicola-formichetti img{display:none;}
 
 
 
@@ -109,7 +109,8 @@
 .her_nav a.on, .her_nav a:hover{border:none;opacity:1;}
 .her_nav{height: auto;padding: 0;background:#323232 url(../img/mobile/sep.gif) no-repeat center;}
 .her_com{padding:0;display: block;border-bottom:#000 solid 15px;}
-.her_article{padding:30px 60px;font-size: 16px;color:#333;font-weight: normal;}
+.her_article{padding:30px 60px;font-size: 22px;line-height:140%;color:#333;font-weight: normal;}
+.her_pho1, .her_pho2 {height:189px;}
 .awards_month{width: 82px}
 .awards_item{padding:0 0 5px;}
 .awards_item p.awards_com{padding:0 0 0 110px}
