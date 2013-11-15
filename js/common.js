@@ -225,8 +225,13 @@ jQuery(document).ready(function() {
 
     $('.her_tit').waypoint(function(direction) {
         if( $(window).width() <= 640 ){
+            var isPortrait = ($(window).height() > $(window).width());
             if(direction === 'down') {
-                $('.her_nav').css({position:'fixed',top:108});
+                var top = 108;
+                if(!isPortrait) {
+                    top = 50;
+                }
+                $('.her_nav').css({position:'fixed',top:top});
             }
             else {
                 $('.her_nav').css({position:'relative',top:'auto'});
