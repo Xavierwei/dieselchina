@@ -99,6 +99,12 @@ $(document).ready(function(){
             }
         }
     });
+
+    $('*').click(function(e){
+        if($(e.target).attr('id') != 'menu' && $(window).width() <= 640) {
+            $('#header #menu').height(0);
+        }
+    });
 	
 });
 	
@@ -165,7 +171,7 @@ var StoreLocator = {
 		}
 		else {
 			//show no shop available
-			var msg= (!this.first_time ? 'No stores were found for this search' : 'Select your country');
+			var msg= (!this.first_time ? '未找到相应店铺' : 'Select your country');
 			$('.stores .textOverlay',this.$layout).text(msg).show();
 			$('.stores .items',this.$layout).empty();
 			this.$loader.hide();

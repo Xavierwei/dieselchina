@@ -34,7 +34,8 @@
   <body>
     <?php include('include/header.php');?>
     <div id="cnt">
-    <?php echo $sf_content ?>
+        <div class="mobile-title"><img src="/img/mobile/title_store.png" /></div>
+        <?php echo $sf_content ?>
     </div>
     <?php include('include/footer.php');?>
   </body>

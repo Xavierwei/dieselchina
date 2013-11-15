@@ -131,6 +131,8 @@ body,html {
   width:800px;
 }
 
+.storeFinder .type_3, .storeFinder .type_4, .storeFinder .type_5, .storeFinder .type_6 {display: none;}
+
 .layoutStoreLocator .info h2 {
   font-family: "Anton",Helvetica,Arial,Sans-serif;
   font-weight:normal;
@@ -182,7 +184,10 @@ body,html {
   margin-top:10px;
   width: 200px;
 }
-.layoutStoreLocator .other_country {margin:11px 0 0 20px;float:left;}
+.country_list {height:30px;}
+.country_list .current {float:left;margin:4px 0 0;}
+.layoutStoreLocator .other_country {margin:0 0 0 20px;float:left;background:#222;color:#fff;padding:3px 10px;border:1px solid #777;}
+.layoutStoreLocator .other_country:hover {background: #555;}
 
 .layoutStoreLocator select#country {display:none;}
 

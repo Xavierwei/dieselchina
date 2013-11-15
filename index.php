@@ -25,6 +25,7 @@
     <script type="text/javascript" src="./js/jquery.autocomplete.js"></script>
     <script type="text/javascript" src="./js/jquery.open.js"></script>
     <script type="text/javascript" src="./js/jquery.url.js"></script>
+    <script type="text/javascript" src="./js/waypoint.js"></script>
     <script type="text/javascript" src="./js/common.js"></script>
     <script type="text/javascript" src="./js/analitycs_new.js"></script>
     <script type="text/javascript" src="./js/jquery.superbanner.js"></script>
@@ -118,13 +119,16 @@
         </div>
 
         <!-- ROW -->
-        <div class="row">
+        <div class="row map_row">
             <!-- COL -->
-            <div class="col c1 c2 c3 c1_2_3 store-locator-map" data-master="2">
-            </div>
+            <div class="col c1 c2 c1_2 store-locator-map" data-master="2"></div>
             <!-- COL -->
-            <div class="col  c4 home_map" data-color="#282828">
+            <div class="col c3 c4 c3_4 home_map" data-color="#282828">
                 <h2><img src="img/home/locator_tit.gif" /></h2>
+                <div class="col-content">
+                    <span class="store-locator-store"></span>
+                    <span class="store-locator-address"></span>
+                </div>
                 <div class="links">
                     <ul>
                         <li><a  class="main" href="store-locator">搜索店铺</a></li>

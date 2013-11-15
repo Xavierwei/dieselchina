@@ -22,6 +22,7 @@
     <script type="text/javascript" src="./js/jquery.autocomplete.js"></script>
     <script type="text/javascript" src="./js/jquery.open.js"></script>
     <script type="text/javascript" src="./js/jquery.url.js"></script>
+    <script type="text/javascript" src="./js/waypoint.js"></script>
     <script type="text/javascript" src="./js/common.js"></script>
     <script type="text/javascript" src="./js/analitycs_new.js"></script>
     <script type="text/javascript" src="./js/jquery.superbanner.js"></script>

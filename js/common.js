@@ -217,6 +217,38 @@ jQuery(document).ready(function() {
         }
     });
 
+    $('*').click(function(e){
+        if($(e.target).attr('id') != 'menu' && $(window).width() <= 640) {
+            $('#header #menu').height(0);
+        }
+    });
+
+    $('.her_tit').waypoint(function(direction) {
+        if( $(window).width() <= 640 ){
+            if(direction === 'down') {
+                $('.her_nav').css({position:'fixed',top:108});
+            }
+            else {
+                $('.her_nav').css({position:'relative',top:'auto'});
+            }
+        }
+    });
+
+    var herTimeout;
+    $(window).scroll(function(){
+        clearTimeout(herTimeout);
+        herTimeout = setTimeout(function(){
+            if($('.her_nav').css('position') === 'fixed'){
+                $('.her_nav').fadeOut();
+            }
+        },2000);
+        if($('.her_nav').css('display') === 'block') {
+            return;
+        }
+        else {
+            $('.her_nav').fadeIn();
+        }
+    });
   
   // footer mobile nav row
   (function(){

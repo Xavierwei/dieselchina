@@ -37,7 +37,7 @@
     </div>
     <a class="next" href="#"></a>
     <span class="disable" style="display:none;" href="#"></span>
-    <div class="textOverlay" style="display:none">No stores were found for this search</div>
+    <div class="textOverlay" style="display:none">未找到相应店铺</div>
   </div>
   <div class="info">
     <div class="storeFinder">
@@ -48,13 +48,13 @@
           <div class="radio-group">
               <label for="all">
                 <input type="radio" name="type" value="" <?php if (!$kid): ?>checked="checked"<?php endif; ?> class="type" id="all" />
-                <span>All</span>
+                <span>所有</span>
               </label>
               <?php $typeChoices = $storesFinderForm['type']->getWidget()->getChoices(); ?>
               <?php foreach($typeChoices as $key=>$choice): ?>
                 <?php if( $key != "" ): ?>
                   <?php $slug = str_replace(" ", "-", strtolower($key)); ?>
-                  <label for="<?php echo $key?>" class="<?php echo $slug; ?>">
+                  <label for="<?php echo $key?>" class="<?php echo $slug; ?> type_<?php echo $slug; ?>">
                     <input type="radio" name="type" value="<?php echo $key?>" class="type" id="<?php echo $slug?>"/>
                     <span><?php echo $choice?></span>
                   </label>
@@ -103,7 +103,10 @@
               });
             }
           <?php end_javascript_tag();?>
-          <?php echo $storesFinderForm['city']->render();?> <a class="other_country" href="http://www.diesel.com/store-locator" target="_blank">查找其他国家</a>
+          <div class="country_list">
+              <span class="current">中国</span><a class="other_country" href="http://www.diesel.com/store-locator" target="_blank">查找其他国家</a>
+          </div>
+          <?php echo $storesFinderForm['city']->render();?>
         </form>
         <span class="arrow"></span>
       </div>
