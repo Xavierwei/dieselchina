@@ -146,6 +146,7 @@
 .country_list {height:50px;}
 #cnt .store-mobile-title {background:#000 url(../img/mobile/search.png) no-repeat 540px 30px;background-size:60px auto;}
 #footer_nav_container .nav_column {height:auto!important;}
+#footer .nav_row {display: none;}
 
 @media screen and (orientation:landscape) {
     #cnt {padding-top:50px;}
