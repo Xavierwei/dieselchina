@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./css/font-gibson.css">
     <link rel="stylesheet" href="./css/homepage/screen.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/pages.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="./css/hp.css" />    
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/hp.css" />
     <link rel="stylesheet" type="text/css" href="./css/mobile640.css" media="screen and (max-width: 640px)">
 
     <script type="text/javascript" src="./js/modernizr.js"></script>

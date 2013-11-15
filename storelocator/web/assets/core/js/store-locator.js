@@ -105,6 +105,11 @@ $(document).ready(function(){
             $('#header #menu').height(0);
         }
     });
+
+    $('.store-mobile-title').click(function(){
+        var top = $('.storeFinder').position().top;
+        $('body,html').animate({scrollTop:top});
+    });
 	
 });
 	

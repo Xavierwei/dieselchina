@@ -29,7 +29,7 @@
     .nav5:hover{background: url('../img/mobile/nav5.png') no-repeat;}
     .nav_f:hover{background: url('../img/mobile/nav_f.png') no-repeat;}
     .nav_m:hover{background: url('../img/mobile/nav_m.png') no-repeat;}
-#header #menu ul li a{height: 44px;padding:0 0;background-position: 0 0;margin:0 0 0 40px;
+#header #menu ul li a{height: 44px;width:100%;padding:0 0;background-position: 0 0;margin:0 0 0 40px;
     /*background-size:cover;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;-ms-background-size:cover;*/}
     #header #menu li .sublevel{position: static;height:auto;padding-top:0px;padding-left:23px;width: 360px}
     #header #menu li .sublevel li {padding:10px 0;}
@@ -37,10 +37,7 @@
     #header #menu li .sublevel ul{opacity: 1}
     #header #menu li .sublevel#menu_collections ul{padding:0;text-align: center}
 
-#header #menu li:hover .sublevel#menu_collections,
-#header #menu li a:hover .sublevel#menu_collections {
-  height: 70px;padding:20px 0 0;
-}
+
 
 /* footer
 ========================================================================*/
@@ -70,12 +67,13 @@
 #cnt{min-width: 100%;overflow: hidden;padding: 108px 0 0}
 #cnt .mobile-title {padding:40px 0 30px; text-align: center;background: #000;display: block;}
 .grids.c1.c2, #homepage .c1.c2.col{width: 100%;}
-.grids.c3.c4, #homepage .c3.c4.col{width: 100%;min-height:190px;}
+.grids.c3.c4, #homepage .c3.c4.col{width: 100%;height:auto!important;}
 #homepage .row {height: auto!important;}
 #homepage .m_full_row {height: auto!important;}
 #homepage .m_full_row .c1_2 {min-height:350px;}
 #homepage .m_full_row .home_com2 {height: auto!important;}
 #homepage .map_row .col {min-height:250px;}
+#homepage .col .col-content,#homepage .col .col-body {line-height:140%;font-size:22px;}
 .home_arrow, #homepage .col .links li a {display: none;}
 .grids.c1, #homepage .c1.col{width: 52%}
 .grids.c2, #homepage .c2.col{width: 48%}
@@ -146,3 +144,4 @@
 .layoutStoreLocator .map {margin:0;}
 
 .country_list {height:50px;}
+#cnt .store-mobile-title {background:#000 url(../img/mobile/search.png) no-repeat 540px 30px;background-size:60px auto;}
