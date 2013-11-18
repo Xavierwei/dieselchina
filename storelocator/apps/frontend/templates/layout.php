@@ -13,6 +13,7 @@
     <?php include_title() ?>
     <link rel="shortcut icon" href="/assets/core/img/favicon.ico" />
     <link rel="shortcut icon" href="/assets/core/img/favicon.gif" />
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" media="screen" href="/css/common.css">
     <?php include_cdn_stylesheets() ?>
     <?php $appContext = proxy_get_appcontext();?>

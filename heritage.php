@@ -71,15 +71,15 @@
                     <div class="her_pho3 her_pho" data-src="img/heritage/pho3.jpg"></div>
                 </div>
                 <div class="her_article">
-                    <p><span class="oswald">DIESEL</span> 产品包括<span class="oswald">DIESEL, Diesel Black Gold </span>( <span class="oswald">Andreas Melbostad</span>设计的潮流服饰), <span class="oswald">55DSL</span> (<span class="oswald">Andrea Rosso</span>领导设计的街头潮流服饰),以及<span class="oswald">Diesel Kid</span>。</p>
-                    <p><span class="oswald">DIESEL</span> 不仅仅关乎服装和牛仔裤，它更代表着一种生活方式。我们同其他行业的领导品牌合作开发了手表和珠宝（与<span class="oswald">Fossil</span>合作）、眼镜（与<span class="oswald">Marcolin</span>合作）、香水（与欧莱雅合作）、头盔（和<span class="oswald">AGV</span>合作）、耳机（与魔声耳机合作）、自行车（与<span class="oswald">Pinarello</span>合作），并且研发了一整套的家居系列（与<span class="oswald">Foscarini, Moroso, Zucchi and Scavolini</span>共同合作）。</p>
+                    <p><span class="oswald">DIESEL</span> 产品包括<span class="oswald">DIESEL，Diesel Black Gold </span>( <span class="oswald">Andreas Melbostad</span>设计的高端型格服饰)，<span class="oswald">55DSL</span> (<span class="oswald">Andrea Rosso</span>领导设计的街头潮流服饰)，以及<span class="oswald">Diesel Kid童装</span>。</p>
+                    <p><span class="oswald">DIESEL</span> 不仅仅关乎服装和牛仔裤，它更代表着一种生活方式。我们同其他行业的领导品牌合作开发了手表和珠宝（与<span class="oswald">Fossil</span>合作）、眼镜（与<span class="oswald">Marcolin</span>合作）、香水（与欧莱雅合作）、头盔（和<span class="oswald">AGV</span>合作）、耳机（与魔声耳机合作）、自行车（与<span class="oswald">Pinarello</span>合作），并且研发了一整套的家居系列（与<span class="oswald">Foscarini，Moroso，Zucchi，Scavolini</span>共同合作）。</p>
                 </div>
             </div>
 
             <div class="her_com" id="her_com3">
                 <div class="her_article">
                     <p><span class="oswald">DIESEL</span> 跨国集团，目前在<span class="oswald">80</span>多个国家和地区拥有超过<span class="oswald">5000</span>个售卖点，包括<span class="oswald">400</span>家旗下商店。位于意大利<span class="oswald">Breganze </span>的总公司，直接管理欧洲、亚洲和美洲的<span class="oswald">19</span>家子公司。</p>
-                    <p><span class="oswald">DIESEL</span> 隶属于<span class="oswald">OTB</span> 集团，<span class="oswald">OTB</span>还控股<span class="oswald">Maison Martin Margiela，Marni，Viktor&Rolf</span> 以及 <span class="oswald">Staff International</span> 等公司。<span class="oswald">Staff International</span> 是意大利著名成衣公司，拥有<span class="oswald">DSquared，Just Cavalli，Vivienne Westwood Red Label and Man</span>, 以及<span class="oswald">Marc Jacobs Men </span>这一系列品牌。   </p>
+                    <p><span class="oswald">DIESEL</span> 隶属于<span class="oswald">OTB</span> 集团，<span class="oswald">OTB</span>还控股<span class="oswald"><a target="_blank" href="http://www.maisonmartinmargiela.com/">Maison Martin Margiela</a>，<a target="_blank" href="http://www.marni.com">Marni</a>，<a target="_blank" href="http://www.viktor-rolf.com">Viktor&Rolf</a></span> 以及 <span class="oswald"><a target="_blank" href="http://www.staffinternational.com">Staff International</a></span> 等公司。<span class="oswald">Staff International</span> 是意大利著名成衣公司，拥有<span class="oswald"><a target="_blank" href="http://www.dsquared2.com">DSquared</a>，<a target="_blank" href="http://www.justcavalli.com/">Just Cavalli</a>，<a target="_blank" href="http://www.viviennewestwood.co.uk">Vivienne Westwood</a> Red Label and Man</span>, 以及<span class="oswald"><a target="_blank" href="http://www.marcjacobs.com">Marc Jacobs</a> Men </span>这一系列品牌。   </p>
                 </div>
             </div>
 
@@ -102,7 +102,7 @@
 
                     <div class="awards_item cs-cledar">
                         <p class="awards_time"><span class="oswald">1997</span>年</p>
-                        <p class="awards_com">由于公司在美国的快速发展，<span class="oswald">Renzo Rosso</span> 被北美 <span class="oswald">Ernst & Young </span>提名为“年度杰出企业家”</p>
+                        <p class="awards_com">由于公司在美国的快速发展，<span class="oswald">Renzo Rosso</span> 被北美 <span class="oswald">Ernst & Young </span>提名为“年度杰出企业家”。</p>
                     </div>
 
                     <div class="awards_item cs-cledar">
@@ -171,7 +171,7 @@
 
                     <div class="awards_item cs-cledar">
                         <p class="awards_time"><span class="oswald">2010</span>年</p>
-                        <p class="awards_com"><span class="oswald">Renzo Rosso 与另外两位（<span class="oswald">Tommy Hilfiger </span>和<span class="oswald"> Youssou N'Dour</span>）一起被评为联合国千年发展目标的全球领导者，同时公司凭借 <span class="oswald">“Be Stupid” </span>广告活动获得戛纳金狮奖。</p>
+                        <p class="awards_com"><span class="oswald">Renzo Rosso</span> 与另外两位（<span class="oswald">Tommy Hilfiger </span>和<span class="oswald"> Youssou N'Dour</span>）一起被评为联合国千年发展目标的全球领导者，同时公司凭借 <span class="oswald">“Be Stupid” </span>广告活动获得戛纳金狮奖。</p>
                     </div>
                 </div>
             </div>

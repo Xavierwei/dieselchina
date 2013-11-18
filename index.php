@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./css/font-gibson.css">
     <link rel="stylesheet" href="./css/homepage/screen.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/pages.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="./css/hp.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/hp.css" />    
     <link rel="stylesheet" type="text/css" href="./css/mobile640.css" media="screen and (max-width: 640px)">
 
     <script type="text/javascript" src="./js/modernizr.js"></script>
@@ -74,7 +74,7 @@
             <!-- COL -->
             <div class="col c3 c4 c3_4 home_com2" data-color="#2f363e">
                 <img  src="img/home/about_tit.gif" />
-                <p>自<span class="oswald">1978</span>年创立以来，<span  class="oswald">Diesel</span>一直引领时尚休闲牛仔领域和奢侈品市场，并开创了“高端休闲服饰”全新市场类别。</p>
+                <p>自<span class="oswald">1978</span>年创立以来，<span  class="oswald">DIESEL</span>一直引领时尚休闲牛仔领域和奢侈品市场，并开创了“高端休闲服饰”全新市场类别。</p>
                 <div class="links">
                     <ul>
                         <li><a href="heritage" class="main">了解更多</a></li>

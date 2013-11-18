@@ -35,6 +35,8 @@ body{background: #f4f4f4;font-style: normal;}
 .her_article{font-family: Arial,"Microsoft YaHei",STHeiti;color:#000;font-size: 14px;line-height: 25px;padding-top: 20px;font-weight: bold;}
 .her_article p{ padding:12px 0}
 .her_article .oswald {font-weight: normal;}
+.her_article a {color:#000;}
+.her_article a:hover {color:#888;}
 .oswald{font-family: 'Oswald', sans-serif;}
 
 .awards_item{position: relative;}
