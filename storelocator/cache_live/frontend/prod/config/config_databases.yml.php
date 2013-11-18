@@ -4,9 +4,9 @@
 
 return array(
 'doctrine' => new sfDoctrineDatabase(array (
-  'dsn' => 'mysql:host=localhost;dbname=storelocator',
-  'username' => 'root',
-  'password' => NULL,
+  'dsn' => 'mysql:host=localhost;dbname=c8dieselcn',
+  'username' => 'c8dieselcn',
+  'password' => 'lUToBdklrr',
   'attributes' => 
   array (
     'default_table_collate' => 'utf8_unicode_ci',
