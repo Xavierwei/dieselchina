@@ -3,10 +3,11 @@
 <head>
     <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=1.0" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="title" content="Diesel - jeans, clothing, shoes, watches, apparel, underwear and sunglasses" />
-    <meta name="description" content="Diesel&#039;s Fall Winter 2013 Main Collection and the Fall Winter Preview Collection." />
+    <meta name="title" content="Diesel - 单宁，成衣，鞋，腕表，饰品，内衣，时尚眼镜" />
+    <meta name="keywords" content="Diesel - 单宁，成衣，鞋，腕表，饰品，内衣，时尚眼镜" />
+    <meta name="description" content="Diesel - 单宁，成衣，鞋，腕表，饰品，内衣，时尚眼镜" />
     <link rel="image_src" href="./img/logo.gif" />
-    <title>Diesel - jeans, clothing, shoes, watches, apparel, underwear and sunglasses</title>
+    <title>Diesel - 单宁，成衣，鞋，腕表，饰品，内衣，时尚眼镜</title>
     <link rel="shortcut icon" href="./img/favicon.ico" />
     <link rel="shortcut icon" href="./img/favicon.gif" />
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>

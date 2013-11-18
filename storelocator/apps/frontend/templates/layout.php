@@ -6,9 +6,11 @@
   	<?php if (has_slot('discovery_metas')):?>
   	  <?php include_slot('discovery_metas')?>
   	<?php endif;?>
-  	
-    <?php include_http_metas() ?>
-    <?php include_metas() ?>
+
+
+    <meta name="title" content="Diesel - 单宁，成衣，鞋，腕表，饰品，内衣，时尚眼镜" />
+    <meta name="keywords" content="Diesel - 单宁，成衣，鞋，腕表，饰品，内衣，时尚眼镜" />
+    <meta name="description" content="Diesel - 单宁，成衣，鞋，腕表，饰品，内衣，时尚眼镜" />
     <link rel="image_src" href="<?php echo asset_absolute_path('/assets/core/img/logo.gif');?>" />
     <?php include_title() ?>
     <link rel="shortcut icon" href="/assets/core/img/favicon.ico" />
@@ -19,18 +21,18 @@
     <?php $appContext = proxy_get_appcontext();?>
     <?php if( $appContext != '' ):?><link rel="stylesheet" type="text/css" media="screen" href="<?php echo asset_absolute_path("/assets/core/css/".$appContext.".css");?>" /><?php endif;?>
     <?php if (has_slot("head_stylesheets")): ?>
-      <?php include_slot("head_stylesheets");?>
+    <?php include_slot("head_stylesheets");?>
     <?php endif; ?>
     <?php include_cdn_javascripts() ?>
-      <link rel="stylesheet" type="text/css" href="/css/mobile640.css" media="screen and (max-width: 640px)">
-      <!--[if IE 6]>
-      <link rel="stylesheet" type="text/css" media="screen" href="/css/ie6.css" />
-      <script type="text/javascript" src="/js/ie6.js"></script>
-      <script src="/js/DD_belatedPNG.js"></script>
-      <script>
-          DD_belatedPNG.fix('*');
-      </script>
-      <![endif]-->
+    <link rel="stylesheet" type="text/css" href="/css/mobile640.css" media="screen and (max-width: 640px)">
+    <!--[if IE 6]>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/ie6.css" />
+    <script type="text/javascript" src="/js/ie6.js"></script>
+    <script src="/js/DD_belatedPNG.js"></script>
+    <script>
+      DD_belatedPNG.fix('*');
+    </script>
+    <![endif]-->
   </head>
   <body>
     <?php include('include/header.php');?>

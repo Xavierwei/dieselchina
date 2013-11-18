@@ -122,7 +122,7 @@ class locatorActions extends sfActions
         $title .= ', ' . $this->city;
       }//if
       //titolo pagina
-      $this->getResponse()->setTitle("Diesel Store Locator - " . $title);
+      $this->getResponse()->setTitle("Diesel 店铺位置 - " . $title);
     }//if
     else{
       $this->forward404();
@@ -289,7 +289,7 @@ class locatorActions extends sfActions
       $this->storeNews = $this->currentStore->getLatestNews();
       
       //titolo pagina
-      $this->getResponse()->setTitle("Diesel Store Locator - " . $this->currentStore->getName() . ', ' . $this->currentStore->getAddress());
+      $this->getResponse()->setTitle("Diesel 店铺位置 - " . $this->currentStore->getName() . ', ' . $this->currentStore->getAddress());
     }//if
     else{
       $this->forward404();
