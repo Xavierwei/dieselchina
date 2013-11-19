@@ -12,7 +12,7 @@
                 <h2>Diesel - Female / Male</h2>
                 <div class="nav_column">
                     <ul>
-                        <li class="category"><a   href="http://www.diesel.com/female" title="Diesel Female">Diesel Female</a></li>
+                        <li class="category"><a href="http://www.diesel.com/female" title="Diesel Female">Diesel Female</a></li>
                         <li><a target="_blank" href="http://www.diesel.com/apparel-female" title="Apparel FW13 Main">Apparel FW13 Main</a></li>
                         <li><a  target="_blank" href="http://www.diesel.com/denim-female" title="Denim FW13 Main">Denim FW13 Main</a></li>
                         <li><a  target="_blank" href="http://www.diesel.com/joggjeans" title="JoggJeans">JoggJeans</a></li>
@@ -32,7 +32,7 @@
 
                 <div class="nav_column">
                     <ul>
-                        <li><a target="_blank" href="http://www.diesel.com/male" title="Diesel Male">Diesel Male</a></li>
+                        <li class="category"><a target="_blank" href="http://www.diesel.com/male" title="Diesel Male">Diesel Male</a></li>
                         <li><a target="_blank" href="http://www.diesel.com/apparel-male" title="Apparel FW13 Main">Apparel FW13 Main</a></li>
                         <li><a target="_blank" href="http://www.diesel.com/denim-male" title="Denim FW13 Main">Denim FW13 Main</a></li>
                         <li><a target="_blank" href="http://www.diesel.com/joggjeans/" title="JoggJeans">JoggJeans</a></li>
