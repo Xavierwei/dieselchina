@@ -182,7 +182,7 @@
 						
 			initMap: 		function() {
 				
-								var url_get_nearest_stores = "storelocator/web/store-locator/get-around-me",
+								var url_get_nearest_stores = "/storelocator/web/store-locator/get-around-me?type[]=Diesel&type[]=Flagship&type[]=Planet",
 									$storeLocatorName = $('.store-locator-store'),
 									$storeLocatorAdress = $('.store-locator-address'),
 									$storeLocatorMap = $('.store-locator-map'),
@@ -192,8 +192,6 @@
 								
 								$.ajax({
 									url: url_get_nearest_stores,
-									data: {type: ['Diesel','Flagship','Planet']},
-									async: false,
 									success: $.proxy(function(data) {
 										
 										var cStore = data[0],
