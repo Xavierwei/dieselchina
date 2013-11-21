@@ -197,10 +197,14 @@
                 </div>
             </div>
             <!-- COL -->
-            <div class="col c3 c4 c3_4 weixin_wrap" data-color="#479422">
-                <h2><img src="img/home/weixin_tit.gif" /></h2>
-                <div class="pos-absolute pos-right pos-bottom"><img src="img/home/weixin.gif" /></div>
-                <img class="weixin_qr" src="img/qr.gif" width="182" height="215" />
+            <div class="col c3 c4 c3_4" data-color="#649bcd">
+                <h2><img src="img/home/qing_tit.gif" /></h2>
+                <div class="pos-absolute pos-right pos-bottom"><img src="img/home/qing.gif" /></div>
+                <div class="links">
+                    <ul>
+                        <li><a class="main" target="_blank" href="http://qing.blog.sina.com.cn/dieselplanet">点击关注</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
