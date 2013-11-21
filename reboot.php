@@ -28,6 +28,7 @@
     <script type="text/javascript" src="./js/analitycs_new.js"></script>
     <script type="text/javascript" src="./js/jquery.superbanner.js"></script>
     <script type="text/javascript" src="./js/jquery.touchwipe.js"></script>
+    <script type="text/javascript" src="./js/jquery.bxslider.js"></script>
     <script type="text/javascript" src="./js/jquery.backstretch.min.js"></script>
     <script type="text/javascript" src="./js/jquery.preload-min.js"></script>
     <script type="text/javascript" src="./js/country.js"></script>

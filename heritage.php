@@ -29,6 +29,7 @@
     <script type="text/javascript" src="./js/jquery.superbanner.js"></script>
     <script type="text/javascript" src="./js/jquery.touchwipe.js"></script>
     <script type="text/javascript" src="./js/jquery.preload-min.js"></script>
+    <script type="text/javascript" src="./js/jquery.bxslider.js"></script>
     <script type="text/javascript" src="./js/jquery.backstretch.min.js"></script>
     <script type="text/javascript" src="./js/country.js"></script>
     <script type="text/javascript" src="./js/jquery.cookie.js"></script>
@@ -73,29 +74,45 @@
                 </div>
                 <div class="her_article">
                     <p><span class="oswald">DIESEL</span>长久以来一直是时尚休闲牛仔的领导先锋，以别具一格的设计和对时尚潮流的引领著称于世。在延续传统，彰显原有基因的同时，近年来<span class="oswald">DIESEL</span>涉入高端休闲服饰，并逐渐成为奢侈品市场中备受青睐的品牌。</p>
-                    <p>尽管<span class="oswald">DIESEL</span> 急速发展，但是它涵盖的意义依旧如<span class="oswald">1978</span>年<span class="oswald">Renzo Rosso</span> 创立时一样：代表着激情、独立、自我释放。直至最近<span class="oswald">Nicola Formichetti</span>被任命为艺术总监，<span class="oswald">DIESEL</span>在坚持自己独特个性的前提下，着手“重新定义”自己。</p>
+                    <p>尽管<span class="oswald">DIESEL</span> 急速发展，但是它涵盖的意义依旧如<span class="oswald">1978</span>年<span class="oswald">Renzo Rosso</span>创立时一样：代表着激情、独立、自我释放。直至最近<span class="oswald">Nicola Formichetti</span>被任命为艺术总监，<span class="oswald">DIESEL</span>在坚持自己独特个性的前提下，着手“重新定义”自己。</p>
                 </div>
             </div>
 
             <div class="her_com" id="her_com2">
                 <div class="cs-clear">
-                    <div class="her_pho3 her_pho" data-src="img/heritage/pho3.jpg"></div>
+                    <div class="her_slider">
+                        <img src="img/heritage/product1.jpg" />
+                        <img src="img/heritage/product2.jpg" />
+                    </div>
                 </div>
                 <div class="her_article">
-                    <p><span class="oswald">DIESEL</span> 产品包括<span class="oswald">DIESEL，Diesel Black Gold </span>( <span class="oswald">Andreas Melbostad</span>设计的高端型格服饰)，<span class="oswald">55DSL</span> (<span class="oswald">Andrea Rosso</span>领导设计的街头潮流服饰)，以及<span class="oswald">Diesel Kid童装</span>。</p>
-                    <p><span class="oswald">DIESEL</span> 不仅仅关乎服装和牛仔裤，它更代表着一种生活方式。我们同其他行业的领导品牌合作开发了手表和珠宝（与<span class="oswald">Fossil</span>合作）、眼镜（与<span class="oswald">Marcolin</span>合作）、香水（与欧莱雅合作）、头盔（和<span class="oswald">AGV</span>合作）、耳机（与魔声耳机合作）、自行车（与<span class="oswald">Pinarello</span>合作），并且研发了一整套的家居系列（与<span class="oswald">Foscarini，Moroso，Zucchi，Scavolini</span>共同合作）。</p>
+                    <p><span class="oswald">DIESEL</span> 产品包括<span class="oswald">DIESEL，<a target="_blank" href="http://www.dieselblackgold.com">Diesel Black Gold</a> </span>( <span class="oswald">Andreas Melbostad</span>设计的高端型格服饰)，<span class="oswald"><a target="_blank" href="http://www.55dsl.com">55DSL</a></span> (<span class="oswald">Andrea Rosso</span>领导设计的街头潮流服饰)，以及<span class="oswald">Diesel Kid</span>童装。</p>
+                    <p><span class="oswald">DIESEL</span> 不仅仅关乎服装和牛仔裤，它更代表着一种生活方式。我们同其他行业的领导品牌合作开发了手表和珠宝（与<span class="oswald">Fossil</span>合作）、眼镜（与<span class="oswald">Marcolin</span>合作）、香水（与欧莱雅合作）、头盔（和<span class="oswald">AGV</span>合作）、耳机（与魔声耳机合作）、自行车（与<span class="oswald">Pinarello</span>合作），并且研发了一整套的家居系列（与<span class="oswald"><a href="http://www.diesel.com/collection-diesel-home" target="_blank">Foscarini，Moroso，Zucchi，Scavolini</a></span>共同合作）。</p>
                 </div>
             </div>
 
             <div class="her_com" id="her_com3">
+                <div class="cs-clear">
+                    <div class="her_slider">
+                        <img src="img/heritage/company1.jpg" />
+                        <img src="img/heritage/company2.jpg" />
+                    </div>
+                </div>
                 <div class="her_article">
                     <p><span class="oswald">DIESEL</span> 跨国集团，目前在<span class="oswald">80</span>多个国家和地区拥有超过<span class="oswald">5000</span>个售卖点，包括<span class="oswald">400</span>家旗下商店。位于意大利<span class="oswald">Breganze </span>的总公司，直接管理欧洲、亚洲和美洲的<span class="oswald">19</span>家子公司。</p>
-                    <p><span class="oswald">DIESEL</span> 隶属于<span class="oswald">OTB</span> 集团，<span class="oswald">OTB</span>还控股<span class="oswald"><a target="_blank" href="http://www.maisonmartinmargiela.com/">Maison Martin Margiela</a>，<a target="_blank" href="http://www.marni.com">Marni</a>，<a target="_blank" href="http://www.viktor-rolf.com">Viktor&Rolf</a></span> 以及 <span class="oswald"><a target="_blank" href="http://www.staffinternational.com">Staff International</a></span> 等公司。<span class="oswald">Staff International</span> 是意大利著名成衣公司，拥有<span class="oswald"><a target="_blank" href="http://www.dsquared2.com">DSquared</a>，<a target="_blank" href="http://www.justcavalli.com/">Just Cavalli</a>，<a target="_blank" href="http://www.viviennewestwood.co.uk">Vivienne Westwood</a> Red Label and Man</span>, 以及<span class="oswald"><a target="_blank" href="http://www.marcjacobs.com">Marc Jacobs</a> Men </span>这一系列品牌。   </p>
+                    <p><span class="oswald">DIESEL</span> 隶属于<span class="oswald"><a href="http://www.otb.net" target="_blank">OTB</a></span> 集团，<span class="oswald"><a href="http://www.otb.net" target="_blank">OTB</a></span>还控股<span class="oswald"><a target="_blank" href="http://www.maisonmartinmargiela.com/">Maison Martin Margiela</a>，<a target="_blank" href="http://www.marni.com">Marni</a>，<a target="_blank" href="http://www.viktor-rolf.com">Viktor&Rolf</a></span> 以及 <span class="oswald"><a target="_blank" href="http://www.staffinternational.com">Staff International</a></span> 等公司。<span class="oswald">Staff International</span> 是意大利著名成衣公司，拥有<span class="oswald"><a target="_blank" href="http://www.dsquared2.com">DSquared</a>，<a target="_blank" href="http://www.justcavalli.com/">Just Cavalli</a>，<a target="_blank" href="http://www.viviennewestwood.co.uk">Vivienne Westwood</a> Red Label and Man</span>, 以及<span class="oswald"><a target="_blank" href="http://www.marcjacobs.com">Marc Jacobs</a> Men </span>这一系列品牌。   </p>
                 </div>
             </div>
 
             <div class="her_com" id="her_com4">
-
+                <div class="cs-clear">
+                    <div class="her_slider">
+                        <img src="img/heritage/com4_1.jpg" />
+                        <img src="img/heritage/com4_2.jpg" />
+                        <img src="img/heritage/com4_3.jpg" />
+                        <img src="img/heritage/com4_4.jpg" />
+                    </div>
+                </div>
                 <div class="her_article">
                     <p><span class="oswald">DIESEL</span>因其旗帜鲜明的广告闻名全球：多年以来，我们的广告始终能让观众震撼并给他们带去笑声，激发他们的好奇。也因此赢得了数不清的奖杯，其中不乏戛纳国际广告节的金奖、全场大奖和年度最佳广告主奖。
                     </p>

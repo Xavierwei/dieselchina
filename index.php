@@ -31,6 +31,7 @@
     <script type="text/javascript" src="./js/analitycs_new.js"></script>
     <script type="text/javascript" src="./js/jquery.superbanner.js"></script>
     <script type="text/javascript" src="./js/jquery.touchwipe.js"></script>
+    <script type="text/javascript" src="./js/jquery.bxslider.js"></script>
     <script type="text/javascript" src="./js/jquery.backstretch.min.js"></script>
     <script type="text/javascript" src="./js/jquery.preload-min.js"></script>
     <script type="text/javascript" src="http://j.maxmind.com/app/country.js"></script>
@@ -62,7 +63,7 @@
         <div class="row m_full_row">
             <!-- COL -->
             <div class="col c1 c2 c1_2" data-master="2">
-                <img class="bg" src="img/home/Dome_reveal.jpg" />
+                <img class="bg home_reboot" src="img/reboot.gif" />
             </div>
             <!-- COL -->
             <div class="col c3 c4 c3_4 home_com1" data-color="#00131f">

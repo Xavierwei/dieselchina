@@ -14,3 +14,4 @@
 #homepage .col .col-body {font-size:1.2em;}
 .home_arrow,
 #homepage .col .links li a{background: url('../../img/home_arrow.png') no-repeat right center;padding:0 20px 2px 0;}
+.home_reboot {margin-top:-100px;}
