@@ -60,14 +60,14 @@
         <div class="heritage_main">
             <div class="her_tit"> <img src="img/heritage/her_tit.png" /> </div>
             <div class="her_nav">
-                <a class="on" href="#her_com1"><img src="img/heritage/nav1.gif" alt="公司简介" /><span>公司简介</span></a>
-                <a href="#her_com2"><img src="img/heritage/nav2.gif" alt="产品系列" /><span>产品系列</span></a>
-                <a href="#her_com3" ><img src="img/heritage/nav3.gif" alt="集团概念" /><span>集团概念</span></a>
-                <a href="#her_com4" ><img src="img/heritage/nav4.gif" alt="受众沟通" /><span>受众沟通</span></a>
-                <a href="#her_com5" ><img src="img/heritage/nav5.gif" alt="荣誉" /><span>荣誉</span></a>
-                <a href="#her_com6" ><img src="img/heritage/nav6.gif" alt="历史" /><span>历史</span></a>
+                <a class="on" href="#heritage_about"><img src="img/heritage/nav1.gif" alt="公司简介" /><span>公司简介</span></a>
+                <a href="#heritage_product"><img src="img/heritage/nav2.gif" alt="产品系列" /><span>产品系列</span></a>
+                <a href="#heritage_group" ><img src="img/heritage/nav3.gif" alt="集团概念" /><span>集团概念</span></a>
+                <a href="#heritage_communicate" ><img src="img/heritage/nav4.gif" alt="受众沟通" /><span>受众沟通</span></a>
+                <a href="#heritage_award" ><img src="img/heritage/nav5.gif" alt="荣誉" /><span>荣誉</span></a>
+                <a href="#heritage_history" ><img src="img/heritage/nav6.gif" alt="历史" /><span>历史</span></a>
             </div>
-            <div class="her_com" id="her_com1">
+            <div class="her_com" id="heritage_about">
                 <div class="cs-clear">
                     <div class="her_pho1 her_pho" data-src="img/heritage/pho1.jpg"></div>
                     <div class="her_pho2 her_pho" data-src="img/heritage/pho2.jpg"></div>
@@ -78,20 +78,21 @@
                 </div>
             </div>
 
-            <div class="her_com" id="her_com2">
+            <div class="her_com" id="heritage_product">
                 <div class="cs-clear">
                     <div class="her_slider">
                         <img src="img/heritage/product1.jpg" />
                         <img src="img/heritage/product2.jpg" />
+                        <img src="img/heritage/product3.jpg" />
                     </div>
                 </div>
                 <div class="her_article">
-                    <p><span class="oswald">DIESEL</span> 产品包括<span class="oswald">DIESEL，<a target="_blank" href="http://www.dieselblackgold.com">Diesel Black Gold</a> </span>( <span class="oswald">Andreas Melbostad</span>设计的高端型格服饰)，<span class="oswald"><a target="_blank" href="http://www.55dsl.com">55DSL</a></span> (<span class="oswald">Andrea Rosso</span>领导设计的街头潮流服饰)，以及<span class="oswald">Diesel Kid</span>童装。</p>
+                    <p><span class="oswald">DIESEL</span> 产品包括<span class="oswald">DIESEL，<a target="_blank" href="http://www.dieselblackgold.com">Diesel Black Gold</a> </span>( <span class="oswald">Andreas Melbostad</span>设计的高端型格服饰)，<span class="oswald"><a target="_blank" href="http://www.55dsl.com">55DSL</a></span> (<span class="oswald">Andrea Rosso</span>领导设计的街头潮流服饰)，以及<span class="oswald"><a target="_blank" href="http://www.diesel.com/diesel-kid">Diesel Kid</a></span>童装。</p>
                     <p><span class="oswald">DIESEL</span> 不仅仅关乎服装和牛仔裤，它更代表着一种生活方式。我们同其他行业的领导品牌合作开发了手表和珠宝（与<span class="oswald">Fossil</span>合作）、眼镜（与<span class="oswald">Marcolin</span>合作）、香水（与欧莱雅合作）、头盔（和<span class="oswald">AGV</span>合作）、耳机（与魔声耳机合作）、自行车（与<span class="oswald">Pinarello</span>合作），并且研发了一整套的家居系列（与<span class="oswald"><a href="http://www.diesel.com/collection-diesel-home" target="_blank">Foscarini，Moroso，Zucchi，Scavolini</a></span>共同合作）。</p>
                 </div>
             </div>
 
-            <div class="her_com" id="her_com3">
+            <div class="her_com" id="heritage_group">
                 <div class="cs-clear">
                     <div class="her_slider">
                         <img src="img/heritage/company1.jpg" />
@@ -104,7 +105,7 @@
                 </div>
             </div>
 
-            <div class="her_com" id="her_com4">
+            <div class="her_com" id="heritage_communicate">
                 <div class="cs-clear">
                     <div class="her_slider">
                         <img src="img/heritage/com4_1.jpg" />
@@ -119,7 +120,7 @@
                 </div>
             </div>
 
-            <div class="her_com" id="her_com5">
+            <div class="her_com" id="heritage_award">
                 <div class="her_article">
                     <p><span class="oswald">DIESEL</span> 因其业务模式获得了数不尽的荣誉。</p>
 
@@ -204,7 +205,7 @@
                 </div>
             </div>
 
-            <div class="her_com" id="her_com6">
+            <div class="her_com" id="heritage_history">
                 <div class="cs-clear">
                     <div class="her_pho6 her_pho" data-src="img/heritage/pho6.jpg"></div>
                     <div class="her_pho7 her_pho" data-src="img/heritage/pho7.jpg"></div>

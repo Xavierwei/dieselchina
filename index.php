@@ -67,7 +67,7 @@
             </div>
             <!-- COL -->
             <div class="col c3 c4 c3_4 home_com1" data-color="#00131f">
-                <img  src="img/diesel-reboot-logo-CN.gif" />
+                <img  src="img/d_reboot.gif" />
                 <p>欢迎来到<span class="oswald">DIESEL</span>全新活动：#满血复活#正式开启！</p>
                 <div class="links">
                     <ul>

@@ -165,19 +165,10 @@ jQuery(document).ready(function() {
     }
   }
 
-  // heritage navigation
-  var her_slider;
-  $('.her_nav a').click(function(e) {
-
-      e.preventDefault();
-      //mobile640
-      if( $(window).width() <= 640 ){
-          var target = $(this).attr('href');
-          var top = $(target).position().top;
-          $('body,html').animate({scrollTop:top});
-      }else{
-        $('.heritage_main').height($('.heritage_main').height());
-        var target = $(this).attr('href');
+    // heritage navigation
+    var her_slider;
+    function showHeritageSection(target) {
+        window.location.hash = target;
         $('.her_com').fadeOut(400);
         $('.her_pho').css({opacity:0});
         $(target).delay(400).fadeIn(function(){
@@ -207,11 +198,35 @@ jQuery(document).ready(function() {
                 $('.heritage_main').animate({height:boxHeight},300);
             }
         });
-      }
-      $('.her_nav a').removeClass('on');
-      $(this).addClass('on');
-      
-  });
+    }
+
+    $('.her_nav a').click(function(e) {
+        e.preventDefault();
+        //mobile640
+        if( $(window).width() <= 640 ){
+            var target = $(this).attr('href');
+            var top = $(target).position().top;
+            $('body,html').animate({scrollTop:top});
+        }else{
+            $('.heritage_main').height($('.heritage_main').height());
+            var target = $(this).attr('href');
+            showHeritageSection(target);
+        }
+        $('.her_nav a').removeClass('on');
+        $(this).addClass('on');
+    });
+
+    // redirect the heritage section
+    if($('.heritage').length > 0) {
+        var target = window.location.hash;
+        if(target == '') {
+            target = '#heritage_about';
+        }
+        showHeritageSection(target);
+        $('.her_nav a').removeClass('on');
+        $('.her_nav a[href="'+target+'"]').addClass('on');
+
+    }
 
     if($('html').hasClass('touch') && $(window).width() <= 640) {
         $('.her_slider').bxSlider({
@@ -223,12 +238,7 @@ jQuery(document).ready(function() {
         });
     }
 
-    if( $(window).width() > 640 ){
-        $('#her_com1').find('.her_pho').each(function() {
-            var img = $(this).data('src');
-            $(this).backstretch(img);
-        });
-    }
+
 
     $('#header #menu').click(function(){
         if( $(window).width() <= 640 ){

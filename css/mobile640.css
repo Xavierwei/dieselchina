@@ -87,7 +87,7 @@
 
 /* reboot
 ========================================================================*/
-#diesel-reboot{background: url('../img/mobile/reboot_img.jpg') no-repeat top center;padding:445px 0 0;width: 100%;}
+#diesel-reboot{background: url('../img/reboot.gif') no-repeat top center;background-size:100% auto;padding:445px 0 0;width: 100%;}
 #diesel-reboot .video_wrap {height: 360px;overflow: hidden;}
 #diesel-reboot .col-right,
 #diesel-reboot .col-left{float:none;width: 100%}

@@ -140,7 +140,9 @@ class locatorActions extends sfActions
    */
   public function executeStoreList(sfWebRequest $request) {
     $this->getResponse()->addMeta('ROBOTS', 'NOINDEX, FOLLOW');
-    $this->stores = StoresTable::retrieveOpened();
+    $this->stores = SlStoreQuery::create()
+        ->retrieveOpened()
+        ->execute();
   }//executeStoreList
 
 

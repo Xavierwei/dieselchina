@@ -266,3 +266,6 @@ body,html {
 .bubble .additional {
   display: block !important;
 }
+
+.store-list-wrap {margin:100px 0 50px 20px;}
+.store-list-wrap li {margin:4px 0;}
