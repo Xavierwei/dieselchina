@@ -61,7 +61,7 @@
         <div class="block cs-clear">
             <div class="col-left"></div>
             <div class="col-right">
-                <img class="title" src="img/d_reboot.gif" />
+                <img class="title" src="img/diesel-reboot-logo-CN.gif" />
                 <div class="reboot_com">
                     <p>欢迎来到 <span>DIESEL</span> 全新活动:#满血复活#正式开启!</p>
                     <p>#满血复活#是 Nicola Formichetti 担任  <span>DIESEL</span> 全球艺术总监以来,发起的首项活动。</p>

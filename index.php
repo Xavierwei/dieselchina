@@ -63,11 +63,11 @@
         <div class="row m_full_row">
             <!-- COL -->
             <div class="col c1 c2 c1_2" data-master="2">
-                <img class="bg home_reboot" src="img/reboot.gif" />
+                <img class="bg home_reboot" src="img/d_reboot_banner.gif" />
             </div>
             <!-- COL -->
             <div class="col c3 c4 c3_4 home_com1" data-color="#00131f">
-                <img  src="img/d_reboot.gif" />
+                <img  src="img/diesel-reboot-logo-CN.gif" />
                 <p>欢迎来到<span class="oswald">DIESEL</span>全新活动：#满血复活#正式开启！</p>
                 <div class="links">
                     <ul>
@@ -133,7 +133,8 @@
         <!-- ROW -->
         <div class="row map_row">
             <!-- COL -->
-            <div class="col c1 c2 c1_2 store-locator-map" data-master="2"></div>
+            <div class="col c1 c2 c1_2 store-locator-map" data-master="2">
+            </div>
             <!-- COL -->
             <div class="col c3 c4 c3_4 home_map" data-color="#282828">
                 <h2><img src="img/home/locator_tit.gif" /></h2>
