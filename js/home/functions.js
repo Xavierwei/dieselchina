@@ -196,7 +196,6 @@
 										var cStore = data[0],
 											centerlat = cStore.latitude - 0.0013000,
 											$map = $('<img />').addClass('bg').attr('src',  "http://maps.google.com/maps/api/staticmap?center="+centerlat+","+cStore.longitude+"&markers=icon:http://dieselchina.com.cn/DieselDropMaker64X64X150dpi.gif|"+cStore.latitude+","+cStore.longitude+"&zoom=16&size=640x300&scale=2&sensor=false" );
-
 										$storeLocatorName.html(cStore.name+'<br/>');
 										$storeLocatorAdress.html(cStore.type + ' - ' + cStore.city + '<br/>' + cStore.address + ' ' + cStore.zip + '<br/>' + 'phone:' +cStore.telf);
 										$storeLocatorMap.find('.col-body').append($map);

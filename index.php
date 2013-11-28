@@ -135,6 +135,7 @@
             <!-- COL -->
             <div class="col c1 c2 c1_2 store-locator-map" data-master="2">
             </div>
+
             <!-- COL -->
             <div class="col c3 c4 c3_4 home_map" data-color="#282828">
                 <h2><img src="img/home/locator_tit.gif" /></h2>
