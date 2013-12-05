@@ -69,8 +69,13 @@
             </div>
             <div class="her_com" id="heritage_about">
                 <div class="cs-clear">
-                    <div class="her_pho1 her_pho" data-src="img/heritage/pho1.jpg"></div>
-                    <div class="her_pho2 her_pho" data-src="img/heritage/pho2.jpg"></div>
+                    <div class="her_slider">
+                        <img src="img/heritage/about1.jpg" />
+                        <img src="img/heritage/about2.jpg" />
+                        <img src="img/heritage/about3.jpg" />
+                        <img src="img/heritage/about4.jpg" />
+                        <img src="img/heritage/about5.jpg" />
+                    </div>
                 </div>
                 <div class="her_article">
                     <p><span class="oswald">DIESEL</span>长久以来一直是时尚休闲牛仔的领导先锋，以别具一格的设计和对时尚潮流的引领著称于世。在延续传统，彰显原有基因的同时，近年来<span class="oswald">DIESEL</span>涉入高端休闲服饰，并逐渐成为奢侈品市场中备受青睐的品牌。</p>
@@ -112,6 +117,10 @@
                         <img src="img/heritage/com4_2.jpg" />
                         <img src="img/heritage/com4_3.jpg" />
                         <img src="img/heritage/com4_4.jpg" />
+                        <img src="img/heritage/com4_5.jpg" />
+                        <img src="img/heritage/com4_6.jpg" />
+                        <img src="img/heritage/com4_7.jpg" />
+                        <img src="img/heritage/com4_8.jpg" />
                     </div>
                 </div>
                 <div class="her_article">
@@ -207,8 +216,11 @@
 
             <div class="her_com" id="heritage_history">
                 <div class="cs-clear">
-                    <div class="her_pho6 her_pho" data-src="img/heritage/pho6.jpg"></div>
-                    <div class="her_pho7 her_pho" data-src="img/heritage/pho7.jpg"></div>
+                    <div class="her_slider">
+                        <img src="img/heritage/history1.jpg" />
+                        <img src="img/heritage/history2.jpg" />
+                        <img src="img/heritage/history3.jpg" />
+                    </div>
                 </div>
                 <div class="her_article">
                     <p><span class="oswald">Renzo Rosso</span> 于<span class="oswald">1978</span> 创立了<span class="oswald">DIESEL</span> 品牌，取名<span class="oswald">DIESEL</span> 是因其通俗易懂，世界各地发音皆相似，且寓意着坚韧的形象；<span class="oswald">Diesel</span>(柴油)在当时被当做是一种新能源，所以<span class="oswald">DIESEL</span> 也在一定意义上代表着新的休闲服饰。在<span class="oswald">1985</span> 年，<span class="oswald">Renzo Rosso</span> 完全控股<span class="oswald">DIESEL</span> 之后，聘请国际上极具才华的设计师团队，着手包装设计<span class="oswald">DIESEL</span>，并且在<span class="oswald">1991</span> 年首次开启以<span class="oswald">“For Successful Living”</span>为主题的广告活动，迅速在市场中树立了创新品牌的形象。<span class="oswald">1996</span> 年，<span class="oswald">DIESEL</span> 品牌旗舰店最先在纽约、罗马、伦敦三地登陆。</p>
