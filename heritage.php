@@ -70,10 +70,10 @@
             <div class="her_com" id="heritage_about">
                 <div class="cs-clear">
                     <div class="her_slider">
+                        <img src="img/heritage/about4.jpg" />
                         <img src="img/heritage/about1.jpg" />
                         <img src="img/heritage/about2.jpg" />
                         <img src="img/heritage/about3.jpg" />
-                        <img src="img/heritage/about4.jpg" />
                         <img src="img/heritage/about5.jpg" />
                     </div>
                 </div>
@@ -119,8 +119,6 @@
                         <img src="img/heritage/com4_4.jpg" />
                         <img src="img/heritage/com4_5.jpg" />
                         <img src="img/heritage/com4_6.jpg" />
-                        <img src="img/heritage/com4_7.jpg" />
-                        <img src="img/heritage/com4_8.jpg" />
                     </div>
                 </div>
                 <div class="her_article">
