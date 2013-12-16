@@ -218,14 +218,15 @@ jQuery(document).ready(function() {
 
     // redirect the heritage section
     if($('.heritage').length > 0) {
-        var target = window.location.hash;
-        if(target == '') {
-            target = '#heritage_about';
+        if(!($('html').hasClass('touch') && $(window).width() <= 640)) {
+            var target = window.location.hash;
+            if(target == '') {
+                target = '#heritage_about';
+            }
+            showHeritageSection(target);
+            $('.her_nav a').removeClass('on');
+            $('.her_nav a[href="'+target+'"]').addClass('on');
         }
-        showHeritageSection(target);
-        $('.her_nav a').removeClass('on');
-        $('.her_nav a[href="'+target+'"]').addClass('on');
-
     }
 
     if($('html').hasClass('touch') && $(window).width() <= 640) {

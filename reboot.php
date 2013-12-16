@@ -47,7 +47,7 @@
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-        ga('create', 'UA-45837418-1', 'dieselchina.com.cn');
+        ga('create', 'UA-2545529-65', 'dieselchina.com.cn');
         ga('send', 'pageview');
 
     </script>
@@ -63,7 +63,7 @@
             <div class="col-right">
                 <img class="title" src="img/diesel-reboot-logo-CN.gif" />
                 <div class="reboot_com">
-                    <p>欢迎来到 <span>DIESEL</span> 全新活动:#满血复活#正式开启!</p>
+                    <p>欢迎来到 <span>DIESEL</span> 全新活动:#满血复活#</p>
                     <p>#满血复活#是 Nicola Formichetti 担任  <span>DIESEL</span> 全球艺术总监以来,发起的首项活动。</p>
                     <p>全球最具标志性的品牌之一  <span>DIESEL</span> 将再领时尚先锋。它将在你们的帮助下,重燃品牌的核心 <span>DNA:</span>自由,创新,与众不同,以及最重要的,大胆无畏!</p>
                     <p>为了让#满血复活#更加彻底, <span>DIESEL</span> 和  <span>Nicola</span> 正在寻找新一代的品牌大使以及勇领潮流的先锋!</p>

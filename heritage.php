@@ -47,7 +47,7 @@
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-        ga('create', 'UA-45837418-1', 'dieselchina.com.cn');
+        ga('create', 'UA-2545529-65', 'dieselchina.com.cn');
         ga('send', 'pageview');
 
     </script>
@@ -106,7 +106,7 @@
                 </div>
                 <div class="her_article">
                     <p><span class="oswald">DIESEL</span> 跨国集团，目前在<span class="oswald">80</span>多个国家和地区拥有超过<span class="oswald">5000</span>个售卖点，包括<span class="oswald">400</span>家旗下商店。位于意大利<span class="oswald">Breganze </span>的总公司，直接管理欧洲、亚洲和美洲的<span class="oswald">19</span>家子公司。</p>
-                    <p><span class="oswald">DIESEL</span> 隶属于<span class="oswald"><a href="http://www.otb.net" target="_blank">OTB</a></span> 集团，<span class="oswald"><a href="http://www.otb.net" target="_blank">OTB</a></span>还控股<span class="oswald"><a target="_blank" href="http://www.maisonmartinmargiela.com/">Maison Martin Margiela</a>，<a target="_blank" href="http://www.marni.com">Marni</a>，<a target="_blank" href="http://www.viktor-rolf.com">Viktor&Rolf</a></span> 以及 <span class="oswald"><a target="_blank" href="http://www.staffinternational.com">Staff International</a></span> 等公司。<span class="oswald">Staff International</span> 是意大利著名成衣公司，拥有<span class="oswald"><a target="_blank" href="http://www.dsquared2.com">DSquared</a>，<a target="_blank" href="http://www.justcavalli.com/">Just Cavalli</a>，<a target="_blank" href="http://www.viviennewestwood.co.uk">Vivienne Westwood</a> Red Label and Man</span>, 以及<span class="oswald"><a target="_blank" href="http://www.marcjacobs.com">Marc Jacobs</a> Men </span>这一系列品牌。   </p>
+                    <p><span class="oswald">DIESEL</span> 隶属于<span class="oswald"><a href="http://www.otb.net" target="_blank">OTB</a></span> 集团，<span class="oswald"><a href="http://www.otb.net" target="_blank">OTB</a></span>还控股<span class="oswald"><a target="_blank" href="http://www.maisonmartinmargiela.com/">Maison Martin Margiela</a>，<a target="_blank" href="http://www.marni.com">Marni</a>，<a target="_blank" href="http://www.viktor-rolf.com">Viktor&Rolf</a></span> 以及 <span class="oswald"><a target="_blank" href="http://www.staffinternational.com">Staff International</a></span> 等公司。<span class="oswald"><a target="_blank" href="http://www.staffinternational.com">Staff International</a></span> 是意大利著名成衣公司，拥有<span class="oswald"><a target="_blank" href="http://www.dsquared2.com">DSquared</a>，<a target="_blank" href="http://www.justcavalli.com/">Just Cavalli</a>，<a target="_blank" href="http://www.viviennewestwood.co.uk">Vivienne Westwood</a> Red Label and Man</span>, 以及<span class="oswald"><a target="_blank" href="http://www.marcjacobs.com">Marc Jacobs</a> Men </span>这一系列品牌。   </p>
                 </div>
             </div>
 
