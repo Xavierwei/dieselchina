@@ -27,8 +27,8 @@
                 <span class="nav2" title="品牌系列"></span>
                 <div class="sublevel" id="menu_collections">
                     <ul>
-                        <li><a class="nav_f" target="_blank" href="http://www.diesel.com/female">Women's Collection</a></li>
-                        <li><a class="nav_m" target="_blank" href="http://www.diesel.com/male">Men's Collection</a></li>
+                        <li><a class="nav_f" target="_blank" href="http://www.diesel.com/">Women's Collection</a></li>
+                        <li><a class="nav_m" target="_blank" href="http://www.diesel.com/">Men's Collection</a></li>
                     </ul>
                 </div>
             </li>

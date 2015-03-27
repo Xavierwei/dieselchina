@@ -3,11 +3,11 @@
 <head>
     <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=1.0" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="title" content="Diesel - 单宁，成衣，鞋，腕表，饰品，内衣，时尚眼镜" />
-    <meta name="keywords" content="Diesel - 单宁，成衣，鞋，腕表，饰品，内衣，时尚眼镜" />
-    <meta name="description" content="Diesel - 单宁，成衣，鞋，腕表，饰品，内衣，时尚眼镜" />
+    <meta name="title" content="Diesel - 丹宁，成衣，鞋，腕表，饰品，内衣，时尚眼镜" />
+    <meta name="keywords" content="Diesel - 丹宁，成衣，鞋，腕表，饰品，内衣，时尚眼镜" />
+    <meta name="description" content="Diesel - 丹宁，成衣，鞋，腕表，饰品，内衣，时尚眼镜" />
     <link rel="image_src" href="./img/logo.gif" />
-    <title>Diesel - 单宁，成衣，鞋，腕表，饰品，内衣，时尚眼镜</title>
+    <title>Diesel - 丹宁，成衣，鞋，腕表，饰品，内衣，时尚眼镜</title>
     <link rel="shortcut icon" href="./img/favicon.ico" />
     <link rel="shortcut icon" href="./img/favicon.gif" />
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
@@ -157,7 +157,7 @@
             <!-- COL -->
             <div class="col c1" data-color="#4a4064">
                 <h2><img src="img/home/denimfemale_tit.gif" /></h2>
-                <p><span class="oswald">2014</span> 春夏单宁新品预览</p>
+                <p><span class="oswald">2014</span> 春夏丹宁新品预览</p>
                 <div class="links">
                     <ul>
                         <li><a class="main"  href="http://www.diesel.com/denim-female">探索更多</a></li>
@@ -172,7 +172,7 @@
             <!-- COL -->
             <div class="col c3 col-right" data-color="#5a6b95">
                 <h2><img src="img/home/denimmale_tit.gif" /></h2>
-                <p><span class="oswald">2014</span> 春夏单宁新品预览</p>
+                <p><span class="oswald">2014</span> 春夏丹宁新品预览</p>
                 <div class="links">
                     <ul>
                         <li><a  class="main" href="http://www.diesel.com/denim-male">探索更多</a></li>
